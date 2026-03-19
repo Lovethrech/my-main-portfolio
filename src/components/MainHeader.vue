@@ -4,6 +4,6 @@ import HeaderLogo from './header/HeaderLogo.vue';
 
 <template>
     <header class="main-header">
-
+        <HeaderLogo/>
     </header>
 </template>
