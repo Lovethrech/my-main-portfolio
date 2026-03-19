@@ -1,11 +1,14 @@
 <script setup>
+import navBarItems from "@/data/nav-bar-items.json";
 import DesktopNav from './DesktopNav.vue';
 </script>
 
 <template>
     <section class="nav-ctn">
         <div class="nav-ctn-main-ctn">
-            <DesktopNav/>
+            <DesktopNav
+                :navBarItems="navBarItems"
+            />
         </div>
     </section>
 </template>
