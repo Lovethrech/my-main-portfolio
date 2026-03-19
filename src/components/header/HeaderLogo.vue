@@ -7,7 +7,7 @@
 <style scoped>
 .header-logo{
     background-color: var(--general-components-bg-color);
-    width: 15vh;
+    width: 10vh;
     border-top-left-radius: 10vh;
     border-top-right-radius: 10vh;
 }
