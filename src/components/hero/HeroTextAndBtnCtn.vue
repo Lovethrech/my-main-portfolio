@@ -7,3 +7,9 @@ import HeroTextCtn from './HeroTextCtn.vue';
         <HeroTextCtn/>
     </div>
 </template>
+
+<style scoped>
+.hero-text-and-btn-ctn{
+    margin: 8vh 0 0 8vh;
+}
+</style>
