@@ -18,9 +18,10 @@ const {isDark}=storeToRefs(themeStore);
 <style scoped>
 .theme-toggle{
     padding: 2vh;
-    background-color: var(--bg-color);
-    color: var(--text-color);
+    background-color: var(--theme-bg-color);
+    color: var(--theme-color);
     font-size: var(--p-font-size);
     border-radius: var(--round-border-radius);
+    border: 1vh solid var(--bg-color);
 }
 </style>
