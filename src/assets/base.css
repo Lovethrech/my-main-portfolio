@@ -20,7 +20,6 @@ html.dark{
 
 body{
   min-height: 100vh;
-  color: var(--color-text);
   background: var(--bg-color);
   color: var(--text-color);
   line-height: 1.6;
