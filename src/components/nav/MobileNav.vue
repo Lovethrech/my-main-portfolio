@@ -3,17 +3,27 @@ import { ref,defineProps } from 'vue';
 const {navBarItems}=defineProps(['navBarItems']);
 
 const menuIconName=ref("<i class='ri-menu-4-line'></i>");
+const overlayState=ref("none");
+
+const displayDropdown=()=>{
+    if(overlayState.value==="none"){
+        overlayState.value="flex";
+        menuIconName.value="<i class='ri-close-large-line'></i>";
+    }
+    else{
+        overlayState.value="none";
+        menuIconName.value="<i class='ri-menu-4-line'></i>";
+    }
+}
 </script>
 
 <template>
     <div class="mobile-nav">
-        <div class="mobile-nav-main-ctn">
-            <div class="mobile-nav-menu-icon">
-                <i class="ri-menu-4-line"></i>
-                <!-- <i class="ri-close-large-line"></i> -->
+        <div class="mobile-nav-main-ctn" @click="displayDropdown">
+            <div class="mobile-nav-menu-icon" v-html="menuIconName">
             </div>
         </div>
-        <div class="mobile-nav-menu-dropdown-overlay">
+        <div class="mobile-nav-menu-dropdown-overlay" :style="{display:overlayState}">
             <div class="mobile-nav-menu-dropdown">
                 <div class="mobile-nav-menu-dropdown-circle-design"></div>
                 <RouterLink 
@@ -43,9 +53,6 @@ const menuIconName=ref("<i class='ri-menu-4-line'></i>");
     background-color:#000000a2;
     width: 100vw;
     height:92vh;
-}
-.mobile-nav-menu-dropdown-overlay{
-    display:none;
 }
 .mobile-nav-menu-dropdown{
     background-color: var(--bg-color);
