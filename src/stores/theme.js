@@ -17,6 +17,9 @@ export const useThemeStore= defineStore('theme', ()=>{
     }
 
     const toogleTheme=()=>{
-        isDark.value = !isDark.value;
+        isDark.value = !isDark.value
+        localStorage.setItem('theme', isDark.value? 'dark':'light')
     }
+
+    
 })
