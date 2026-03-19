@@ -21,8 +21,6 @@ html.dark{
   padding: 0;
   font-weight: normal;
   outline: none;
-  border:inherit;
-  border-radius: inherit;
 }
 
 body{
