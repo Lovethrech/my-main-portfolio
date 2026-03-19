@@ -22,8 +22,6 @@ const {isDark}=storeToRefs(themeStore);
         >
         </i>
     </button>
-    <!-- <i class="ri-sun-fill"></i> -->
-    <!-- <i class="ri-moon-clear-fill"></i> -->
 </template>
 
 <style scoped>
