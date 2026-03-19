@@ -32,4 +32,10 @@ const {navBarItems}=defineProps(['navBarItems']);
     text-transform: capitalize;
     font-size: var(--p-font-size);
 }
+
+@media screen and (max-width: 950px) {
+    .desktop-nav{
+        display:none;
+    }
+}
 </style>

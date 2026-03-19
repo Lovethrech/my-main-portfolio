@@ -7,8 +7,12 @@ import ThemeToggle from './ThemeToggle.vue';
 <template>
     <header class="main-header">
         <HeaderLogo/>
-        <NavCtn/>
-        <ThemeToggle/>
+        <NavCtn id="main-header-nav-ctn"/>
+        <ThemeToggle id="main-header-theme-ctn"/>
+        <div class="mobile-display">
+            <ThemeToggle/>
+            <NavCtn/>
+        </div>
     </header>
 </template>
 
@@ -18,5 +22,16 @@ import ThemeToggle from './ThemeToggle.vue';
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+.mobile-display{
+    display:none;
+}
+@media screen and (max-width: 950px) {
+    #main-header-nav-ctn, #main-header-theme-ctn{
+        display:none;
+    }
+    .mobile-display{
+        display:flex;
+    }
 }
 </style>
