@@ -1,5 +1,6 @@
 :root {
   --bg-color: #ffffff;
+  --general-components-bg-color: #334155;
   --text-color: #1a1a1a;
   --border-color: #e0e0e0;
 }
@@ -16,6 +17,7 @@ html.dark{
   margin: 0;
   padding: 0;
   font-weight: normal;
+  outline: none;
 }
 
 body{

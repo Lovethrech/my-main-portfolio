@@ -6,7 +6,7 @@
 
 <style scoped>
 .header-logo{
-    background-color: #334155;
+    background-color: var(--general-components-bg-color);
     width: 20vh;
 }
 .header-logo img{
