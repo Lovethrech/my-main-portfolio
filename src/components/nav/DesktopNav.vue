@@ -5,15 +5,21 @@ const {navBarItems}=defineProps(['navBarItems']);
 
 
 <template>
-    <div class="desktop-nav">
-        <div class="desktop-nav-main-ctn">
+    <div 
+        class="desktop-nav"
+    >
+        <div 
+            class="desktop-nav-main-ctn"
+        >
             <RouterLink 
                 v-for="navBarItem in navBarItems" 
                 :key="navBarItem.id" 
                 :to="navBarItem.link" 
                 class="link"
             >
-                <p class="desktop-nav-link-desc">
+                <p 
+                    class="desktop-nav-link-desc"
+                >
                     {{ navBarItem.name }}
                 </p>
             </RouterLink>
