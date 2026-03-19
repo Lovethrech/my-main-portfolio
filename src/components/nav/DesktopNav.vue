@@ -1,19 +1,20 @@
+<script setup>
+import { defineProps } from 'vue';
+const {navBarItems}=defineProps(['navBarItems']);
+</script>
+
+
 <template>
     <div class="desktop-nav">
         <div class="desktop-nav-main-ctn">
-            <RouterLink to="" class="link">
+            <RouterLink 
+                v-for="navBarItem in navBarItems" 
+                :key="navBarItem.id" 
+                :to="navBarItem.link" 
+                class="link"
+            >
                 <p class="desktop-nav-link-desc">
-                    Home
-                </p>
-            </RouterLink>
-            <RouterLink to="" class="link">
-                <p class="desktop-nav-link-desc">
-                    Home
-                </p>
-            </RouterLink>
-            <RouterLink to="" class="link">
-                <p class="desktop-nav-link-desc">
-                    Home
+                    {{ navBarItem.name }}
                 </p>
             </RouterLink>
         </div>
