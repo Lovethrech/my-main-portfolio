@@ -1,6 +1,10 @@
+<script setup>
+import HeroUserProfileImage from './HeroUserProfileImage.vue';
+</script>
+
 <template>
     <section class="hero-ctn">
-        
+        <HeroUserProfileImage/>
     </section>
 </template>
 
