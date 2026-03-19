@@ -33,4 +33,10 @@ const {isDark}=storeToRefs(themeStore);
     border-radius: var(--round-border-radius);
     border: 1vh solid var(--bg-color);
 }
+@media screen and (max-width: 950px) {
+    .theme-toggle{
+        background-color: transparent;
+        color: var(--text-color);
+    }
+}
 </style>
