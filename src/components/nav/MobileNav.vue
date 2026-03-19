@@ -1,6 +1,8 @@
 <script setup>
-import { defineProps } from 'vue';
+import { ref,defineProps } from 'vue';
 const {navBarItems}=defineProps(['navBarItems']);
+
+const menuIconName=ref("<i class='ri-menu-4-line'></i>");
 </script>
 
 <template>
@@ -41,6 +43,9 @@ const {navBarItems}=defineProps(['navBarItems']);
     background-color:#000000a2;
     width: 100vw;
     height:92vh;
+}
+.mobile-nav-menu-dropdown-overlay{
+    display:none;
 }
 .mobile-nav-menu-dropdown{
     background-color: var(--bg-color);
