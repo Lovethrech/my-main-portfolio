@@ -13,5 +13,9 @@ import DesktopNav from './DesktopNav.vue';
 <style scoped>
 .nav-ctn{
     background-color: var(--general-components-bg-color);
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    padding:0 3vh;
 }
 </style>
