@@ -1,22 +1,22 @@
 [
     {
         "id":1,
-        "name":"",
-        "link":""
+        "name":"home",
+        "link":"/"
     },
     {
         "id":2,
-        "name":"",
-        "link":""
+        "name":"projects",
+        "link":"/"
     },
     {
         "id":3,
-        "name":"",
-        "link":""
+        "name":"stack",
+        "link":"/"
     },
     {
         "id":4,
-        "name":"",
-        "link":""
+        "name":"contact",
+        "link":"/"
     }
 ]
