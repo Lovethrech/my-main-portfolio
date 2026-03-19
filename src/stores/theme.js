@@ -6,9 +6,9 @@ export const useThemeStore= defineStore('theme', ()=>{
 
     // Load from localStorage or system preference 
     const savedTheme=localStorage.getItem('theme');
-    if (savedTheme==='dark'{
+    if (savedTheme==='dark'){
         isDark.value=true;
-    })
+    }
     else if (savedTheme === 'light'){
         isDark.value=false;
     }
