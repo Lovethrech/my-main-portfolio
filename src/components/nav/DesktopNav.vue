@@ -9,3 +9,9 @@
         </div>
     </div>
 </template>
+
+<style scoped>
+.desktop-nav-link-desc{
+    color: #ffffff;
+}
+</style>
