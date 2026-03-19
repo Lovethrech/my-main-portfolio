@@ -14,3 +14,13 @@ const {isDark}=storeToRefs(themeStore);
         {{ isDark? 'Light Mode' : 'Dark Mode' }}
     </button>
 </template>
+
+<style scoped>
+.theme-toggle{
+    padding: 2vh;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-size: var(--p-font-size);
+    border-radius: var(--round-border-radius);
+}
+</style>
