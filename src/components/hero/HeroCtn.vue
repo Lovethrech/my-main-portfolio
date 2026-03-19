@@ -1,9 +1,11 @@
 <script setup>
+import HeroTextAndBtnCtn from './HeroTextAndBtnCtn.vue';
 import HeroUserProfileImage from './HeroUserProfileImage.vue';
 </script>
 
 <template>
     <section class="hero-ctn">
+        <HeroTextAndBtnCtn/>
         <HeroUserProfileImage/>
     </section>
 </template>
