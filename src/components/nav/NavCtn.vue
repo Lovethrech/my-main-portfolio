@@ -1,5 +1,5 @@
 <template>
-    <div class="nav-ctn">
-        
-    </div>
+    <section class="nav-ctn">
+
+    </section>
 </template>
