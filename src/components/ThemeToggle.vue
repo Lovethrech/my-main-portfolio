@@ -1,5 +1,6 @@
 <script setup>
-
+import { useThemeStore } from '@/stores/theme';
+import { storeToRefs } from 'pinia';
 </script>
 
 <template>
