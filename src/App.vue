@@ -1,5 +1,5 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router';
+import { RouterView } from 'vue-router';
 import MainHeader from './components/MainHeader.vue';
 </script>
 
@@ -7,7 +7,3 @@ import MainHeader from './components/MainHeader.vue';
   <MainHeader/>
   <RouterView />
 </template>
-
-<style scoped>
-
-</style>
