@@ -27,4 +27,10 @@ import MobileNav from "./MobileNav.vue";
     padding:0 6vh;
     border: 0.6vh solid var(--bg-color);
 }
+
+@media screen and (max-width: 950px) {
+    .nav-ctn{
+        padding: 2vh;
+    }
+}
 </style>
