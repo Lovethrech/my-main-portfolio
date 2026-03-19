@@ -8,8 +8,8 @@
 .header-logo{
     background-color: var(--general-components-bg-color);
     width: 10vh;
-    border-top-left-radius: 10vh;
-    border-top-right-radius: 10vh;
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
 }
 .header-logo img{
     width: 100%;

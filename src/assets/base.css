@@ -1,6 +1,7 @@
 :root {
   --bg-color: #ffffff;
   --general-components-bg-color: #022c22;
+  --border-radius: 10vh;
   --text-color: #1a1a1a;
   --border-color: #e0e0e0;
 }
