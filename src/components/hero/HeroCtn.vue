@@ -14,5 +14,8 @@ import HeroUserProfileImage from './HeroUserProfileImage.vue';
 .hero-ctn{
     min-height: 40vh;
     background-color: var(--general-components-bg-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 </style>

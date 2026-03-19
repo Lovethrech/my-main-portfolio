@@ -1,7 +1,8 @@
 <template>
     <div class="hero-text-ctn">
-        <p class="name">
-            Olaonipekun dolapo rachael
-        </p>
+        <h1 class="author-name">
+            Olaonipekun Dolapo Rachael
+        </h1>
+        
     </div>
 </template>
