@@ -1,12 +1,5 @@
 @import './base.css';
 
-/* main {
-  min-height: 100vh;
-  background: var(--bg-color);
-  color: var(--text-color);
-  line-height: 1.6;
-} */
-
 #app{
   padding: 0.5vh;
 }
