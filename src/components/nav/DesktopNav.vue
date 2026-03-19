@@ -32,6 +32,11 @@ const {navBarItems}=defineProps(['navBarItems']);
     text-transform: capitalize;
     font-size: var(--p-font-size);
 }
+.desktop-nav-link-desc:hover{
+    cursor: pointer;
+    transform: scale(0.98);
+    transition: all .3s ease-in-out;
+}
 
 @media screen and (max-width: 950px) {
     .desktop-nav{
