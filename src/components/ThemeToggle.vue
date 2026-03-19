@@ -4,7 +4,10 @@ import { storeToRefs } from 'pinia';
 </script>
 
 <template>
-    <div class="theme-toggle">
-
-    </div>
+    <button
+        @click="useThemeStore.toggleTheme" 
+        class="theme-toggle"
+    >
+        {{ isDark? 'Light' : 'Dark' }}
+    </button>
 </template>
