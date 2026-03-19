@@ -2,12 +2,12 @@
     <div class="header-logo">
         <img src="/public/ChelModernLogo.svg" alt="">
     </div>
-    <!-- #6b7280; , #334155;-->
 </template>
 
 <style scoped>
 .header-logo{
     background-color: #334155;
+    width: 20vh;
 }
 .header-logo img{
     width: 100%;
