@@ -5,8 +5,12 @@ import MobileNav from "./MobileNav.vue";
 </script>
 
 <template>
-    <section class="nav-ctn">
-        <div class="nav-ctn-main-ctn">
+    <section 
+        class="nav-ctn"
+    >
+        <div 
+            class="nav-ctn-main-ctn"
+        >
             <DesktopNav
                 :navBarItems="navBarItems"
             />

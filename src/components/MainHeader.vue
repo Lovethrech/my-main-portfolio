@@ -5,11 +5,19 @@ import ThemeToggle from './ThemeToggle.vue';
 </script>
 
 <template>
-    <header class="main-header">
+    <header 
+        class="main-header"
+    >
         <HeaderLogo/>
-        <NavCtn id="main-header-nav-ctn"/>
-        <ThemeToggle id="main-header-theme-ctn"/>
-        <div class="mobile-display">
+        <NavCtn 
+            id="main-header-nav-ctn"
+        />
+        <ThemeToggle 
+            id="main-header-theme-ctn"
+        />
+        <div 
+            class="mobile-display"
+        >
             <ThemeToggle/>
             <NavCtn/>
         </div>
