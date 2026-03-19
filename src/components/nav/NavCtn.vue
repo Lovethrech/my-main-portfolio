@@ -9,3 +9,9 @@ import DesktopNav from './DesktopNav.vue';
         </div>
     </section>
 </template>
+
+<style scoped>
+.nav-ctn{
+    background-color: var(--general-components-bg-color);
+}
+</style>

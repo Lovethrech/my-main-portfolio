@@ -10,3 +10,8 @@
 #app{
   padding: 0.5vh;
 }
+
+a, .link{
+  text-decoration: none;
+  color: var(--text-color);
+}
