@@ -11,8 +11,19 @@ const {isDark}=storeToRefs(themeStore);
         @click="themeStore.toggleTheme" 
         class="theme-toggle"
     >
-        {{ isDark? 'Light Mode' : 'Dark Mode' }}
+        <i 
+            v-if="isDark"
+            class="ri-sun-fill"
+        >
+        </i>
+        <i 
+            v-else
+            class="ri-moon-clear-fill"
+        >
+        </i>
     </button>
+    <!-- <i class="ri-sun-fill"></i> -->
+    <!-- <i class="ri-moon-clear-fill"></i> -->
 </template>
 
 <style scoped>
