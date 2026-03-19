@@ -1,8 +1,8 @@
 @import './base.css';
 
-main {
+/* main {
   min-height: 100vh;
   background: var(--bg-color);
   color: var(--text-color);
   line-height: 1.6;
-}
+} */
