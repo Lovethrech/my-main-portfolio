@@ -13,6 +13,6 @@
 <style scoped>
 .hero-textauthor-name{
     color: #ffffff;
-    font-size: 15vh;
+    font-size: 12vh;
 }
 </style>

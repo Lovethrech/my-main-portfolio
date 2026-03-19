@@ -6,7 +6,8 @@
 
 <style scoped>
 .hero-user-profile-image-ctn{
-    
+    background-color: var(--bg-color);
+    border-radius:20vh;
 }
 .hero-user-profile-image-ctn img {
     width: 100%;
