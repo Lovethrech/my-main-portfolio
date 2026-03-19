@@ -14,7 +14,14 @@
 
 <style scoped>
 .hero-user-profile-image-ctn{
-    background: url("/public/wavy.svg") bottom/ auto no-repeat;
+    background-color: var(--general-components-bg-color);
+    opacity: 0.8;
+    background-size: 20px 20px;
+    background-image:  repeating-linear-gradient(to right, 
+        var(--bg-color), var(--bg-color) 1vh, 
+        var(--general-components-bg-color) 1vh,
+        var(--general-components-bg-color))
+    ;
 }
 .hero-user-profile-image-ctn img {
     width: 100%;
