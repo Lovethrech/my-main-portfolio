@@ -29,6 +29,7 @@ const {navBarItems}=defineProps(['navBarItems']);
 }
 .desktop-nav-link-desc{
     color: #ffffff;
+    text-transform: capitalize;
     font-size: var(--p-font-size);
 }
 </style>
