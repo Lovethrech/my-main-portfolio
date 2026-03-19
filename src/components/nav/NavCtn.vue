@@ -1,12 +1,16 @@
 <script setup>
 import navBarItems from "@/data/nav-bar-items.json";
 import DesktopNav from './DesktopNav.vue';
+import MobileNav from "./MobileNav.vue";
 </script>
 
 <template>
     <section class="nav-ctn">
         <div class="nav-ctn-main-ctn">
             <DesktopNav
+                :navBarItems="navBarItems"
+            />
+            <MobileNav
                 :navBarItems="navBarItems"
             />
         </div>
