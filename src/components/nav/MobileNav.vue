@@ -18,21 +18,39 @@ const displayDropdown=()=>{
 </script>
 
 <template>
-    <div class="mobile-nav">
-        <div class="mobile-nav-main-ctn" @click="displayDropdown">
-            <div class="mobile-nav-menu-icon" v-html="menuIconName">
+    <div 
+        class="mobile-nav"
+    >
+        <div 
+            class="mobile-nav-main-ctn" 
+            @click="displayDropdown"
+        >
+            <div 
+                class="mobile-nav-menu-icon" 
+                v-html="menuIconName"
+            >
             </div>
         </div>
-        <div class="mobile-nav-menu-dropdown-overlay" :style="{display:overlayState}">
-            <div class="mobile-nav-menu-dropdown">
-                <div class="mobile-nav-menu-dropdown-circle-design"></div>
+        <div 
+            class="mobile-nav-menu-dropdown-overlay" 
+            :style="{display:overlayState}"
+        >
+            <div 
+                class="mobile-nav-menu-dropdown"
+            >
+                <div 
+                    class="mobile-nav-menu-dropdown-circle-design"
+                >
+                </div>
                 <RouterLink 
                     v-for="navBarItem in navBarItems" 
                     :key="navBarItem.id" 
                     :to="navBarItem.link" 
                     class="link"
                 >
-                    <p class="mobile-nav-link-desc">
+                    <p 
+                        class="mobile-nav-link-desc"
+                    >
                         {{ navBarItem.name }}
                     </p>
                 </RouterLink>
