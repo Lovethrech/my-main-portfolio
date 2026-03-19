@@ -13,7 +13,6 @@ import NavCtn from './nav/NavCtn.vue';
 <style scoped>
 .main-header{
     width: 100%;
-    background-color: rgba(146, 107, 107, 0.411);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
