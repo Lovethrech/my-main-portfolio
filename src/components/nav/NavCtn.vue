@@ -30,7 +30,7 @@ import MobileNav from "./MobileNav.vue";
 
 @media screen and (max-width: 950px) {
     .nav-ctn{
-        padding: 2vh;
+        padding: 1vh;
     }
 }
 </style>

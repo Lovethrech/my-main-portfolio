@@ -7,7 +7,7 @@ const {navBarItems}=defineProps(['navBarItems']);
     <div class="mobile-nav">
         <div class="mobile-nav-main-ctn">
             <div class="mobile-nav-menu-icon">
-                Menu Icon
+                <i class="ri-menu-4-line"></i>
             </div>
             <!-- <div class="mobile-nav-menu-dropdown">
                 <RouterLink 
@@ -28,6 +28,7 @@ const {navBarItems}=defineProps(['navBarItems']);
 <style scoped>
 .mobile-nav-menu-icon{
     color: #ffffff;
+    font-size:28px;
 }
 
 @media screen and (min-width: 951px) {
