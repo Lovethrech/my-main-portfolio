@@ -4,7 +4,9 @@
   --border-color: #e0e0e0;
 }
 html.dark{
-
+  --bg-color: #121212;
+  --text-color: #a0a0a0;
+  --border-color: #333333;
 }
 
 *,
