@@ -8,6 +8,6 @@ import { storeToRefs } from 'pinia';
         @click="useThemeStore.toggleTheme" 
         class="theme-toggle"
     >
-        {{ isDark? 'Light' : 'Dark' }}
+        {{ isDark? 'Light Mode' : 'Dark Mode' }}
     </button>
 </template>
