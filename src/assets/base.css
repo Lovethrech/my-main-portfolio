@@ -1,7 +1,6 @@
 :root {
   --bg-color: #ffffff;
   --theme-bg-color: #000000;
-  --theme-color: #ffffff;
   --general-components-bg-color: #022c22;
   --border-radius: 10vh;
   --round-border-radius: 10vh;
@@ -12,7 +11,6 @@
 html.dark{
   --bg-color: #000000;
   --theme-bg-color: #ffffff;
-  --theme-color: #000000;
   --text-color: #ffffff;
   --border-color: #333333;
 }
