@@ -4,6 +4,6 @@ import ThemeToggle from '@/components/ThemeToggle.vue';
 
 <template>
   <main>
-    <ThemeToggle></ThemeToggle>
+    <ThemeToggle/>
   </main>
 </template>
