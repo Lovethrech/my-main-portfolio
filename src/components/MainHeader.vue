@@ -7,3 +7,10 @@ import HeaderLogo from './header/HeaderLogo.vue';
         <HeaderLogo/>
     </header>
 </template>
+
+<style scoped>
+.main-header{
+    width: 100%;
+    background-color: rgba(146, 107, 107, 0.411);
+}
+</style>
