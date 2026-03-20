@@ -57,6 +57,7 @@ const boxDefaultWidth=ref("40vh");
     transition: box-shadow 0.4s ease, transform 0.3s ease;
 }
 .hero-text-author-job-role{
+    margin:  0 4vh;
     font-size: 10vh;
     font-weight: 800;
     text-transform: uppercase;
