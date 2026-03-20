@@ -1,11 +1,15 @@
 <script setup>
 import {ref} from "vue";
+import BoxDefaultCtn from "";
 
 const boxDefaultWidth=ref("20vh");
 </script>
 
 <template>
     <div class="hero-text-ctn">
+        <div class="hero-text-greetings-and-box-default">
+
+        </div>
         <p class="hero-text-greetings">
             Welcome!
         </p>
