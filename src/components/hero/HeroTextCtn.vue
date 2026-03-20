@@ -51,6 +51,7 @@ const boxDefaultWidth=ref("40vh");
 }
 .hero-text-author-name{
     font-size:  2vh;
+    text-transform: uppercase;
     letter-spacing: 1vh;
     font-weight:600;
     margin:  0 4vh;
