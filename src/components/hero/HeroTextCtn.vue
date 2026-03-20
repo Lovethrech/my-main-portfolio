@@ -1,6 +1,6 @@
 <script setup>
 import {ref} from "vue";
-import BoxDefaultCtn from "../BoxDefaultCtn.vue";
+import boxDefaultCtn from "../BoxDefaultCtn.vue";
 
 
 const boxDefaultWidth=ref("20vh");
@@ -9,7 +9,7 @@ const boxDefaultWidth=ref("20vh");
 <template>
     <div class="hero-text-ctn">
         <div class="hero-text-greetings-and-box-default">
-            <BoxDefault/>
+            <BoxDefault :boxDefaultCtn="boxDefaultCtn"/>
         </div>
         <p class="hero-text-greetings">
             Welcome!

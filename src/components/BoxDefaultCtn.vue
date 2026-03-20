@@ -1,7 +1,7 @@
 <script setup>
 import {defineProps} from "vue";
 
-
+const {boxDefaultWidth} = defineProps(['boxDefaultWidth']);
 </script>
 
 <template>
@@ -11,5 +11,8 @@ import {defineProps} from "vue";
 </template>
 
 <style scoped>
-
+.box-default-ctn{
+    height: 100vh;
+    background-color: red;
+}
 </style>
