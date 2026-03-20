@@ -49,10 +49,12 @@ const boxDefaultWidth=ref("40vh");
 .hero-text-author-name{
     font-size:  2vh;
     letter-spacing: 1vh;
+    font-weight:600;
     transition: box-shadow 0.4s ease, transform 0.3s ease;
 }
 .hero-text-author-job-role{
     font-size: 10vh;
+    font-weight: 800;
     text-transform: uppercase;
 }
 </style>
