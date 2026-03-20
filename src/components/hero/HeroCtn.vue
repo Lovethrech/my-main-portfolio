@@ -18,4 +18,8 @@ import HeroUserProfileImage from './HeroUserProfileImage.vue';
     flex-direction: row;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 1024px) {
+    
+}
 </style>
