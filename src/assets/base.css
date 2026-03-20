@@ -9,9 +9,8 @@
   --p-font-size:2vh;
 }
 html.dark{
-  --bg-color: #242323;
+  --bg-color: #0f1a17   ;
   --theme-bg-color: #ffffff;
-  --general-components-bg-color: #0f1a17;
   --text-color: #ffffff;
   --border-color: #333333;
 }
