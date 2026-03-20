@@ -1,7 +1,7 @@
 <template>
     <div class="hero-text-ctn">
         <p class="hero-text-greetings">
-            Hi, My name is
+            Welcome!
         </p>
         <h1 class="hero-textauthor-name">
             Olaonipekun Dolapo Rachael
@@ -13,6 +13,6 @@
 <style scoped>
 .hero-textauthor-name{
     color: #ffffff;
-    font-size: 12vh;
+    font-size:  4vh;
 }
 </style>
