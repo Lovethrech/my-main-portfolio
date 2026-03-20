@@ -58,5 +58,6 @@ const boxDefaultWidth=ref("40vh");
     font-size: 10vh;
     font-weight: 800;
     text-transform: uppercase;
+    color: #B99A45;
 }
 </style>
