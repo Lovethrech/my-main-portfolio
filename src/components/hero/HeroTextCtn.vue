@@ -1,3 +1,9 @@
+<script setup>
+import {ref} from "vue";
+
+const boxDefaultWidth=ref("20vh");
+</script>
+
 <template>
     <div class="hero-text-ctn">
         <p class="hero-text-greetings">
