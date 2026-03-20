@@ -23,8 +23,6 @@ const boxDefaultWidth=ref("40vh");
             <br/>
             Developer
         </h1>
-        <!-- #C7AE6A -->
-        <!-- #B99A45 -->
     </div>
 </template>
 
@@ -72,8 +70,14 @@ const boxDefaultWidth=ref("40vh");
 }
 
 @media screen and (max-width: 1024px) {
+    .hero-text-greetings{
+        font-size: 2vw;
+    }
+    .hero-text-author-name{
+        font-size: 3vw;
+    }
     .hero-text-author-job-role{
-        font-size: 9vw;
+        font-size: 10vw;
     }
 }
 </style>
