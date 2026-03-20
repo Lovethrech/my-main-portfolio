@@ -12,7 +12,8 @@ const {boxDefaultWidth} = defineProps(['boxDefaultWidth']);
 
 <style scoped>
 .box-default-ctn{
-    height: 10vh;
-    background-color: red;
+    height: 4vh;
+    background-color: var(--general-components-bg-color);
+    border-radius: 0 0 0 10vh;
 }
 </style>

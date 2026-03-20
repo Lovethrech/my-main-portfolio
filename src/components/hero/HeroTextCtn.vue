@@ -15,23 +15,32 @@ const boxDefaultWidth=ref("20vh");
             <BoxDefaultCtn :boxDefaultWidth="boxDefaultWidth"/>
         </div>
         
-        <h1 class="hero-textauthor-name">
+        <h2 class="hero-text-author-name">
             Olaonipekun Dolapo Rachael
+        </h2>
+        <h1 class="hero-text-author-name">
+            Fullstack
+            <br/>
+            Developer
         </h1>
-        
     </div>
 </template>
 
 <style scoped>
 .hero-text-ctn{
     background-color: var(--bg-color);
-    padding: 2vh;
+    border-radius: 4vh 40vh 4vh 4vh;
 }
 .hero-text-greetings-and-box-default{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
-.hero-textauthor-name{
+.hero-text-author-name,
+.hero-text-greetings{
+    margin:4vh;
+}
+.hero-text-author-name{
     
     color: var(--text-color);
     font-size:  4vh;
