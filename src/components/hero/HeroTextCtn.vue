@@ -18,7 +18,7 @@ const boxDefaultWidth=ref("40vh");
         <h2 class="hero-text-author-name">
             Olaonipekun Dolapo Rachael
         </h2>
-        <h1 class="hero-text-author-name">
+        <h1 class="hero-text-author-job-role">
             Fullstack
             <br/>
             Developer
@@ -37,11 +37,14 @@ const boxDefaultWidth=ref("40vh");
     justify-content: space-between;
 }
 .hero-text-author-name,
+.hero-text-greetings,
+.hero-text-author-job-role{
+    margin:2vh 4vh;
+}
 .hero-text-greetings{
-    margin:4vh;
+    text-transform: uppercase;
 }
 .hero-text-author-name{
-    
     color: var(--text-color);
     font-size:  4vh;
     transition: box-shadow 0.4s ease, transform 0.3s ease;
