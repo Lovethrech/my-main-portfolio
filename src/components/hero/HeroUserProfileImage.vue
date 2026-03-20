@@ -6,7 +6,7 @@
 
 <style scoped>
 .hero-user-profile-image-ctn{
-    width: 
+    width: 60vh;
     background: url('/public/cccoil_green.svg') center/auto no-repeat;
 }
 .hero-user-profile-image-ctn img {
