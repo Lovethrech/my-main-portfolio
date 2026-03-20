@@ -5,14 +5,14 @@ const {boxDefaultWidth} = defineProps(['boxDefaultWidth']);
 </script>
 
 <template>
-    <div class="box-default-ctn">
+    <div class="box-default-ctn" :style="{width: boxDefaultWidth}">
         
     </div>
 </template>
 
 <style scoped>
 .box-default-ctn{
-    height: 100vh;
+    height: 10vh;
     background-color: red;
 }
 </style>

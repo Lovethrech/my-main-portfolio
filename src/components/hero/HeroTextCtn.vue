@@ -27,6 +27,10 @@ const boxDefaultWidth=ref("20vh");
     background-color: var(--bg-color);
     padding: 2vh;
 }
+.hero-text-greetings-and-box-default{
+    display: flex;
+    flex-direction: row;
+}
 .hero-textauthor-name{
     
     color: var(--text-color);
