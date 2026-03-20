@@ -23,6 +23,8 @@ const boxDefaultWidth=ref("40vh");
             <br/>
             Developer
         </h1>
+        <!-- #C7AE6A -->
+        <!-- #B99A45 -->
     </div>
 </template>
 
