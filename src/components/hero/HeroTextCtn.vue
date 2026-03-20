@@ -70,4 +70,10 @@ const boxDefaultWidth=ref("40vh");
     background-clip: text;
     color:transparent;
 }
+
+@media screen and (max-width: 1024px) {
+    .hero-text-author-job-role{
+        font-size: 9vw;
+    }
+}
 </style>

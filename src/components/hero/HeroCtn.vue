@@ -21,7 +21,7 @@ import HeroUserProfileImage from './HeroUserProfileImage.vue';
 
 @media screen and (max-width: 1024px) {
     .hero-ctn{
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 }
 </style>

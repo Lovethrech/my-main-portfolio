@@ -84,7 +84,7 @@ const displayDropdown=()=>{
     background-color: var(--general-components-bg-color);
     width:10vh;
     height: 5vh;
-    margin: 0 0 0 0.5vh;
+    margin: 0;
     border-radius: 0 0 10vh 10vh;
 }
 .mobile-nav-link-desc{

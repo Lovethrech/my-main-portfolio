@@ -15,6 +15,9 @@
 }
 
 @media screen and (max-width: 1024px) {
-    
+    .hero-user-profile-image-ctn{
+        margin: 0 auto;
+        gap:0;
+    }
 }
 </style>
