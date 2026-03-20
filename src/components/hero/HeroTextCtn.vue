@@ -29,6 +29,7 @@ const boxDefaultWidth=ref("40vh");
 <style scoped>
 .hero-text-ctn{
     background-color: var(--bg-color);
+    border: 1vh solid red;
     color: var(--text-color);
     border-radius: 4vh 20vh 4vh 4vh;
 }
@@ -40,14 +41,15 @@ const boxDefaultWidth=ref("40vh");
 .hero-text-author-name,
 .hero-text-greetings,
 .hero-text-author-job-role{
-    margin:2vh 4vh;
+    margin:  2vh 4vh;
 }
 .hero-text-greetings{
     text-transform: uppercase;
-    font-size: 2vh;
+    font-size: 1.4vh;
 }
 .hero-text-author-name{
     font-size:  3vh;
+    letter-spacing: 1vh;
     transition: box-shadow 0.4s ease, transform 0.3s ease;
 }
 .hero-text-author-job-role{
