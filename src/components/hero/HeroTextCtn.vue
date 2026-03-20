@@ -49,4 +49,7 @@ const boxDefaultWidth=ref("40vh");
     font-size:  4vh;
     transition: box-shadow 0.4s ease, transform 0.3s ease;
 }
+.hero-text-author-job-role{
+    font-size: 6vh;
+}
 </style>
