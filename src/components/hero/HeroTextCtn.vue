@@ -29,6 +29,7 @@ const boxDefaultWidth=ref("40vh");
 <style scoped>
 .hero-text-ctn{
     background-color: var(--bg-color);
+    color: var(--text-color);
     border-radius: 4vh 20vh 4vh 4vh;
 }
 .hero-text-greetings-and-box-default{
@@ -43,10 +44,10 @@ const boxDefaultWidth=ref("40vh");
 }
 .hero-text-greetings{
     text-transform: uppercase;
+    font-size: 2vh;
 }
 .hero-text-author-name{
-    color: var(--text-color);
-    font-size:  4vh;
+    font-size:  3vh;
     transition: box-shadow 0.4s ease, transform 0.3s ease;
 }
 .hero-text-author-job-role{
