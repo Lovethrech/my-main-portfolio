@@ -3,7 +3,7 @@ import {ref} from "vue";
 import BoxDefaultCtn from "@/components/BoxDefaultCtn.vue";
 
 
-const boxDefaultWidth=ref("20vh");
+const boxDefaultWidth=ref("40vh");
 </script>
 
 <template>
@@ -29,7 +29,7 @@ const boxDefaultWidth=ref("20vh");
 <style scoped>
 .hero-text-ctn{
     background-color: var(--bg-color);
-    border-radius: 4vh 40vh 4vh 4vh;
+    border-radius: 4vh 20vh 4vh 4vh;
 }
 .hero-text-greetings-and-box-default{
     display: flex;
