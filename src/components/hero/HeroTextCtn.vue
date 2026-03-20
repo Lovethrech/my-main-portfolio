@@ -45,6 +45,7 @@ const boxDefaultWidth=ref("40vh");
     margin:  2vh 4vh;
 }
 .hero-text-greetings{
+    background-color: var(--general-components-bg-color);
     text-transform: uppercase;
     font-size: 1.4vh;
     margin:  2vh 4vh;
