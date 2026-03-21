@@ -23,15 +23,7 @@ const boxDefaultWidth=ref("40vh");
             <br/>
             Developer
         </h1>
-        <p class="hero-text-author-job-role-desc">
-            With respect to Full-stack development, I am adept at creating user-friendly interfaces using HTML, CSS, 
-            <br/>
-            and Javascript. I have a keen eye for design and usability, ensuring that the end-users have an intuitive
-            <br/> 
-            and engaging experience. Additionally, I am familiar with front-end frameworks such as Vue and React,
-            <br/>
-            which allow for the creation of dynamic, single-page applications.
-        </p>
+        
     </div>
 </template>
 
