@@ -47,8 +47,8 @@ const boxDefaultWidth=ref("40vh");
     justify-content: space-between;
 }
 .hero-text-author-job-role-desc{
-    margin:  0 4vh 4vh;
-    font-size: 2vh;
+    margin:  0 4vh;
+    font-size: 1.8vh;
 }
 .hero-text-greetings{
     background-color: var(--general-components-bg-color);
