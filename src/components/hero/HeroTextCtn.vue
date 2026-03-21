@@ -1,7 +1,7 @@
 <script setup>
 import {ref} from "vue";
 import BoxDefaultCtn from "@/components/BoxDefaultCtn.vue";
-
+import ColoredBtn from "../ColoredBtn.vue";
 
 const boxDefaultWidth=ref("40vh");
 </script>
@@ -23,7 +23,7 @@ const boxDefaultWidth=ref("40vh");
             <br/>
             Developer
         </h1>
-        
+        <ColoredBtn/>
     </div>
 </template>
 
