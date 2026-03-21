@@ -3,7 +3,7 @@ import HeroCtn from '@/components/hero/HeroCtn.vue';
 </script>
 
 <template>
-  <main>
+  <main id="home-view">
     <HeroCtn/>
   </main>
 </template>

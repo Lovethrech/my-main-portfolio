@@ -2,6 +2,7 @@
 import { ref,defineProps } from 'vue';
 const {navBarItems}=defineProps(['navBarItems']);
 
+const mainApp=document.getElementById("app");
 const menuIconName=ref("<i class='ri-menu-4-line'></i>");
 const overlayState=ref("none");
 
