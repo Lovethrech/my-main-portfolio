@@ -24,11 +24,12 @@ const boxDefaultWidth=ref("40vh");
             Developer
         </h1>
         <p class="hero-text-author-job-role-desc">
-            With respect to Full-stack development, I am adept at creating
-            user-friendly interfaces using HTML, CSS, and Javascript.
-            I have a keen eye for design and usability, ensuring that the end-users
-            have an intuitive and engaging experience.
-            Additionally, I am familiar with front-end frameworks such as Vue and React,
+            With respect to Full-stack development, I am adept at creating user-friendly interfaces using HTML, CSS, 
+            <br/>
+            and Javascript. I have a keen eye for design and usability, ensuring that the end-users have an intuitive
+            <br/> 
+            and engaging experience. Additionally, I am familiar with front-end frameworks such as Vue and React,
+            <br/>
             which allow for the creation of dynamic, single-page applications.
         </p>
     </div>
@@ -45,10 +46,9 @@ const boxDefaultWidth=ref("40vh");
     flex-direction: row;
     justify-content: space-between;
 }
-.hero-text-author-name,
-.hero-text-greetings,
-.hero-text-author-job-role{
-    margin:  2vh 4vh;
+.hero-text-author-job-role-desc{
+    margin:  0 4vh 4vh;
+    font-size: 2vh;
 }
 .hero-text-greetings{
     background-color: var(--general-components-bg-color);
