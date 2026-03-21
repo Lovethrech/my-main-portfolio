@@ -4,6 +4,10 @@ import BoxDefaultCtn from "@/components/BoxDefaultCtn.vue";
 import ColoredBtn from "../ColoredBtn.vue";
 
 const boxDefaultWidth=ref("40vh");
+const btnDesc=ref([{
+    "name": "get in touch",
+    "link": "/contact"
+}])
 </script>
 
 <template>
@@ -23,7 +27,10 @@ const boxDefaultWidth=ref("40vh");
             <br/>
             Developer
         </h1>
-        <ColoredBtn/>
+        <ColoredBtn
+            :btnDescName="btnDesc.name"
+            :btnDescLink="btnDesc.link"
+        />
     </div>
 </template>
 

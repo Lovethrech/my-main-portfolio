@@ -1,3 +1,8 @@
+<script setup>
+import { defineProps } from 'vue';
+
+</script>
+
 <template>
     <div class="colored-btn-ctn">
         <RouterLink to="">
