@@ -70,7 +70,7 @@ const displayDropdown=()=>{
     right: 0;
     background-color:#000000a2;
     width: 100vw;
-    height:92vh;
+    height:100vh;
 }
 .mobile-nav-menu-dropdown{
     background-color: var(--bg-color);
