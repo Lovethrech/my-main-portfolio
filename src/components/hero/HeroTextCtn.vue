@@ -30,7 +30,7 @@ const boxDefaultWidth=ref("40vh");
 .hero-text-ctn{
     background-color: var(--bg-color);
     color: var(--text-color);
-    border-radius: 4vh 20vh 4vh 4vh;
+    border-radius: 4vh 0 4vh 4vh;
 }
 .hero-text-greetings-and-box-default{
     display: flex;
