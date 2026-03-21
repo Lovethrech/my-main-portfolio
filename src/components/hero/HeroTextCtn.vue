@@ -49,6 +49,7 @@ const boxDefaultWidth=ref("40vh");
     border-radius: 8vh 0 0 8vh;
     text-transform: uppercase;
     font-size: 1.4vh;
+    font-style: italic;
     margin:  2vh 4vh;
 }
 .hero-text-author-name{
