@@ -15,7 +15,7 @@ import HeroTextCtn from './HeroTextCtn.vue';
 
 @media screen and (max-width: 1024px) {
     .hero-text-and-btn-ctn{
-        margin:6vh;
+        margin: 4vh;
     }
 }
 </style>
