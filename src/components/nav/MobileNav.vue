@@ -88,7 +88,8 @@ const displayDropdown=()=>{
     border-radius: 0 0 10vh 10vh;
 }
 .mobile-nav-link-desc{
-    text-align: center;
+    margin-right: 4vh;
+    text-align: right;
     text-transform: capitalize;
     font-size: 28px;
 }
