@@ -95,7 +95,7 @@ const displayDropdown=()=>{
 
 @media screen and (min-width: 951px) {
     .mobile-nav{
-        overflow: none;
+        display: none;
     }
 }
 </style>
