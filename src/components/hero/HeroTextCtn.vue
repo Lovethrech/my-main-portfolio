@@ -4,7 +4,7 @@ import BoxDefaultCtn from "@/components/BoxDefaultCtn.vue";
 import ColoredBtn from "../ColoredBtn.vue";
 
 const boxDefaultWidth=ref("40vh");
-const btnDescName=ref("get in touvh");
+const btnDescName=ref("get in touch");
 const btnDescLink=ref("/contact");
 
 console.log(btnDescName, btnDescLink);

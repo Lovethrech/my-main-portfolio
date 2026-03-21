@@ -15,5 +15,15 @@ const {btnDescName, btnDescLink}=defineProps(['btnDescName', 'btnDescLink']);
 </template>
 
 <style scoped>
-
+.colored-btn-ctn{
+    padding: 2vh 4vh ;
+}
+button{
+    width: 100%;
+    text-transform: capitalize;
+    background-color: var(--general-components-bg-color);
+    color:#ffffff;
+    font-size: 1.6vh;
+    padding: 1vh 0;
+}
 </style>
