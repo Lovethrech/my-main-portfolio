@@ -9,7 +9,7 @@ const {navBarItems}=defineProps(['navBarItems']);
         class="desktop-nav"
     >
         <div 
-            class="desktop-nav-main-ctn"
+            class="desktop-nav-main-ctn display-flex-direction-row-justify-space-between"
         >
             <RouterLink 
                 v-for="navBarItem in navBarItems" 
@@ -29,19 +29,17 @@ const {navBarItems}=defineProps(['navBarItems']);
 
 <style scoped>
 .desktop-nav-main-ctn{
-    display: flex;
-    flex-direction: row;
     gap:3vh;
 }
 .desktop-nav-link-desc{
     color: #ffffff;
     text-transform: capitalize;
     font-size: var(--p-font-size);
+    transition: transform .2s ease;
 }
 .desktop-nav-link-desc:hover{
     cursor: pointer;
     transform: scale(0.98);
-    transition: all .3s ease-in-out;
 }
 
 @media screen and (max-width: 950px) {
