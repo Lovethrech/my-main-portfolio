@@ -28,3 +28,13 @@ a, .link{
   justify-content: center;
   place-items: center;
 }
+.btn-gold-border{
+  border: 0.1vh solid #B99A45;
+  transition: background-color .4s ease, transform .2s ease-in-out;
+}
+.btn-gold-border:hover{
+  cursor: pointer;
+  background-color: transparent;
+  color:var(--text-color);
+  transform: scale(0.98);
+}

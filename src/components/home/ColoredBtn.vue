@@ -7,7 +7,7 @@ const {btnDescName, btnDescLink}=defineProps(['btnDescName', 'btnDescLink']);
 <template>
     <div class="colored-btn-ctn">
         <RouterLink :to="btnDescLink">
-            <button type="button" class="general-bg-color-theme-default-text-white">
+            <button type="button" class="general-bg-color-theme-default-text-white btn-gold-border">
                 {{ btnDescName }}
             </button>
         </RouterLink>
