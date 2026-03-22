@@ -1,7 +1,7 @@
 <script setup>
 import navBarItems from "@/data/nav-bar-items.json";
-import DesktopNav from './HeaderNavDesktop.vue';
-import MobileNav from "./HeaderNavMobile.vue";
+import HeaderNavDesktop from './HeaderNavDesktop.vue';
+import HeaderNavMobile from "./HeaderNavMobile.vue";
 </script>
 
 <template>
@@ -11,10 +11,10 @@ import MobileNav from "./HeaderNavMobile.vue";
         <div 
             class="nav-ctn-main-ctn"
         >
-            <DesktopNav
+            <HeaderNavDesktop
                 :navBarItems="navBarItems"
             />
-            <MobileNav
+            <HeaderNavMobile
                 :navBarItems="navBarItems"
             />
         </div>
