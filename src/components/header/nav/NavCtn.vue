@@ -1,7 +1,7 @@
 <script setup>
 import navBarItems from "@/data/nav-bar-items.json";
-import DesktopNav from './DesktopNav.vue';
-import MobileNav from "./MobileNav.vue";
+import DesktopNav from './HeaderNavDesktop.vue';
+import MobileNav from "./HeaderNavMobile.vue";
 </script>
 
 <template>
