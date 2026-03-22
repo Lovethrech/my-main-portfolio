@@ -25,7 +25,9 @@ const {isDark}=storeToRefs(themeStore);
 </template>
 
 <style scoped>
-
+.theme-toggle{
+    padding: 2vh;
+}
 @media screen and (max-width: 950px) {
     .theme-toggle{
         background-color: transparent;
