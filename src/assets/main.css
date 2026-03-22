@@ -4,3 +4,13 @@ a, .link{
   text-decoration: none;
   color: var(--text-color);
 }
+
+.general-bg-color-theme-default-text-white{
+  background-color: var(--general-components-bg-color);
+  color: #ffffff;
+}
+.dft-p-font-size-border-border-radius{
+  font-size: var(--p-font-size);
+  border-radius: var(--round-border-radius);
+  border: 1vh solid var(--bg-color);
+}

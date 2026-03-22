@@ -9,7 +9,7 @@ const {isDark}=storeToRefs(themeStore);
 <template>
     <button
         @click="themeStore.toggleTheme" 
-        class="theme-toggle"
+        class="theme-toggle general-bg-color-theme-default-text-white dft-p-font-size-border-border-radius"
     >
         <i 
             v-if="isDark"
@@ -25,14 +25,7 @@ const {isDark}=storeToRefs(themeStore);
 </template>
 
 <style scoped>
-.theme-toggle{
-    padding: 2vh;
-    background-color: var(--general-components-bg-color);
-    color: #ffffff;
-    font-size: var(--p-font-size);
-    border-radius: var(--round-border-radius);
-    border: 1vh solid var(--bg-color);
-}
+
 @media screen and (max-width: 950px) {
     .theme-toggle{
         background-color: transparent;
