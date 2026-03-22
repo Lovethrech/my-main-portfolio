@@ -1,6 +1,6 @@
 <script setup>
 import HeaderLogo from './header/HeaderLogo.vue';
-import NavCtn from './header/nav/NavCtn.vue';
+import HeaderNavCtn from './header/nav/HeaderNavCtn.vue';
 import ThemeToggle from './ThemeToggle.vue';
 </script>
 
@@ -9,7 +9,7 @@ import ThemeToggle from './ThemeToggle.vue';
         class="main-header display-flex-direction-row-justify-space-between"
     >
         <HeaderLogo/>
-        <NavCtn 
+        <HeaderNavCtn 
             id="main-header-nav-ctn"
         />
         <ThemeToggle 
@@ -19,7 +19,7 @@ import ThemeToggle from './ThemeToggle.vue';
             class="mobile-display"
         >
             <ThemeToggle/>
-            <NavCtn/>
+            <HeaderNavCtn/>
         </div>
     </header>
 </template>
