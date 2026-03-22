@@ -7,6 +7,8 @@ const {boxDefaultWidth} = defineProps(['boxDefaultWidth']);
 <template>
     <div class="box-default-ctn" :style="{width: boxDefaultWidth}">
         
+
+
     </div>
 </template>
 
