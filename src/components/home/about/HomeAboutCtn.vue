@@ -12,6 +12,6 @@ import HomeAboutTitle from './HomeAboutTitle.vue';
 
 <style scoped>
 .home-about-ctn{
-    padding: 3vh 6vh;
+    padding: 3vh 8vh;
 }
 </style>
