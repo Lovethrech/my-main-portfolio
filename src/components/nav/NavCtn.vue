@@ -6,7 +6,7 @@ import MobileNav from "./MobileNav.vue";
 
 <template>
     <section 
-        class="nav-ctn"
+        class="nav-ctn display-flex-justify-center-place-center"
     >
         <div 
             class="nav-ctn-main-ctn"
@@ -25,9 +25,6 @@ import MobileNav from "./MobileNav.vue";
 .nav-ctn{
     background-color: var(--general-components-bg-color);
     border-radius: var(--round-border-radius);
-    display: flex;
-    justify-content: center;
-    place-items: center;
     padding:0 6vh;
     border: 0.6vh solid var(--bg-color);
 }

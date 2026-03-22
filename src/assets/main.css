@@ -19,3 +19,8 @@ a, .link{
   flex-direction: row;
   justify-content: space-between;
 }
+.display-flex-justify-center-place-center{
+  display: flex;
+  justify-content: center;
+  place-items: center;
+}
