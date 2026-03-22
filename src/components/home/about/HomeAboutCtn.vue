@@ -9,3 +9,9 @@ import HomeAboutTitle from './HomeAboutTitle.vue';
         </div>
     </section>
 </template>
+
+<style scoped>
+.home-about-ctn{
+    padding: 3vh 6vh;
+}
+</style>
