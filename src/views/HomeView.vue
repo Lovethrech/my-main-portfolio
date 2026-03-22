@@ -1,5 +1,5 @@
 <script setup>
-import HomeHeroCtn from '@/components/home/hero/HeroCtn.vue';
+import HomeHeroCtn from '@/components/home/hero/HomeHeroCtn.vue';
 </script>
 
 <template>
