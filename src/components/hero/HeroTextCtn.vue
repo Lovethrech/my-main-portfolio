@@ -12,7 +12,7 @@ console.log(btnDescName, btnDescLink);
 
 <template>
     <div class="hero-text-ctn">
-        <div class="hero-text-greetings-and-box-default">
+        <div class="hero-text-greetings-and-box-default display-flex-direction-row-justify-space-between">
             <p class="hero-text-greetings">
                 Welcome!
             </p>
@@ -40,11 +40,6 @@ console.log(btnDescName, btnDescLink);
     color: var(--text-color);
     border-radius: 4vh 0 4vh 4vh;
 }
-.hero-text-greetings-and-box-default{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
 .hero-text-author-job-role-desc{
     margin:  0 4vh;
     font-size: 1.8vh;
@@ -65,7 +60,6 @@ console.log(btnDescName, btnDescLink);
     letter-spacing: 1vh;
     font-weight:600;
     margin:  0 4vh;
-    transition: box-shadow 0.4s ease, transform 0.3s ease;
 }
 .hero-text-author-job-role{
     margin:  0 4vh;

@@ -4,7 +4,7 @@ import HeroUserProfileImage from './HeroUserProfileImage.vue';
 </script>
 
 <template>
-    <section class="hero-ctn">
+    <section class="hero-ctn display-flex-direction-row-justify-space-between">
         <HeroTextAndBtnCtn/>
         <HeroUserProfileImage/>
     </section>
@@ -14,9 +14,6 @@ import HeroUserProfileImage from './HeroUserProfileImage.vue';
 .hero-ctn{
     min-height: 40vh;
     background-color: var(--general-components-bg-color);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
 
 @media screen and (max-width: 1024px) {
