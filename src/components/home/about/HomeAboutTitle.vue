@@ -3,3 +3,7 @@
         ABOUT ME
     </h2>
 </template>
+
+<style scoped>
+
+</style>
