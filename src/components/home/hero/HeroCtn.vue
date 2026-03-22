@@ -1,11 +1,11 @@
 <script setup>
-import HeroTextAndBtnCtn from './HeroTextAndBtnCtn.vue';
+import HomeHeroTextAndBtnCtn from './HomeHeroTextAndBtnCtn.vue';
 import HeroUserProfileImage from './HeroUserProfileImage.vue';
 </script>
 
 <template>
     <section class="hero-ctn display-flex-direction-row-justify-space-between">
-        <HeroTextAndBtnCtn/>
+        <HomeHeroTextAndBtnCtn/>
         <HeroUserProfileImage/>
     </section>
 </template>
