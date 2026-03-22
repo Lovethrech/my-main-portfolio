@@ -1,9 +1,9 @@
 <script setup>
-import HeroCtn from '@/components/home/hero/HeroCtn.vue';
+import HomeHeroCtn from '@/components/home/hero/HomeHeroCtn.vue';
 </script>
 
 <template>
   <main id="home-view">
-    <HeroCtn/>
+    <HomeHeroCtn/>
   </main>
 </template>
