@@ -1,6 +1,6 @@
 <script setup>
 import HeaderLogo from './header/HeaderLogo.vue';
-import HeaderNavCtn from './header/nav/HeaderNavCtn.vue';
+import HeaderNavCtn from './header/nav/NavCtn.vue';
 import ThemeToggle from './ThemeToggle.vue';
 </script>
 
