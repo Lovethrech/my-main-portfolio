@@ -11,9 +11,9 @@ console.log(btnDescName, btnDescLink);
 </script>
 
 <template>
-    <div class="hero-text-ctn">
+    <div class="hero-text-ctn var-bg-color-theme-and-text-color">
         <div class="hero-text-greetings-and-box-default display-flex-direction-row-justify-space-between">
-            <p class="hero-text-greetings">
+            <p class="hero-text-greetings general-bg-color-theme-default-text-white">
                 Welcome!
             </p>
             <BoxDefaultCtn :boxDefaultWidth="boxDefaultWidth"/>
@@ -36,8 +36,6 @@ console.log(btnDescName, btnDescLink);
 
 <style scoped>
 .hero-text-ctn{
-    background-color: var(--bg-color);
-    color: var(--text-color);
     border-radius: 4vh 0 4vh 4vh;
 }
 .hero-text-author-job-role-desc{
@@ -45,8 +43,6 @@ console.log(btnDescName, btnDescLink);
     font-size: 1.8vh;
 }
 .hero-text-greetings{
-    background-color: var(--general-components-bg-color);
-    color:#ffffff;
     padding: 0.5vh 2vh;
     border-radius: 8vh 0 0 8vh;
     text-transform: uppercase;

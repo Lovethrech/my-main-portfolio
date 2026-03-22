@@ -9,6 +9,10 @@ a, .link{
   background-color: var(--general-components-bg-color);
   color: #ffffff;
 }
+.var-bg-color-theme-and-text-color{
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
 .dft-p-font-size-border-border-radius{
   font-size: var(--p-font-size);
   border-radius: var(--round-border-radius);
