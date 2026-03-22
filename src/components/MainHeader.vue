@@ -6,7 +6,7 @@ import ThemeToggle from './ThemeToggle.vue';
 
 <template>
     <header 
-        class="main-header"
+        class="main-header display-flex-direction-row-justify-space-between"
     >
         <HeaderLogo/>
         <NavCtn 
@@ -27,9 +27,6 @@ import ThemeToggle from './ThemeToggle.vue';
 <style scoped>
 .main-header{
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
 .mobile-display{
     display:none;

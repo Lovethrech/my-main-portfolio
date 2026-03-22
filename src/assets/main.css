@@ -14,3 +14,8 @@ a, .link{
   border-radius: var(--round-border-radius);
   border: 1vh solid var(--bg-color);
 }
+.display-flex-direction-row-justify-space-between{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
