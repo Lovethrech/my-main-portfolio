@@ -1,5 +1,5 @@
 <script setup>
-import HeroTextCtn from './HeroTextCtn.vue';
+import HeroTextCtn from './HomeHeroTextCtn.vue';
 </script>
 
 <template>
