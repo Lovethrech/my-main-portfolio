@@ -14,6 +14,7 @@
 
 <style scoped>
 .home-about-desc-stats{
-    width: 50%;
+    width: 100%;
+    background-color: red;
 }
 </style>
