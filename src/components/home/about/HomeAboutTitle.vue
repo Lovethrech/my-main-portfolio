@@ -5,5 +5,9 @@
 </template>
 
 <style scoped>
-
+#home-about-title{
+    color: var(--general-components-bg-color);
+    text-align: center;
+    font-size: 4vh;
+}
 </style>
