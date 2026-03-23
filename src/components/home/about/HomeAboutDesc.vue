@@ -1,7 +1,7 @@
 <template>
     <div class="home-about-desc-ctn">
         <p class="home-about-desc">
-            I am Olaonipekun Rachael Dolapo, a passionate and determined aspiring Fullstack Developer based in Nigeria.  
+            I am <b class="author-name bold-text">Olaonipekun Rachael Dolapo</b>, a passionate and determined aspiring Fullstack Developer based in Nigeria.  
             With a strong foundation in mathematics and numerical problem-solving, I discovered my love for building 
             digital solutions that solve real-world problems. What began as self-taught exploration has now evolved into 
             a structured and rigorous apprenticeship under a master mentor, where I am mastering modern web technologies.
@@ -31,5 +31,8 @@
     font-size: 2vh;
     line-height: 2;
     text-align:justify;
+}
+#author-name{
+    font-size: 2.4vh;
 }
 </style>
