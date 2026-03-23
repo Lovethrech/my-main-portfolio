@@ -7,6 +7,7 @@ import HomeAboutDesc from './HomeAboutDesc.vue';
     <section class="home-about-ctn display-flex-justify-center-place-center">
         <div class="home-about-main-ctn">
             <HomeAboutTitle/>
+            <br/>
             <HomeAboutDesc/>
         </div>
     </section>
