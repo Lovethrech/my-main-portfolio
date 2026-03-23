@@ -9,9 +9,8 @@ import HomeAboutDesc from './HomeAboutDesc.vue';
             <HomeAboutTitle/>
             <br/>
             <div class="home-about-mini-ctn">
-                
+                <HomeAboutDesc/>
             </div>
-            <HomeAboutDesc/>
         </div>
     </section>
 </template>
