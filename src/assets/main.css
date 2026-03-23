@@ -4,6 +4,9 @@ a, .link{
   text-decoration: none;
   color: var(--text-color);
 }
+.bold-text{
+  font-weight:600;
+}
 
 .general-bg-color-theme-default-text-white{
   background-color: var(--general-components-bg-color);

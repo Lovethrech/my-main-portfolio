@@ -6,8 +6,8 @@
             digital solutions that solve real-world problems. What began as self-taught exploration has now evolved into 
             a structured and rigorous apprenticeship under a master mentor, where I am mastering modern web technologies.
             <br/>
-            Currently, I am deep in an intensive fullstack apprenticeship focused on the <b>Vue 3 (Composition API)</b> ecosystem 
-            for frontend, combined with <b>Express, GraphQL (Apollo Server)</b>, and **PostgreSQL (with Prisma)** on the backend. 
+            Currently, I am deep in an intensive fullstack apprenticeship focused on the <b class="bold-text">Vue 3 (Composition API)</b> ecosystem 
+            for frontend, combined with <b class="bold-text">Express, GraphQL (Apollo Server)</b>, and **PostgreSQL (with Prisma)** on the backend. 
             This journey has transformed the way I think about software — emphasizing clean architecture, reactivity, type safety, 
             performance, and scalable APIs. I thrive on turning ideas into functional, responsive, and maintainable applications, 
             and I am committed to daily deliberate practice to reach production-grade mastery.
