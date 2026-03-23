@@ -28,6 +28,7 @@
 
 <style scoped>
 .home-about-desc{
+    width: 50%;
     font-size: 2vh;
     line-height: 2;
     text-align:justify;

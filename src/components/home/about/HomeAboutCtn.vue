@@ -9,7 +9,7 @@ import HomeAboutDescStats from "./HomeAboutDescStats.vue";
         <div class="home-about-main-ctn">
             <HomeAboutTitle/>
             <br/>
-            <div class="home-about-mini-ctn">
+            <div class="home-about-mini-ctn display-flex-direction-row-justify-space-between">
                 <HomeAboutDesc/>
                 <HomeAboutDescStats/>
             </div>
@@ -21,5 +21,8 @@ import HomeAboutDescStats from "./HomeAboutDescStats.vue";
 .home-about-ctn{
     min-height:100vh;
     padding: 3vh 8vh;
+}
+.home-about-mini-ctn{
+    
 }
 </style>

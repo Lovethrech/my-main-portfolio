@@ -11,3 +11,9 @@
         </p>
     </div>
 </template>
+
+<style scoped>
+.home-about-desc-stats{
+    width: 50%;
+}
+</style>
