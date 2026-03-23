@@ -33,6 +33,7 @@
     text-align:justify;
 }
 #author-name{
+    text-transform: uppercase;
     font-size: 2.4vh;
 }
 </style>
