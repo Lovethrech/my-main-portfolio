@@ -1,6 +1,7 @@
 <script setup>
 import HomeAboutTitle from './HomeAboutTitle.vue';
 import HomeAboutDesc from './HomeAboutDesc.vue';
+import HomeAboutDescStats from "./HomeAboutDescStats.vue";
 </script>
 
 <template>
@@ -10,6 +11,7 @@ import HomeAboutDesc from './HomeAboutDesc.vue';
             <br/>
             <div class="home-about-mini-ctn">
                 <HomeAboutDesc/>
+                <HomeAboutDescStats/>
             </div>
         </div>
     </section>
