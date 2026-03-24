@@ -1,11 +1,11 @@
 <script setup>
 import { defineProps } from 'vue';
 
-const {btnDescName, btnDescLink}=defineProps(['btnDescName', 'btnDescLink']);
+const {btnDescName, btnDescLink, generalPadding}=defineProps(['btnDescName', 'btnDescLink', 'generalPadding']);
 </script>
 
 <template>
-    <div class="colored-btn-ctn">
+    <div class="colored-btn-ctn" :style="{padding: generalPadding}">
         <RouterLink :to="btnDescLink">
             <button type="button" class="general-bg-color-theme-default-text-white btn-gold-border">
                 {{ btnDescName }}
@@ -15,9 +15,6 @@ const {btnDescName, btnDescLink}=defineProps(['btnDescName', 'btnDescLink']);
 </template>
 
 <style scoped>
-.colored-btn-ctn{
-    padding: 2vh 4vh ;
-}
 button{
     width: 100%;
     text-transform: capitalize;
