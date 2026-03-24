@@ -6,8 +6,6 @@ import ColoredBtn from "../ColoredBtn.vue";
 const boxDefaultWidth=ref("40vh");
 const btnDescName=ref("get in touch");
 const btnDescLink=ref("/contact");
-
-console.log(btnDescName, btnDescLink);
 </script>
 
 <template>
