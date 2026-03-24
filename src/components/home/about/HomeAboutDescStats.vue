@@ -31,6 +31,7 @@
     place-items: center;
 }
 .home-about-desc-stats-main-ctn{
+    margin-top: 2vh;
     gap: 4vh;
     font-size: 3vh;
     letter-spacing: 1.2vh;
