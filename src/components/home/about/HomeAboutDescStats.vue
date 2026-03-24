@@ -28,5 +28,7 @@
 .home-about-desc-stats-main-ctn{
     flex-direction: column;
     gap: 4vh;
+    font-size: 3vh;
+    letter-spacing: 1.5vh;
 }
 </style>
