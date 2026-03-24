@@ -7,7 +7,12 @@ const {boxDefaultWidth, boxDefaultHeight, boxDefaultBgColor, boxDefaultBrRadius}
 <template>
     <div 
         class="box-default-ctn" 
-        :style="{width: boxDefaultWidth, height: boxDefaultHeight, backgroundColor:boxDefaultBgColor, borderRadius:boxDefaultBrRadius}"
+        :style="{
+            width: boxDefaultWidth, 
+            height: boxDefaultHeight, 
+            backgroundColor:boxDefaultBgColor, 
+            borderRadius:boxDefaultBrRadius
+        }"
     >
     </div>
 </template>
