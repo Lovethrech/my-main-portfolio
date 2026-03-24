@@ -3,7 +3,7 @@ import {ref} from "vue";
 import ColoredBtn from '../ColoredBtn.vue';
 
 const btnDescName=ref("about me");
-const btnDescLink=ref("/contact");
+const btnDescLink=ref("/about");
 </script>
 
 <template>
