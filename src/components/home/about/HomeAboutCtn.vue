@@ -23,6 +23,6 @@ import HomeAboutDescStats from "./HomeAboutDescStats.vue";
     padding: 3vh 8vh;
 }
 .home-about-mini-ctn{
-    
+    gap:6vh;
 }
 </style>
