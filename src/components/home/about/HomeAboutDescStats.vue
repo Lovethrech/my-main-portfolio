@@ -1,5 +1,9 @@
 <script setup>
+import {ref} from "vue";
 import BoxDefaultCtn from '@/components/BoxDefaultCtn.vue';
+
+const boxDefaultWidth=ref("40vh");
+const boxDefaultBgColor=ref("var(--bg-color)");
 </script>
 
 <template>
@@ -17,7 +21,10 @@ import BoxDefaultCtn from '@/components/BoxDefaultCtn.vue';
                 4+ Ongoing Projects
             </p>
         </div>
-        <BoxDefaultCtn/>
+        <BoxDefaultCtn 
+            :boxDefaultWidth="boxDefaultWidth" 
+            :boxDefaultBgColor="boxDefaultBgColor"
+        />
     </div>
 </template>
 
