@@ -31,6 +31,6 @@
     flex-direction: column;
     gap: 4vh;
     font-size: 3vh;
-    letter-spacing: 1.5vh;
+    letter-spacing: 1.2vh;
 }
 </style>
