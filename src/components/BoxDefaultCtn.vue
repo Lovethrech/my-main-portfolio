@@ -16,8 +16,3 @@ const {boxDefaultWidth, boxDefaultHeight, boxDefaultBgColor, boxDefaultBrRadius}
     >
     </div>
 </template>
-
-<style scoped>
-.box-default-ctn{
-}
-</style>
