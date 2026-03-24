@@ -18,5 +18,7 @@
 .home-about-desc-stats{
     width: 100%;
     background-color: red;
+    display: flex;
+    place-items: center;
 }
 </style>
