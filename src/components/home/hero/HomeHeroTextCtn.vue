@@ -5,6 +5,7 @@ import ColoredBtn from "../ColoredBtn.vue";
 
 const boxDefaultWidth=ref("40vh");
 const boxDefaultBgColor=ref("var(--general-components-bg-color)");
+const boxDefaultBrRadius=ref("0 0 0 10vh");
 const btnDescName=ref("get in touch");
 const btnDescLink=ref("/contact");
 const generalPadding=ref("2vh 4vh");
@@ -19,6 +20,7 @@ const generalPadding=ref("2vh 4vh");
             <BoxDefaultCtn 
                 :boxDefaultWidth="boxDefaultWidth" 
                 :boxDefaultBgColor="boxDefaultBgColor"
+                :boxDefaultBrRadius="boxDefaultBrRadius"
             />
         </div>
         

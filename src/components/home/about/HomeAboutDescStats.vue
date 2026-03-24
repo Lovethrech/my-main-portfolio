@@ -37,7 +37,6 @@ const boxDefaultBgColor=ref("var(--bg-color)");
     width: 100%;
     background-color: var(--general-components-bg-color);
     color: #ffffff;
-    place-items: center;
 }
 .home-about-desc-stats-main-ctn{
     margin-top: 2vh;

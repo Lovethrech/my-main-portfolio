@@ -1,20 +1,18 @@
 <script setup>
 import {defineProps} from "vue";
 
-const {boxDefaultWidth, boxDefaultBgColor} = defineProps(['boxDefaultWidth', 'boxDefaultBgColor']);
+const {boxDefaultWidth, boxDefaultBgColor, boxDefaultBrRadius} = defineProps(['boxDefaultWidth', 'boxDefaultBgColor', 'boxDefaultBrRadius']);
 </script>
 
 <template>
     <div 
         class="box-default-ctn" 
-        :style="{width: boxDefaultWidth, backgroundColor:boxDefaultBgColor}"
+        :style="{width: boxDefaultWidth, backgroundColor:boxDefaultBgColor, borderRadius:boxDefaultBrRadius}"
     >
     </div>
 </template>
 
 <style scoped>
 .box-default-ctn{
-    height: 4vh;
-    border-radius: 0 0 0 10vh;
 }
 </style>
