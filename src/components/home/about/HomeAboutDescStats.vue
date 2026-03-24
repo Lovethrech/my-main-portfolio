@@ -23,7 +23,9 @@ const boxDefaultBgColor=ref("var(--bg-color)");
         </div>
         <BoxDefaultCtn 
             :boxDefaultWidth="boxDefaultWidth" 
+            :boxDefaultHeight="boxDefaultHeight"
             :boxDefaultBgColor="boxDefaultBgColor"
+            :boxDefaultBrRadius="boxDefaultBrRadius"
         />
     </div>
 </template>
