@@ -4,8 +4,8 @@ import HomeAboutDescStatsPin from './HomeAboutDescStatsPin.vue';
 
 <template>
     <div class="home-about-desc-stats">
-        <HomeAboutDescStatsPin/>
         <div class="home-about-desc-stats-main-ctn">
+            <HomeAboutDescStatsPin/>
             <p id="home-about-desc-stats-client-xperience">
                 3+ Clients Projects
             </p>
