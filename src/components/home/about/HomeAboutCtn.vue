@@ -20,7 +20,7 @@ import HomeAboutDescStats from "./HomeAboutDescStats.vue";
 <style scoped>
 .home-about-ctn{
     min-height:100vh;
-    padding: 3vh 8vh;
+    padding: 3vh 0 3vh 8vh;
 }
 .home-about-mini-ctn{
     gap:6vh;

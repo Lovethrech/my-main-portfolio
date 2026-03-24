@@ -17,7 +17,8 @@
 <style scoped>
 .home-about-desc-stats{
     width: 100%;
-    background-color: red;
+    background-color: var(--general-components-bg-color);
+    color: #ffffff;
     display: flex;
     place-items: center;
 }
