@@ -24,7 +24,7 @@
     width: 100%;
     background-color: var(--general-components-bg-color);
     color: #ffffff;
-    padding: 1vh 2vh;
+    padding: 0 2vh 1vh;
     place-items: center;
 }
 .home-about-desc-stats-main-ctn{
