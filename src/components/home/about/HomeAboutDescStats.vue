@@ -15,11 +15,18 @@
 </template>
 
 <style scoped>
+.home-about-desc-stats, .home-about-desc-stats-main-ctn{
+    display: flex;
+}
 .home-about-desc-stats{
     width: 100%;
     background-color: var(--general-components-bg-color);
     color: #ffffff;
-    display: flex;
+    padding: 1vh 2vh;
     place-items: center;
+}
+.home-about-desc-stats-main-ctn{
+    flex-direction: column;
+    gap: 4vh;
 }
 </style>
