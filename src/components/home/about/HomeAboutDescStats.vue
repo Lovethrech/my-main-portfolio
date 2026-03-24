@@ -24,6 +24,7 @@ import HomeAboutDescStatsPin from './HomeAboutDescStatsPin.vue';
 <style scoped>
 .home-about-desc-stats, .home-about-desc-stats-main-ctn{
     display: flex;
+    flex-direction: column;
 }
 .home-about-desc-stats{
     width: 100%;
@@ -33,7 +34,6 @@ import HomeAboutDescStatsPin from './HomeAboutDescStatsPin.vue';
     place-items: center;
 }
 .home-about-desc-stats-main-ctn{
-    flex-direction: column;
     gap: 4vh;
     font-size: 3vh;
     letter-spacing: 1.2vh;
