@@ -24,14 +24,14 @@ const boxDefaultBrRadius=ref("0 0 0 10vh");
                 4+ Ongoing Projects
             </p>
         </div>
-        <div class="home-about-desc-stats-git-box-default">
-            <HomeAboutDescStatsGit/>
+        <div class="home-about-desc-stats-git-box-default display-flex-direction-row-justify-space-between">
             <BoxDefaultCtn 
                 :boxDefaultWidth="boxDefaultWidth" 
                 :boxDefaultHeight="boxDefaultHeight"
                 :boxDefaultBgColor="boxDefaultBgColor"
                 :boxDefaultBrRadius="boxDefaultBrRadius"
             />
+            <HomeAboutDescStatsGit/>
         </div>
         
     </div>
