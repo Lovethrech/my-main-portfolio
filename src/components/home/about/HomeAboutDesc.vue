@@ -19,6 +19,7 @@ const btnDescLink=ref("/about");
             This journey has transformed the way I think about software, emphasizing clean architecture, reactivity, type safety, 
             performance, and scalable APIs. I thrive on turning ideas into functional, responsive, and maintainable applications, ...
         </p>
+        <br/>
         <ColoredBtn
             :btnDescName="btnDescName"
             :btnDescLink="btnDescLink"
