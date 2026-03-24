@@ -5,7 +5,10 @@ const {boxDefaultWidth, boxDefaultBgColor} = defineProps(['boxDefaultWidth', 'bo
 </script>
 
 <template>
-    <div class="box-default-ctn" :style="{width: boxDefaultWidth, backgroundColor:boxDefaultBgColor}">
+    <div 
+        class="box-default-ctn" 
+        :style="{width: boxDefaultWidth, backgroundColor:boxDefaultBgColor}"
+    >
     </div>
 </template>
 
