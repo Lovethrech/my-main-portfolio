@@ -1,3 +1,7 @@
+<script setup>
+import ColoredBtn from '../ColoredBtn.vue';
+</script>
+
 <template>
     <div class="home-about-desc-ctn">
         <p class="home-about-desc">
@@ -11,6 +15,7 @@
             This journey has transformed the way I think about software, emphasizing clean architecture, reactivity, type safety, 
             performance, and scalable APIs. I thrive on turning ideas into functional, responsive, and maintainable applications, ...
         </p>
+        <ColoredBtn/>
     </div>
 </template>
 

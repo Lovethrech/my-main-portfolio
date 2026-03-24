@@ -2,7 +2,6 @@
 import HomeAboutTitle from './HomeAboutTitle.vue';
 import HomeAboutDesc from './HomeAboutDesc.vue';
 import HomeAboutDescStats from "./HomeAboutDescStats.vue";
-import ColoredBtn from '../ColoredBtn.vue';
 </script>
 
 <template>
@@ -14,7 +13,6 @@ import ColoredBtn from '../ColoredBtn.vue';
                 <HomeAboutDesc/>
                 <HomeAboutDescStats/>
             </div>
-            <ColoredBtn/>
         </div>
     </section>
 </template>
