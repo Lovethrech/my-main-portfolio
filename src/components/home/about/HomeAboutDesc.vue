@@ -1,5 +1,9 @@
 <script setup>
+import {ref} from "vue";
 import ColoredBtn from '../ColoredBtn.vue';
+
+const btnDescName=ref("about me");
+const btnDescLink=ref("/contact");
 </script>
 
 <template>
@@ -15,7 +19,10 @@ import ColoredBtn from '../ColoredBtn.vue';
             This journey has transformed the way I think about software, emphasizing clean architecture, reactivity, type safety, 
             performance, and scalable APIs. I thrive on turning ideas into functional, responsive, and maintainable applications, ...
         </p>
-        <ColoredBtn/>
+        <ColoredBtn
+            :btnDescName="btnDescName"
+            :btnDescLink="btnDescLink"
+        />
     </div>
 </template>
 
