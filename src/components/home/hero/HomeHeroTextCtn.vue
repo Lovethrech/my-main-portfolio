@@ -4,6 +4,7 @@ import BoxDefaultCtn from "@/components/BoxDefaultCtn.vue";
 import ColoredBtn from "../ColoredBtn.vue";
 
 const boxDefaultWidth=ref("40vh");
+const boxDefaultHeight=ref("4vh");
 const boxDefaultBgColor=ref("var(--general-components-bg-color)");
 const boxDefaultBrRadius=ref("0 0 0 10vh");
 const btnDescName=ref("get in touch");
@@ -19,6 +20,7 @@ const generalPadding=ref("2vh 4vh");
             </p>
             <BoxDefaultCtn 
                 :boxDefaultWidth="boxDefaultWidth" 
+                :boxDefaultHeight="boxDefaultHeight"
                 :boxDefaultBgColor="boxDefaultBgColor"
                 :boxDefaultBrRadius="boxDefaultBrRadius"
             />
