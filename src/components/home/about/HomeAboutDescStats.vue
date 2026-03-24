@@ -1,4 +1,5 @@
 <script setup>
+import BoxDefaultCtn from '@/components/BoxDefaultCtn.vue';
 </script>
 
 <template>
@@ -16,6 +17,7 @@
                 4+ Ongoing Projects
             </p>
         </div>
+        <BoxDefaultCtn/>
     </div>
 </template>
 
