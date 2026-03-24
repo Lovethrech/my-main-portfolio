@@ -1,5 +1,6 @@
 <script setup>
 import {ref} from "vue";
+import HomeAboutDescStatsGit from "./HomeAboutDescStatsGit.vue";
 import BoxDefaultCtn from '@/components/BoxDefaultCtn.vue';
 
 const boxDefaultWidth=ref("100%");
@@ -23,12 +24,16 @@ const boxDefaultBrRadius=ref("0 0 0 10vh");
                 4+ Ongoing Projects
             </p>
         </div>
-        <BoxDefaultCtn 
-            :boxDefaultWidth="boxDefaultWidth" 
-            :boxDefaultHeight="boxDefaultHeight"
-            :boxDefaultBgColor="boxDefaultBgColor"
-            :boxDefaultBrRadius="boxDefaultBrRadius"
-        />
+        <div class="home-about-desc-stats-git-box-default">
+            <HomeAboutDescStatsGit/>
+            <BoxDefaultCtn 
+                :boxDefaultWidth="boxDefaultWidth" 
+                :boxDefaultHeight="boxDefaultHeight"
+                :boxDefaultBgColor="boxDefaultBgColor"
+                :boxDefaultBrRadius="boxDefaultBrRadius"
+            />
+        </div>
+        
     </div>
 </template>
 
@@ -41,6 +46,7 @@ const boxDefaultBrRadius=ref("0 0 0 10vh");
     width: 100%;
     background-color: var(--general-components-bg-color);
     color: #ffffff;
+    justify-content: space-between;
 }
 .home-about-desc-stats-main-ctn{
     margin-top: 2vh;
