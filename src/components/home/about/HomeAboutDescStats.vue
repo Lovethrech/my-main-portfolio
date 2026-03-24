@@ -4,9 +4,11 @@
             <p id="home-about-desc-stats-client-xperience">
                 3+ Clients Projects
             </p>
+            <hr/>
             <p id="home-about-desc-stats-personal-xperience">
                 10+ Personal Projects
             </p>
+            <hr/>
             <p id="home-about-desc-stats-ongoing-pro">
                 4+ Ongoing Projects
             </p>
