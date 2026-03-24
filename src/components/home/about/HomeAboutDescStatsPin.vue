@@ -8,7 +8,13 @@
 </template>
 
 <style scoped>
+.home-about-desc-stats-pin{
+    width: 100%;
+    background-color: orange;;
+    text-align: left;
+}
 #home-about-desc-stats-pin-ctn{
+    width:10%;
     background-color: red;
 }
 .ri-pushpin-fill{

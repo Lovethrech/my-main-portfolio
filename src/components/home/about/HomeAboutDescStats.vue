@@ -30,7 +30,6 @@ import HomeAboutDescStatsPin from './HomeAboutDescStatsPin.vue';
     width: 100%;
     background-color: var(--general-components-bg-color);
     color: #ffffff;
-    padding: 0 2vh 1vh;
     place-items: center;
 }
 .home-about-desc-stats-main-ctn{
