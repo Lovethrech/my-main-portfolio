@@ -16,7 +16,7 @@ const generalPadding=ref("2vh 4vh");
             <p class="hero-text-greetings general-bg-color-theme-default-text-white">
                 Welcome!
             </p>
-            <BoxDefaultCtn :boxDefaultWidth="boxDefaultWidth"/>
+            <BoxDefaultCtn :boxDefaultWidth="boxDefaultWidth" :boxDefaultBgColor="boxDefaultBgColor"/>
         </div>
         
         <h2 class="hero-text-author-name">
