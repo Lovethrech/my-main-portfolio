@@ -49,7 +49,7 @@ const boxDefaultBrRadius=ref("0 10vh 0 0");
     justify-content: space-between;
 }
 .home-about-desc-stats-main-ctn{
-    margin-top: 2vh;
+    margin: 2vh 0 0 3vh;
     gap: 4vh;
     font-size: 3vh;
     letter-spacing: 1.2vh;
