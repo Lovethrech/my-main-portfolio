@@ -1,5 +1,10 @@
+<script setup>
+import HomeAboutDescStatsPin from './HomeAboutDescStatsPin.vue';
+</script>
+
 <template>
     <div class="home-about-desc-stats">
+        <HomeAboutDescStatsPin/>
         <div class="home-about-desc-stats-main-ctn">
             <p id="home-about-desc-stats-client-xperience">
                 3+ Clients Projects
