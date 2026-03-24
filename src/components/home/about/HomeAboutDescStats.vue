@@ -2,8 +2,10 @@
 import {ref} from "vue";
 import BoxDefaultCtn from '@/components/BoxDefaultCtn.vue';
 
-const boxDefaultWidth=ref("40vh");
+const boxDefaultWidth=ref("100%");
+const boxDefaultHeight=ref("4vh");
 const boxDefaultBgColor=ref("var(--bg-color)");
+const boxDefaultBrRadius=ref("0 0 0 10vh");
 </script>
 
 <template>
