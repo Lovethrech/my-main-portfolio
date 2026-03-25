@@ -1,7 +1,7 @@
 <template>
     <div class="home-about-desc-stats-git">
         <a href="https://github.com/Lovethrech" target="_blank" rel="noopener noreferrer">
-            <i class="ri-github-line"></i>
+            Explore
         </a>
     </div>
 </template>
