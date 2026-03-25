@@ -57,6 +57,7 @@ const boxDefaultBrRadius=ref("10vh 0 0 0");
 
 @media screen and (max-width: 1024px){
     .home-about-desc-stats{
+        display: none;
     }
 }
 </style>

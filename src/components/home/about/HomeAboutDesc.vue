@@ -37,4 +37,10 @@ const btnDescLink=ref("/about");
 #author-name{
     font-size: 2.6vh;
 }
+
+@media screen and (max-width: 1024px){
+    .home-about-desc{
+        margin: 0 4vh;
+    }
+}
 </style>
