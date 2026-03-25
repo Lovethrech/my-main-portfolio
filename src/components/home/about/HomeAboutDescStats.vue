@@ -6,7 +6,7 @@ import BoxDefaultCtn from '@/components/BoxDefaultCtn.vue';
 const boxDefaultWidth=ref("100%");
 const boxDefaultHeight=ref("4vh");
 const boxDefaultBgColor=ref("var(--bg-color)");
-const boxDefaultBrRadius=ref("0 10vh 0 0");
+const boxDefaultBrRadius=ref("10vh 0 0 0");
 </script>
 
 <template>
@@ -25,13 +25,13 @@ const boxDefaultBrRadius=ref("0 10vh 0 0");
             </p>
         </div>
         <div class="home-about-desc-stats-git-box-default display-flex-direction-row-justify-space-between">
+            <HomeAboutDescStatsGit/>
             <BoxDefaultCtn 
                 :boxDefaultWidth="boxDefaultWidth" 
                 :boxDefaultHeight="boxDefaultHeight"
                 :boxDefaultBgColor="boxDefaultBgColor"
                 :boxDefaultBrRadius="boxDefaultBrRadius"
             />
-            <HomeAboutDescStatsGit/>
         </div>
         
     </div>

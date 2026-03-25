@@ -8,6 +8,7 @@
 
 <style scoped>
 .home-about-desc-stats-git{
+    color: #ffffff;
     font-size: 2vh;
 }
 </style>
