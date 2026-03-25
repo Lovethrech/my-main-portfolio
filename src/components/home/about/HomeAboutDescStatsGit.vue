@@ -10,6 +10,7 @@
 
 <style scoped>
 .home-about-desc-stats-git{
+    padding: 0 3vh;
     font-size: 2vh;
 }
 #home-about-desc-stats-git-name{
