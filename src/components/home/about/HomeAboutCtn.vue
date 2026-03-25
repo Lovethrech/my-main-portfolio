@@ -31,7 +31,7 @@ import HomeAboutDescStats from "./HomeAboutDescStats.vue";
         padding: 6vh 0;
     }
     .home-about-mini-ctn{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 }
 </style>
