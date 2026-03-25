@@ -40,7 +40,7 @@ const btnDescLink=ref("/about");
 
 @media screen and (max-width: 1024px){
     .home-about-desc{
-        margin: 0 4vh;
+        padding: 0 4vh;
     }
 }
 </style>
