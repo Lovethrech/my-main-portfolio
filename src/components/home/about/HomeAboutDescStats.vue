@@ -51,7 +51,13 @@ const boxDefaultBrRadius=ref("10vh 0 0 0");
 .home-about-desc-stats-main-ctn{
     margin: 2vh 0 0 3vh;
     gap: 4vh;
-    font-size: 3vh;
+    font-size: 2vh;
     letter-spacing: 1.2vh;
+}
+
+@media screen and (max-width: 1024px){
+    .home-about-desc-stats{
+        flex-direction: row;
+    }
 }
 </style>
