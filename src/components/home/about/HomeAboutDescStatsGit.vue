@@ -16,5 +16,7 @@
 #home-about-desc-stats-git-name{
     color: #ffffff;
     font-style: italic;
+    text-decoration: underline;
+    text-decoration-thickness: 0.3vh;
 }
 </style>
