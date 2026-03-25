@@ -20,9 +20,15 @@ import HomeAboutDescStats from "./HomeAboutDescStats.vue";
 <style scoped>
 .home-about-ctn{
     min-height:100vh;
-    padding: 3vh 0 3vh 8vh;
+    padding: 6vh 0 3vh 8vh;
 }
 .home-about-mini-ctn{
     gap:6vh;
+}
+
+@media screen and (max-width: 1024px){
+    .home-about-mini-ctn{
+        flex-direction: column;
+    }
 }
 </style>
