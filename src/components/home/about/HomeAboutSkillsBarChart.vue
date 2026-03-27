@@ -10,6 +10,6 @@
 
 <style scoped>
 .home-about-skills-bar-chart{
-    
+    padding: 3vh;
 }
 </style>
