@@ -1,8 +1,7 @@
 <template>
     <div class="home-about-skills-bar-chart">
         <div class="chart-title">
-            Projects 
-            Breakdown
+            Projects Breakdown
         </div>
     </div>
 </template>
