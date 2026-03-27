@@ -3,6 +3,10 @@
         <div class="chart-title">
             Projects Breakdown
         </div>
+
+        <div class="bars-wrapper">
+            
+        </div>
     </div>
 </template>
 
