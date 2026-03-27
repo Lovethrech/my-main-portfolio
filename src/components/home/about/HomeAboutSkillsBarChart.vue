@@ -2,7 +2,6 @@
     <div class="home-about-skills-bar-chart">
         <div class="chart-title">
             Projects 
-            <br/>
             Breakdown
         </div>
     </div>
@@ -12,4 +11,5 @@
 .home-about-skills-bar-chart{
     padding: 3vh;
 }
+
 </style>
