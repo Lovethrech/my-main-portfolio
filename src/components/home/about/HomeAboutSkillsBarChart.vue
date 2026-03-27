@@ -11,5 +11,7 @@
 .home-about-skills-bar-chart{
     padding: 3vh;
 }
-
+.chart-title{
+    text-align: center;
+}
 </style>
