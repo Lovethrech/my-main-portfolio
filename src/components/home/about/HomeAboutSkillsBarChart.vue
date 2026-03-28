@@ -7,6 +7,9 @@
         <div class="bars-wrapper">
             <div class="bar-item">
                 <div class="bar-label">
+                    Client Project
+                </div>
+                <div class="bar-outer">
                     
                 </div>
             </div>
