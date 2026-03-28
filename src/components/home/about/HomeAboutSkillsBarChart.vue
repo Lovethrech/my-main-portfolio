@@ -10,7 +10,9 @@
                     Client Project
                 </div>
                 <div class="bar-outer">
-                    
+                    <div class="bar-fill">
+                        
+                    </div>
                 </div>
             </div>
         </div>
