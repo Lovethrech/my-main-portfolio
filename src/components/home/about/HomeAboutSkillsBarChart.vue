@@ -5,7 +5,9 @@
         </div>
 
         <div class="bars-wrapper">
-            
+            <div class="bar-item">
+                
+            </div>
         </div>
     </div>
 </template>
