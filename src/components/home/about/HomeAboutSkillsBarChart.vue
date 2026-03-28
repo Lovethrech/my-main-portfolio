@@ -6,7 +6,9 @@
 
         <div class="bars-wrapper">
             <div class="bar-item">
-                
+                <div class="bar-label">
+                    
+                </div>
             </div>
         </div>
     </div>
