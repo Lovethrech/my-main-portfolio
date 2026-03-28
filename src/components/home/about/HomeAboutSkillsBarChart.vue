@@ -11,7 +11,9 @@
                 </div>
                 <div class="bar-outer">
                     <div class="bar-fill">
-                        
+                        <span class="bar-percentage">
+                            
+                        </span>
                     </div>
                 </div>
             </div>
