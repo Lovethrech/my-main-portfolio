@@ -6,19 +6,19 @@ const skills=ref([
         label: "Clients Project",
         percentage:30,
         color: "#4da6ff",
-        describtion:""
+        describtion:"Movie Producer portfolio website"
     },
     {
         label: "Personal Project",
         percentage:50,
         color: "#22c55e",
-        describtion:""
+        describtion:"Cafe website, NoteApp Website"
     },
     {
         label: "School Project",
         percentage:20,
         color: "#f97316",
-        describtion:""
+        describtion:"An Exam Schduling Webpage"
     }
 ])
 </script>
@@ -35,9 +35,9 @@ const skills=ref([
                     {{skill.label}}
                 </div>
                 <div class="bar-outer">
-                    <div class="bar-fill">
+                    <div class="bar-fill" :style="{width: skill-percentage + '%', backgroundColor: skill.color}">
                         <span class="bar-percentage">
-                            30%
+                            {{ skill.percentage }}%
                         </span>
                     </div>
                 </div>
