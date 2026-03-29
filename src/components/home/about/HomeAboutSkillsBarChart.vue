@@ -44,5 +44,8 @@
 }
 .chart-title{
     text-align: center;
+    font-size: 2.5vh;
+    margin-bottom: 2vh;
+    color: #ffffff;
 }
 </style>
