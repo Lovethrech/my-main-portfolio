@@ -1,3 +1,7 @@
+<script setup>
+
+</script>
+
 <template>
     <div class="home-about-skills-bar-chart">
         <div class="chart-title">
@@ -19,7 +23,7 @@
 
                 <!-- HOVER DESCRIPTION  -->
                 <div class="bar-description">
-                    Ths is the description 
+                    This is the description 
                 </div>
             </div>
         </div>
@@ -27,7 +31,8 @@
         <!-- LEGEND  -->
         <div class="legend">
             <div class="legend-item">
-                
+                <span class="legend-dot"></span>
+                <span>skill legend</span>
             </div>
         </div>
     </div>
