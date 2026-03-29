@@ -12,10 +12,22 @@
                 <div class="bar-outer">
                     <div class="bar-fill">
                         <span class="bar-percentage">
-                            
+                            30%
                         </span>
                     </div>
                 </div>
+
+                <!-- HOVER DESCRIPTION  -->
+                <div class="bar-description">
+                    Ths is the description 
+                </div>
+            </div>
+        </div>
+
+        <!-- LEGEND  -->
+        <div class="legend">
+            <div class="legend-item">
+                
             </div>
         </div>
     </div>
