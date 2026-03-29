@@ -95,9 +95,65 @@ const skills=ref([
 .bar-outer {
     height: 2vh;
     background: var(--bg-color);
-    border-radius: 9999px;
+    border-radius: 10vh;
     overflow: hidden;
     position: relative;
     box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.bar-fill {
+    height: 100%;
+    border-radius: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 2vh;
+    transition: width 1.2s ease, transform 0.3s ease;
+    position: relative;
+}
+.bar-fill:hover {
+    transform: scaleY(1.25);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+.bar-percentage {
+    font-size: 1.4vh;
+    font-weight: 700;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+.bar-description {
+    position: absolute;
+    bottom: -28px;
+    left: 180px;
+    font-size: 0.9rem;
+    color: var(--text-color);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}
+.bar-item:hover .bar-description {
+    opacity: 1;
+}
+
+/* Legend */
+.legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vh;
+    justify-content: center;
+    margin-top: 7vh;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 1vh;
+    font-size: 1.4vh;
+}
+
+.legend-dot {
+    display: inline-block;
+    width: 1vh;
+    height: 1vh;
+    border-radius: 50%;
 }
 </style>
