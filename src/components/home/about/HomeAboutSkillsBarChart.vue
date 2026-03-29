@@ -88,7 +88,7 @@ const skills=ref([
     display: grid;
     grid-template-columns: 15vh 1fr;
     align-items: center;
-    gap: 1rem;
+    gap: 1vh;
     position: relative;
 }
 .bar-label {
@@ -97,12 +97,15 @@ const skills=ref([
     overflow: hidden;
     text-overflow: ellipsis;
 }
+.bar-outer, 
+.bar-fill{
+    position: relative;
+}
 .bar-outer {
     height: 2vh;
     background: var(--bg-color);
     border-radius: 10vh;
     overflow: hidden;
-    position: relative;
     box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 .bar-fill {
@@ -112,7 +115,6 @@ const skills=ref([
     justify-content: flex-end;
     padding-right: 2vh;
     transition: width 1.2s ease, transform 0.3s ease;
-    position: relative;
 }
 .bar-fill:hover {
     transform: scaleY(1.25);
