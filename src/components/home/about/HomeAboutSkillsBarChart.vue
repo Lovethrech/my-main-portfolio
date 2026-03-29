@@ -89,10 +89,14 @@ const skills=ref([
 .bar-fill{
     position: relative;
 }
+.bar-item,
+.bar-fill,
+.legend-item{
+    align-items: center;
+}
 .bar-item {
     display: grid;
     grid-template-columns: 15vh 1fr;
-    align-items: center;
     gap: 1vh;
 }
 .bar-label {
@@ -111,7 +115,6 @@ const skills=ref([
 .bar-fill {
     height: 100%;
     border-radius: inherit;
-    align-items: center;
     justify-content: flex-end;
     padding-right: 2vh;
     transition: width 1.2s ease, transform 0.3s ease;
@@ -149,7 +152,6 @@ const skills=ref([
 }
 
 .legend-item {
-    align-items: center;
     gap: 1vh;
     font-size: 1.4vh;
 }
