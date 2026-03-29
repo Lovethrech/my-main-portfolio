@@ -35,7 +35,12 @@ const skills=ref([
                     {{skill.label}}
                 </div>
                 <div class="bar-outer">
-                    <div class="bar-fill" :style="{width: skill-percentage + '%', backgroundColor: skill.color}">
+                    <div 
+                        class="bar-fill" 
+                        :style="{
+                            width: skill.percentage + '%', 
+                            backgroundColor: skill.color
+                        }">
                         <span class="bar-percentage">
                             {{ skill.percentage }}%
                         </span>
