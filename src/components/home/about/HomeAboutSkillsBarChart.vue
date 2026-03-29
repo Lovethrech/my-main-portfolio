@@ -4,8 +4,23 @@ import {ref} from "vue";
 const skills=ref([
     {
         label: "Clients Project",
-
+        percentage:45,
+        color: "",
+        describtion:""
+    },
+    {
+        label: "Clients Project",
+        percentage:45,
+        color: "",
+        describtion:""
+    },
+    {
+        label: "Clients Project",
+        percentage:45,
+        color: "",
+        describtion:""
     }
+    
 ])
 </script>
 
