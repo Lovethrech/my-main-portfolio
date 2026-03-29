@@ -7,8 +7,12 @@ const btnDescLink=ref("/about");
 </script>
 
 <template>
-    <div class="home-about-desc-ctn">
-        <p class="home-about-desc">
+    <div 
+        class="home-about-desc-ctn"
+    >
+        <p 
+            class="home-about-desc"
+        >
             I am <b class="author-name bold-text">OLAONIPEKUN RACHAEL DOLAPO</b>, a passionate and determined aspiring Fullstack Developer based in Nigeria.  
             With a strong foundation in mathematics and numerical problem-solving, I discovered my love for building 
             digital solutions that solve real-world problems. What began as self-taught exploration has now evolved into 
