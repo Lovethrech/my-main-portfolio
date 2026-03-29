@@ -5,11 +5,17 @@ import HomeAboutDescStats from "./HomeAboutDescStats.vue";
 </script>
 
 <template>
-    <section class="home-about-ctn display-flex-justify-center-place-center">
-        <div class="home-about-main-ctn">
+    <section 
+        class="home-about-ctn display-flex-justify-center-place-center"
+    >
+        <div 
+            class="home-about-main-ctn"
+        >
             <HomeAboutTitle/>
             <br/>
-            <div class="home-about-mini-ctn display-flex-direction-row-justify-space-between">
+            <div 
+                class="home-about-mini-ctn display-flex-direction-row-justify-space-between"
+            >
                 <HomeAboutDesc/>
                 <HomeAboutDescStats/>
             </div>
