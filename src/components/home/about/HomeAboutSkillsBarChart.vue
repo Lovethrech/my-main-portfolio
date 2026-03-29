@@ -155,7 +155,6 @@ const skills=ref([
     gap: 1vh;
     font-size: 1.4vh;
 }
-
 .legend-dot {
     display: inline-block;
     width: 1vh;
