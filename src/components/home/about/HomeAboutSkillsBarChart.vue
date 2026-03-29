@@ -116,7 +116,7 @@ const skills=ref([
     height: 100%;
     border-radius: inherit;
     justify-content: flex-end;
-    padding-right: 2vh;
+    padding-right: 1vh;
     transition: width 1.2s ease, transform 0.3s ease;
 }
 .bar-fill:hover {
