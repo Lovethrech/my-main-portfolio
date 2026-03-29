@@ -84,22 +84,22 @@ const skills=ref([
     flex-direction: column;
     gap: 3vh;
 }
+.bar-item,
+.bar-outer, 
+.bar-fill{
+    position: relative;
+}
 .bar-item {
     display: grid;
     grid-template-columns: 15vh 1fr;
     align-items: center;
     gap: 1vh;
-    position: relative;
 }
 .bar-label {
     font-weight: 600;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-}
-.bar-outer, 
-.bar-fill{
-    position: relative;
 }
 .bar-outer {
     height: 2vh;
