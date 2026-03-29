@@ -20,7 +20,6 @@ const skills=ref([
         color: "#f97316",
         describtion:""
     }
-    
 ])
 </script>
 
@@ -31,9 +30,9 @@ const skills=ref([
         </div>
 
         <div class="bars-wrapper">
-            <div class="bar-item">
+            <div v-for="skill in skills" :key="skill.index" class="bar-item">
                 <div class="bar-label">
-                    Client Project
+                    {{skill.label}}
                 </div>
                 <div class="bar-outer">
                     <div class="bar-fill">
