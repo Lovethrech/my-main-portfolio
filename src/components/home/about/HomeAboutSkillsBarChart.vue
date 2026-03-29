@@ -29,7 +29,7 @@ const skills=ref([
             Projects Breakdown
         </div>
 
-        <div class="bars-wrapper">
+        <div class="bar-wrapper">
             <div v-for="skill in skills" :key="skill.index" class="bar-item">
                 <div class="bar-label">
                     {{skill.label}}
@@ -75,6 +75,15 @@ const skills=ref([
     color: #ffffff;
 }
 .bar-wrapper{
-    
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+.bar-item {
+    display: grid;
+    grid-template-columns: 15vh 1fr;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
 }
 </style>
