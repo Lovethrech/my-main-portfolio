@@ -6,19 +6,19 @@ const skills=ref([
         label: "Clients Project",
         percentage:30,
         color: "#4da6ff",
-        describtion:"Movie Producer portfolio website"
+        description:"Movie Producer portfolio website"
     },
     {
         label: "Personal Project",
         percentage:50,
         color: "#22c55e",
-        describtion:"Cafe website, NoteApp Website"
+        description:"Cafe website, NoteApp Website"
     },
     {
         label: "School Project",
         percentage:20,
         color: "#f97316",
-        describtion:"An Exam Schduling Webpage"
+        description:"An Exam Schduling Webpage"
     }
 ])
 </script>
@@ -44,7 +44,7 @@ const skills=ref([
 
                 <!-- HOVER DESCRIPTION  -->
                 <div class="bar-description">
-                    This is the description 
+                    {{ skill.description }}
                 </div>
             </div>
         </div>
