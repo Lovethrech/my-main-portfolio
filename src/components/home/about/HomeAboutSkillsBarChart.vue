@@ -4,20 +4,20 @@ import {ref} from "vue";
 const skills=ref([
     {
         label: "Clients Project",
-        percentage:45,
-        color: "",
+        percentage:30,
+        color: "#4da6ff",
         describtion:""
     },
     {
-        label: "Clients Project",
-        percentage:45,
-        color: "",
+        label: "Personal Project",
+        percentage:50,
+        color: "#22c55e",
         describtion:""
     },
     {
-        label: "Clients Project",
-        percentage:45,
-        color: "",
+        label: "School Project",
+        percentage:20,
+        color: "#f97316",
         describtion:""
     }
     
