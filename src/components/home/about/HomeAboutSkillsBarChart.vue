@@ -86,4 +86,18 @@ const skills=ref([
     gap: 1rem;
     position: relative;
 }
+.bar-label {
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.bar-outer {
+    height: 2vh;
+    background: var(--bg-color);
+    border-radius: 9999px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 </style>
