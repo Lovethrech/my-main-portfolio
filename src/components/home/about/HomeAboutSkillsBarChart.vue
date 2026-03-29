@@ -56,9 +56,9 @@ const skills=ref([
 
         <!-- LEGEND  -->
         <div class="legend">
-            <div class="legend-item">
-                <span class="legend-dot"></span>
-                <span>skill legend</span>
+            <div v-for="skill in skills" :key="skill.index" class="legend-item">
+                <span class="legend-dot" :style="{backgroundColor:skill.color}"></span>
+                <span>{{skill.label}}</span>
             </div>
         </div>
     </div>
@@ -73,5 +73,8 @@ const skills=ref([
     font-size: 2.5vh;
     margin-bottom: 2vh;
     color: #ffffff;
+}
+.bar-wrapper{
+    
 }
 </style>
