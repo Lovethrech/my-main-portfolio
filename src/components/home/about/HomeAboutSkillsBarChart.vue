@@ -1,7 +1,12 @@
 <script setup>
 import {ref} from "vue";
 
+const skills=ref([
+    {
+        label: "Clients Project",
 
+    }
+])
 </script>
 
 <template>
