@@ -12,30 +12,7 @@ import HomeAboutSkillsBarChart from './HomeAboutSkillsBarChart.vue';
 
 <template>
     <div class="home-about-desc-stats">
-        <HomeAboutSkillsBarChart/>
-        <!-- <div class="home-about-desc-stats-main-ctn">
-            <p id="home-about-desc-stats-client-xperience">
-                3+ Clients Projects
-            </p>
-            <hr/>
-            <p id="home-about-desc-stats-personal-xperience">
-                10+ Personal Projects
-            </p>
-            <hr/>
-            <p id="home-about-desc-stats-ongoing-pro">
-                4+ Ongoing Projects
-            </p>
-        </div>
-        <div class="home-about-desc-stats-git-box-default display-flex-direction-row-justify-space-between">
-            <HomeAboutDescStatsGit/>
-            <BoxDefaultCtn 
-                :boxDefaultWidth="boxDefaultWidth" 
-                :boxDefaultHeight="boxDefaultHeight"
-                :boxDefaultBgColor="boxDefaultBgColor"
-                :boxDefaultBrRadius="boxDefaultBrRadius"
-            />
-        </div> -->
-        
+        <HomeAboutSkillsBarChart/>        
     </div>
 </template>
 
