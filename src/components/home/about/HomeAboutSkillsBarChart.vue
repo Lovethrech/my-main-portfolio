@@ -74,8 +74,13 @@ const skills=ref([
     margin-bottom: 2vh;
     color: #ffffff;
 }
-.bar-wrapper{
+.bar-wrapper,
+.bar-fill,
+.legend,
+.legend-item{
     display: flex;
+}
+.bar-wrapper{
     flex-direction: column;
     gap: 3vh;
 }
@@ -103,7 +108,6 @@ const skills=ref([
 .bar-fill {
     height: 100%;
     border-radius: inherit;
-    display: flex;
     align-items: center;
     justify-content: flex-end;
     padding-right: 2vh;
@@ -136,7 +140,6 @@ const skills=ref([
 
 /* Legend */
 .legend {
-    display: flex;
     flex-wrap: wrap;
     gap: 2vh;
     justify-content: center;
@@ -144,7 +147,6 @@ const skills=ref([
 }
 
 .legend-item {
-    display: flex;
     align-items: center;
     gap: 1vh;
     font-size: 1.4vh;
