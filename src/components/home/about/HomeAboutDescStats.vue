@@ -28,8 +28,8 @@ import HomeAboutSkillsBarChart from './HomeAboutSkillsBarChart.vue';
 
 @media screen and (max-width: 1024px){
     .home-about-desc-stats{
-        margin-left: 4vh;
-        width:93%;
+        margin-left: 6vw;
+        width:93.5%;
     }
 }
 </style>
