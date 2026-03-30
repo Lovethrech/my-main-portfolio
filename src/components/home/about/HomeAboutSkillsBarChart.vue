@@ -149,20 +149,6 @@ const skills=ref([
     color: white;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
-.bar-description {
-    position: absolute;
-    bottom: -28px;
-    left: 180px;
-    font-size: 0.9rem;
-    color: var(--text-color);
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    pointer-events: none;
-}
-.bar-item:hover .bar-description {
-    opacity: 1;
-}
-
 /* Legend */
 .legend {
     flex-wrap: wrap;
