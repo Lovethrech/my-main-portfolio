@@ -1,4 +1,5 @@
 <script setup>
+import HomeProjectBoxDescItems from "@/data/home-project-box-desc.json;"
 import HomeProjectBox from './HomeProjectBox.vue';
 </script>
 
