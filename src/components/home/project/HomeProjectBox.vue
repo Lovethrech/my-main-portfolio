@@ -74,5 +74,6 @@ const {homeProjectBoxDescItems}=defineProps(['homeProjectBoxDescItems']);
 }
 .home-project-box-project-desc{
     color: #ffffff;
+    margin:1vh 1vh 4vh;
 }
 </style>
