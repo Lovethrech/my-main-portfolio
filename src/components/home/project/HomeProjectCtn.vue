@@ -10,6 +10,7 @@ import HomeProjectTitle from './HomeProjectTitle.vue';
 
 <style scoped>
 .home-project-ctn{
+    background-color: var(--general-components-bg-color);
     min-height: 100vh;
     padding: 4vh var(--desktop-left-right-space);
 }
