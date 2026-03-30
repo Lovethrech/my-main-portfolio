@@ -7,7 +7,7 @@
   --text-color: #000000;
   --border-color: #e0e0e0;
   --p-font-size:2vh;
-  --desktop-left-right-space: 6vh;
+  --desktop-left-right-space: 8vh;
   --mobile-left-right-space: 4vw;
 }
 html.dark{

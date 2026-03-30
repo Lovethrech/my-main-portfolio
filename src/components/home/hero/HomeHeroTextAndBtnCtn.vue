@@ -10,12 +10,12 @@ import HeroTextCtn from './HomeHeroTextCtn.vue';
 
 <style scoped>
 .hero-text-and-btn-ctn{
-    margin: 8vh 0 0 8vh;
+    margin: var(--desktop-left-right-space) 0 0 var(--desktop-left-right-space);
 }
 
 @media screen and (max-width: 1024px) {
     .hero-text-and-btn-ctn{
-        margin: 4vh;
+        margin: var(--mobile-left-right-space);
     }
 }
 </style>
