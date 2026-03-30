@@ -13,8 +13,8 @@
     },
     {
         "id":3,
-        "legendName":"",
-        "imgSrc":"",
-        "legendColor":""
+        "legendName":"school",
+        "imgSrc":"/Expirio.jpeg",
+        "legendColor":"#f97316"
     }
 ]
