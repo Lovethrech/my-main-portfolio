@@ -2,10 +2,12 @@
     <div 
         class="header-logo"
     >
-        <img 
-            src="/public/ChelModernLogo.svg" 
-            alt="Chel Modern Logo"
-        />
+        <RouterLink to="/">
+            <img 
+                src="/public/ChelModernLogo.svg" 
+                alt="Chel Modern Logo"
+            />
+        </RouterLink>
     </div>
 </template>
 

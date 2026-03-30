@@ -3,7 +3,7 @@ import HomeProjectTitle from './HomeProjectTitle.vue';
 </script>
 
 <template>
-    <section class="home-project-ctn">
+    <section class="home-project-ctn display-flex-justify-center-place-center">
         <HomeProjectTitle/>
     </section>
 </template>
