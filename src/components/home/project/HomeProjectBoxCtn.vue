@@ -1,5 +1,5 @@
 <script setup>
-import HomeProjectBoxDescItems from "@/data/home-project-box-desc.json;"
+import homeProjectBoxDescItems from "@/data/home-project-box-desc.json;"
 import HomeProjectBox from './HomeProjectBox.vue';
 </script>
 
@@ -7,7 +7,7 @@ import HomeProjectBox from './HomeProjectBox.vue';
     <div class="home-project-box-ctn">
         <div class="home-project-box-main-ctn">
             <HomeProjectBox
-                :HomeProjectBoxDescItems="HomeProjectBoxDescItems"
+                :homeProjectBoxDescItems="homeProjectBoxDescItems"
             />
         </div>
     </div>

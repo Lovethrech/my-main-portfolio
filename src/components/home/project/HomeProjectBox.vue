@@ -1,10 +1,11 @@
 <script setup>
 import { defineProps } from 'vue';
 
+const {homeProjectBoxDescItems}=defineProps(['homeProjectBoxDescItems']);
 </script>
 
 <template>
-    <div class="home-project-box">
+    <div class="home-project-box" v-for="HomeProjectBoxDescItem in homeProjectBoxDescItems" :key="HomeProjectBoxDescItem.id">
         <div class="home-project-box-desc-ctn">
             <div class="home-project-box-desc-main-ctn">
                 <span 
@@ -12,7 +13,7 @@ import { defineProps } from 'vue';
                 >
                 </span>
                 <span>
-                    Client
+                    {{ HomeProjectBoxDescItem.legendName }}
                 </span>
             </div>
         </div>
