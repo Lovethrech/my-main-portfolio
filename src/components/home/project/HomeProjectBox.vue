@@ -32,10 +32,11 @@ const {homeProjectBoxDescItems}=defineProps(['homeProjectBoxDescItems']);
     justify-content: end;
 }
 .home-project-box{
-    background-size: contain;
+    background-size: cover;
     width:30vw;
-    height: 30vh;
+    height: 50vh;
     flex-direction: column;
+    flex-wrap: nowrap;
     padding: 1vh;
 }
 .home-project-box-desc-main-ctn{
