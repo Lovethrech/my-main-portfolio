@@ -11,19 +11,30 @@ const {homeProjectBoxDescItems}=defineProps(['homeProjectBoxDescItems']);
         :key="homeProjectBoxDescItem.id"
         
     >
-        <img :src="homeProjectBoxDescItem.imgSrc" alt="" class="home-project-box-img">
-        <div class="home-project-box-desc-ctn">
-            <div class="home-project-box-desc-main-ctn">
+        <img 
+            :src="homeProjectBoxDescItem.imgSrc" 
+            :alt="homeProjectBoxDescItem.imgAlt" 
+            class="home-project-box-img"
+        />
+        <div 
+            class="home-project-box-desc-ctn"
+        >
+            <div 
+                class="home-project-box-desc-main-ctn"
+            >
                 <span 
                     class="home-project-box-legend-dot"
                     :style="{backgroundColor: homeProjectBoxDescItem.legendColor}"
                 >
                 </span>
-                <span class="home-project-box-legend-name">
+                <span 
+                    class="home-project-box-legend-name"
+                >
                     {{ homeProjectBoxDescItem.legendName }}
                 </span>
             </div>
         </div>
+
     </div>
 </template>
 
@@ -45,6 +56,7 @@ const {homeProjectBoxDescItems}=defineProps(['homeProjectBoxDescItems']);
     background-color: var(--bg-color);
     padding: 0.5vh 2vh;
     border-top-left-radius: var(--border-radius);
+    border-bottom-left-radius: var(--border-radius);
 }
 .home-project-box-legend-dot {
     display: inline-block;
