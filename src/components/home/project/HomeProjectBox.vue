@@ -13,7 +13,7 @@ const {homeProjectBoxDescItems}=defineProps(['homeProjectBoxDescItems']);
                 >
                 </span>
                 <span>
-                    {{ HomeProjectBoxDescItem.legendName }}
+                    {{ homeProjectBoxDescItem.legendName }}
                 </span>
             </div>
         </div>
