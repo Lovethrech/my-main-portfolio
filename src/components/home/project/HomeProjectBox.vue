@@ -57,6 +57,9 @@ const {homeProjectBoxDescItems}=defineProps(['homeProjectBoxDescItems']);
     flex-wrap: nowrap;
     border: 0.1vh groove #B99A45;
 }
+.home-project-box:nth-child(2){
+    transform: scaleY(1.09);
+}
 .home-project-box-img{
     margin: 1vh 1vh 0;
 }
