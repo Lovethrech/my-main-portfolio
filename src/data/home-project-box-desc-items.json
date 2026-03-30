@@ -5,7 +5,7 @@
         "imgSrc":"/public/Chel-Cafe.jpeg",
         "imgAlt":"Chel Cafe Landing Page Image",
         "legendColor":"#22c55e",
-        "status":"Ongoing",
+        "projectStatus":"Ongoing",
         "projectDesc":""
     },
     {
@@ -14,7 +14,7 @@
         "imgSrc":"/Expirio.jpeg",
         "imgAlt":"Expirio Landing Page Image",
         "legendColor":"#f97316",
-        "status":"Completed",
+        "projectStatus":"Completed",
         "projectDesc":""
     },
     {
@@ -23,7 +23,7 @@
         "imgSrc":"/Adeniyi-Portfolio-Desktop.jpeg",
         "imgAlt":"Adeniyi Portfolio Landing Page Image",
         "legendColor":"#4da6ff",
-        "status":"Completed",
+        "projectStatus":"Completed",
         "projectDesc":""
     }
     

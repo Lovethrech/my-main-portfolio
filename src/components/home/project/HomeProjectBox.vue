@@ -34,7 +34,14 @@ const {homeProjectBoxDescItems}=defineProps(['homeProjectBoxDescItems']);
                 </span>
             </div>
         </div>
-
+        <div class="home-project-box-project-desc">
+            <p class="home-project-box-project-desc-status">
+                Status: {{ homeProjectBoxDescItem.projectStatus }}
+            </p>
+            <p class="home-project-box-project-desc-details">
+                Details: {{ homeProjectBoxDescItem.projectDesc }}
+            </p>
+        </div>
     </div>
 </template>
 
