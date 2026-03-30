@@ -1,7 +1,7 @@
 [
     {
         "id":1,
-        "legendName":"personal",
+        "legendName":"Personal",
         "imgSrc":"/public/Chel-Cafe.jpeg",
         "imgAlt":"Chel Cafe Landing Page Image",
         "legendColor":"#22c55e",
@@ -10,7 +10,7 @@
     },
     {
         "id":2,
-        "legendName":"school",
+        "legendName":"School",
         "imgSrc":"/Expirio.jpeg",
         "imgAlt":"Expirio Landing Page Image",
         "legendColor":"#f97316",
@@ -19,7 +19,7 @@
     },
     {
         "id":3,
-        "legendName":"client",
+        "legendName":"Client",
         "imgSrc":"/Adeniyi-Portfolio-Desktop.jpeg",
         "imgAlt":"Adeniyi Portfolio Landing Page Image",
         "legendColor":"#4da6ff",
