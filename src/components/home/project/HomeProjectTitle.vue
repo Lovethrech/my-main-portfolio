@@ -15,4 +15,11 @@
     padding: 1vh 5vh;
     border-radius: var(--border-radius);
 }
+
+@media screen and (max-width:1024px) {
+    .home-project-title{
+        font-size: 3vh;
+        padding: 1vh 3vh;
+    }
+}
 </style>
