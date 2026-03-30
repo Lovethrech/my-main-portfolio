@@ -51,10 +51,11 @@ const {homeProjectBoxDescItems}=defineProps(['homeProjectBoxDescItems']);
     justify-content: end;
 }
 .home-project-box{
+    background-color: #0a4134;;
     width:30vw;
     flex-direction: column;
     flex-wrap: nowrap;
-    border: 0.1vh groove var(--bg-color);
+    border: 0.1vh groove #B99A45;
 }
 .home-project-box-img{
     margin: 1vh 1vh 0;
