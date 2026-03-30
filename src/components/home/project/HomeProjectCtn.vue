@@ -7,3 +7,9 @@ import HomeProjectTitle from './HomeProjectTitle.vue';
         <HomeProjectTitle/>
     </section>
 </template>
+
+<style scoped>
+.home-project-ctn{
+    min-height: 100vh;
+}
+</style>
