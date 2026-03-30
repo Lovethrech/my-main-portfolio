@@ -18,7 +18,7 @@ const {homeProjectBoxDescItems}=defineProps(['homeProjectBoxDescItems']);
                     :style="{backgroundColor: homeProjectBoxDescItem.legendColor}"
                 >
                 </span>
-                <span>
+                <span class="home-project-box-legend-name">
                     {{ homeProjectBoxDescItem.legendName }}
                 </span>
             </div>
@@ -32,7 +32,7 @@ const {homeProjectBoxDescItems}=defineProps(['homeProjectBoxDescItems']);
     justify-content: end;
 }
 .home-project-box{
-    background-size: cover;
+    background-size: contain;
     width:30vw;
     height: 30vh;
     flex-direction: column;
@@ -42,12 +42,15 @@ const {homeProjectBoxDescItems}=defineProps(['homeProjectBoxDescItems']);
     background-color: var(--bg-color);
     padding: 0.5vh 2vh;
     border-radius: var(--border-radius);
-    gap:20vh;
 }
 .home-project-box-legend-dot {
     display: inline-block;
+    margin-right:1vh;
     width: 1vh;
     height: 1vh;
     border-radius: 50%;
+}
+.home-project-box-legend-name{
+    text-transform: capitalize;
 }
 </style>
