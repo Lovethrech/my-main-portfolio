@@ -5,20 +5,17 @@ const skills=ref([
     {
         label: "Clients Project",
         percentage:30,
-        color: "#4da6ff",
-        description:"Movie Producer portfolio website"
+        color: "#4da6ff"
     },
     {
         label: "Personal Project",
         percentage:50,
-        color: "#22c55e",
-        description:"Cafe website, NoteApp Website"
+        color: "#22c55e"
     },
     {
         label: "School Project",
         percentage:20,
-        color: "#f97316",
-        description:"An Exam Schduling Webpage"
+        color: "#f97316"
     }
 ])
 </script>
@@ -61,13 +58,6 @@ const skills=ref([
                             {{ skill.percentage }}%
                         </span>
                     </div>
-                </div>
-
-                <!-- HOVER DESCRIPTION  -->
-                <div 
-                    class="bar-description"
-                >
-                    {{ skill.description }}
                 </div>
             </div>
         </div>
