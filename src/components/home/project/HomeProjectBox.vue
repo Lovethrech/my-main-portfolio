@@ -1,5 +1,4 @@
 <script setup>
-import { url } from 'inspector';
 import { defineProps } from 'vue';
 
 const {homeProjectBoxDescItems}=defineProps(['homeProjectBoxDescItems']);
