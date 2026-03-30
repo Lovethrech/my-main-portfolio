@@ -4,9 +4,9 @@
 
 <style scoped>
 .home-project-box{
-    background: url("/public/Adeniyi-Portfolio-Desktop.jpeg") no-repeat;
+    background: url("/public/Chel-Cafe.jpeg") no-repeat;
     background-size: contain;
-    width:30vh;
-    height: 30vh;
+    width:30vw;
+    height: 50vh;
 }
 </style>
