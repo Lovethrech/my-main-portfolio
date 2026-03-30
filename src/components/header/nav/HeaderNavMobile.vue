@@ -15,6 +15,14 @@ const displayDropdown=()=>{
         menuIconName.value="<i class='ri-menu-4-line'></i>";
     }
 }
+const fadeMenuDropdown=()=>{
+    if(overlayState.value==="flex"){
+        overlayState.value="none";
+    }
+    else{
+        overlayState.value="flex";
+    }
+}
 </script>
 
 <template>
@@ -46,6 +54,7 @@ const displayDropdown=()=>{
                     v-for="navBarItem in navBarItems" 
                     :key="navBarItem.id" 
                     :to="navBarItem.link" 
+                    @click="fadeMenuDropdown"
                     class="link"
                 >
                     <p 
