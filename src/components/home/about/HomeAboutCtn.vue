@@ -34,7 +34,7 @@ import HomeAboutDescStats from "./HomeAboutDescStats.vue";
 
 @media screen and (max-width: 1024px){
     .home-about-ctn{
-        padding: 6vh 0;
+        padding: 10vh 0;
     }
     .home-about-mini-ctn{
         flex-direction: column-reverse;
