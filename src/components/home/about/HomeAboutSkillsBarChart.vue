@@ -24,41 +24,71 @@ const skills=ref([
 </script>
 
 <template>
-    <div class="home-about-skills-bar-chart">
-        <div class="chart-title">
+    <div 
+        class="home-about-skills-bar-chart"
+    >
+        <div 
+            class="chart-title"
+        >
             Projects Breakdown
         </div>
 
-        <div class="bar-wrapper">
-            <div v-for="skill in skills" :key="skill.index" class="bar-item">
-                <div class="bar-label">
+        <div 
+            class="bar-wrapper"
+        >
+            <div 
+                v-for="skill in skills" 
+                :key="skill.index" 
+                class="bar-item"
+            >
+                <div 
+                    class="bar-label"
+                >
                     {{skill.label}}
                 </div>
-                <div class="bar-outer">
+                <div 
+                    class="bar-outer"
+                >
                     <div 
                         class="bar-fill" 
                         :style="{
                             width: skill.percentage + '%', 
                             backgroundColor: skill.color
                         }">
-                        <span class="bar-percentage">
+                        <span 
+                            class="bar-percentage"
+                        >
                             {{ skill.percentage }}%
                         </span>
                     </div>
                 </div>
 
                 <!-- HOVER DESCRIPTION  -->
-                <div class="bar-description">
+                <div 
+                    class="bar-description"
+                >
                     {{ skill.description }}
                 </div>
             </div>
         </div>
 
         <!-- LEGEND  -->
-        <div class="legend">
-            <div v-for="skill in skills" :key="skill.index" class="legend-item">
-                <span class="legend-dot" :style="{backgroundColor:skill.color}"></span>
-                <span>{{skill.label}}</span>
+        <div 
+            class="legend"
+        >
+            <div 
+                v-for="skill in skills" 
+                :key="skill.index" 
+                class="legend-item"
+            >
+                <span 
+                    class="legend-dot" 
+                    :style="{backgroundColor:skill.color}"
+                >
+                </span>
+                <span>
+                    {{skill.label}}
+                </span>
             </div>
         </div>
     </div>

@@ -3,7 +3,9 @@ import HomeAboutSkillsBarChart from './HomeAboutSkillsBarChart.vue';
 </script>
 
 <template>
-    <div class="home-about-desc-stats">
+    <div 
+        class="home-about-desc-stats"
+    >
         <HomeAboutSkillsBarChart/>        
     </div>
 </template>
