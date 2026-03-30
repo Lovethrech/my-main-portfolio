@@ -1,7 +1,11 @@
+<script setup>
+import HomeProjectBox from './HomeProjectBox.vue';
+</script>
+
 <template>
     <div class="home-project-box-ctn">
         <div class="home-project-box-main-ctn">
-            
+            <HomeProjectBox/>
         </div>
     </div>
 </template>
