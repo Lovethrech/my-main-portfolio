@@ -15,21 +15,18 @@
 </template>
 
 <style scoped>
+.home-project-box, .home-project-box-desc-ctn{
+    display: flex;
+    justify-content: end;
+}
 .home-project-box{
     background: url("/public/Chel-Cafe.jpeg") no-repeat;
     background-size: cover;
     width:30vw;
     height: 30vh;
-    display: flex;
     flex-direction: column;
-    justify-content: end;
     text-align: right;
     padding: 1vh;
-}
-.home-project-box-desc-ctn{
-    background-color: red;
-    display: flex;
-    justify-content: end;
 }
 .home-project-box-desc-main-ctn{
     background-color: var(--bg-color);
