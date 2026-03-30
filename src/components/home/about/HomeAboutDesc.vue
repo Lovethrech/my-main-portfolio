@@ -44,7 +44,7 @@ const btnDescLink=ref("/about");
 
 @media screen and (max-width: 1024px){
     .home-about-desc{
-        padding: 0 4vh;
+        padding: 0 var(--mobile-left-right-space);
     }
 }
 </style>

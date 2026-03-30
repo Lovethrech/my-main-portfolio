@@ -26,7 +26,7 @@ import HomeAboutDescStats from "./HomeAboutDescStats.vue";
 <style scoped>
 .home-about-ctn{
     min-height:100vh;
-    padding: 6vh 0 3vh 8vh;
+    padding: 6vh 0 3vh var(--desktop-left-right-space);
 }
 .home-about-mini-ctn{
     gap:6vh;
