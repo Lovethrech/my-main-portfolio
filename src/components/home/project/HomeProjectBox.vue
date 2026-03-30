@@ -10,7 +10,7 @@ const {homeProjectBoxDescItems}=defineProps(['homeProjectBoxDescItems']);
         class="home-project-box" 
         v-for="homeProjectBoxDescItem in homeProjectBoxDescItems" 
         :key="homeProjectBoxDescItem.id"
-        :style="{background: url( + homeProjectBoxDescItem.imgSrc +)}"
+        :style="{background: homeProjectBoxDescItem.imgSrc}"
     >
         <div class="home-project-box-desc-ctn">
             <div class="home-project-box-desc-main-ctn">
