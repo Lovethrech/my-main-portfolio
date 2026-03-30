@@ -1,3 +1,8 @@
+<script setup>
+import { defineProps } from 'vue';
+
+</script>
+
 <template>
     <div class="home-project-box">
         <div class="home-project-box-desc-ctn">

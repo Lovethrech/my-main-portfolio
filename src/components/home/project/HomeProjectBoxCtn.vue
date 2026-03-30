@@ -6,7 +6,9 @@ import HomeProjectBox from './HomeProjectBox.vue';
 <template>
     <div class="home-project-box-ctn">
         <div class="home-project-box-main-ctn">
-            <HomeProjectBox/>
+            <HomeProjectBox
+                :HomeProjectBoxDescItems="HomeProjectBoxDescItems"
+            />
         </div>
     </div>
 </template>
