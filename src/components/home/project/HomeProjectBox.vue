@@ -72,4 +72,7 @@ const {homeProjectBoxDescItems}=defineProps(['homeProjectBoxDescItems']);
     height: 1vh;
     border-radius: 50%;
 }
+.home-project-box-project-desc{
+    color: #ffffff;
+}
 </style>
