@@ -9,20 +9,23 @@ const {homeProjectBoxDescItems}=defineProps(['homeProjectBoxDescItems']);
         class="home-project-box" 
         v-for="homeProjectBoxDescItem in homeProjectBoxDescItems" 
         :key="homeProjectBoxDescItem.id"
-        :style="{background: homeProjectBoxDescItem.imgSrc}"
+        
     >
-        <div class="home-project-box-desc-ctn">
-            <div class="home-project-box-desc-main-ctn">
-                <span 
-                    class="home-project-box-legend-dot"
-                    :style="{backgroundColor: homeProjectBoxDescItem.legendColor}"
-                >
-                </span>
-                <span class="home-project-box-legend-name">
-                    {{ homeProjectBoxDescItem.legendName }}
-                </span>
-            </div>
+        <img :src="homeProjectBoxDescItem.imgSrc" alt="">
+        <div class="home-project-box-desc-main-ctn">
+            <span 
+                class="home-project-box-legend-dot"
+                :style="{backgroundColor: homeProjectBoxDescItem.legendColor}"
+            >
+            </span>
+            <span class="home-project-box-legend-name">
+                {{ homeProjectBoxDescItem.legendName }}
+            </span>
         </div>
+        <!-- :style="{background: homeProjectBoxDescItem.imgSrc}"
+        <div class="home-project-box-desc-ctn">
+            <
+        </div> -->
     </div>
 </template>
 
@@ -32,12 +35,11 @@ const {homeProjectBoxDescItems}=defineProps(['homeProjectBoxDescItems']);
     justify-content: end;
 }
 .home-project-box{
-    background-size: cover;
+    background-color: orange;
     width:30vw;
-    height: 50vh;
     flex-direction: column;
+    gap:2vh;
     flex-wrap: nowrap;
-    padding: 1vh;
 }
 .home-project-box-desc-main-ctn{
     background-color: var(--bg-color);
