@@ -1,11 +1,17 @@
 <script setup>
+import { url } from 'inspector';
 import { defineProps } from 'vue';
 
 const {homeProjectBoxDescItems}=defineProps(['homeProjectBoxDescItems']);
 </script>
 
 <template>
-    <div class="home-project-box" v-for="HomeProjectBoxDescItem in homeProjectBoxDescItems" :key="HomeProjectBoxDescItem.id">
+    <div 
+        class="home-project-box" 
+        v-for="homeProjectBoxDescItem in homeProjectBoxDescItems" 
+        :key="homeProjectBoxDescItem.id"
+        :style="{background: url( + homeProjectBoxDescItem.imgSrc +)}"
+    >
         <div class="home-project-box-desc-ctn">
             <div class="home-project-box-desc-main-ctn">
                 <span 
@@ -26,7 +32,6 @@ const {homeProjectBoxDescItems}=defineProps(['homeProjectBoxDescItems']);
     justify-content: end;
 }
 .home-project-box{
-    background: url("/public/Chel-Cafe.jpeg") no-repeat;
     background-size: cover;
     width:30vw;
     height: 30vh;
