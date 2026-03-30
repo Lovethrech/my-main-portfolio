@@ -7,14 +7,15 @@
     },
     {
         "id":2,
-        "legendName":"client",
-        "imgSrc":"/Adeniyi-Portfolio-Desktop.jpeg",
-        "legendColor":"#4da6ff"
-    },
-    {
-        "id":3,
         "legendName":"school",
         "imgSrc":"/Expirio.jpeg",
         "legendColor":"#f97316"
+    },
+    {
+        "id":3,
+        "legendName":"client",
+        "imgSrc":"/Adeniyi-Portfolio-Desktop.jpeg",
+        "legendColor":"#4da6ff"
     }
+    
 ]
