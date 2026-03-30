@@ -25,7 +25,7 @@ import HeaderNavMobile from "./HeaderNavMobile.vue";
 .nav-ctn{
     background-color: var(--general-components-bg-color);
     border-radius: var(--round-border-radius);
-    padding:0 6vh;
+    padding:0 var(--desktop-left-right-space);
     border: 0.6vh solid var(--bg-color);
 }
 
