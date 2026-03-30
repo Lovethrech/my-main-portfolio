@@ -3,7 +3,7 @@
         <div class="home-project-box-desc-ctn">
             <div class="home-project-box-desc-main-ctn">
                 <span 
-                    class="legend-dot"
+                    class="home-project-box-legend-dot"
                 >
                 </span>
                 <span>
@@ -33,7 +33,7 @@
     padding: 0.5vh 2vh;
     border-radius: var(--border-radius);
 }
-.legend-dot {
+.home-project-box-legend-dot {
     background-color: orange;
     display: inline-block;
     width: 1vh;
