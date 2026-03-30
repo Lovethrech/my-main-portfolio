@@ -12,6 +12,7 @@ import HomeProjectBoxCtn from './HomeProjectBoxCtn.vue';
 
 <style scoped>
 .home-project-ctn{
+    flex-direction: column;
     background-color: var(--general-components-bg-color);
     min-height: 100vh;
     padding: 4vh var(--desktop-left-right-space);
