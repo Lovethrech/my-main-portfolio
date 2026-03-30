@@ -25,7 +25,6 @@
     width:30vw;
     height: 30vh;
     flex-direction: column;
-    text-align: right;
     padding: 1vh;
 }
 .home-project-box-desc-main-ctn{
