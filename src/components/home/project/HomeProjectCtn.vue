@@ -11,5 +11,6 @@ import HomeProjectTitle from './HomeProjectTitle.vue';
 <style scoped>
 .home-project-ctn{
     min-height: 100vh;
+    padding: 4vh var(--desktop-left-right-space);
 }
 </style>
