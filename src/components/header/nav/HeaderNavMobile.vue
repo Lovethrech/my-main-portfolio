@@ -18,9 +18,7 @@ const displayDropdown=()=>{
 const fadeMenuDropdown=()=>{
     if(overlayState.value==="flex"){
         overlayState.value="none";
-    }
-    else{
-        overlayState.value="flex";
+        menuIconName.value="<i class='ri-menu-4-line'></i>";
     }
 }
 </script>
