@@ -19,6 +19,10 @@
     width:30vw;
     height: 50vh;
 }
+.home-project-box-desc-ctn{
+    background-color: var(--bg-color);
+    width: 20%;
+}
 .legend-dot {
     background-color: orange;
     display: inline-block;
