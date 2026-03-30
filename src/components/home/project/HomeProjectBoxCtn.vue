@@ -9,3 +9,9 @@ import HomeProjectBox from './HomeProjectBox.vue';
         </div>
     </div>
 </template>
+
+<style scoped>
+.home-project-box-ctn{
+    padding: 4vh 0;
+}
+</style>

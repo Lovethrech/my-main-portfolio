@@ -6,7 +6,6 @@ import HomeProjectBoxCtn from './HomeProjectBoxCtn.vue';
 <template>
     <section class="home-project-ctn display-flex-justify-center-place-center">
         <HomeProjectTitle/>
-        <br/>
         <HomeProjectBoxCtn/>
     </section>
 </template>
