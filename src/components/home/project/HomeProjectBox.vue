@@ -15,6 +15,7 @@ const {homeProjectBoxDescItems}=defineProps(['homeProjectBoxDescItems']);
             <div class="home-project-box-desc-main-ctn">
                 <span 
                     class="home-project-box-legend-dot"
+                    :style="{backgroundColor: homeProjectBoxDescItem.legendColor}"
                 >
                 </span>
                 <span>
@@ -41,9 +42,9 @@ const {homeProjectBoxDescItems}=defineProps(['homeProjectBoxDescItems']);
     background-color: var(--bg-color);
     padding: 0.5vh 2vh;
     border-radius: var(--border-radius);
+    gap:20vh;
 }
 .home-project-box-legend-dot {
-    background-color: orange;
     display: inline-block;
     width: 1vh;
     height: 1vh;

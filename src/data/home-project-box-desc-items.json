@@ -2,19 +2,19 @@
     {
         "id":1,
         "legendName":"personal",
-        "imgSrc":"url('/public/Chel-Cafe.jpeg') no-repeat",
+        "imgSrc":"url('/public/Chel-Cafe.jpeg') center/auto no-repeat",
         "legendColor":"#22c55e"
     },
     {
         "id":2,
         "legendName":"client",
-        "imgSrc":" url('/Adeniyi-Portfolio-Desktop.jpeg') no-repeat ",
+        "imgSrc":" url('/Adeniyi-Portfolio-Desktop.jpeg') center/auto no-repeat ",
         "legendColor":"#4da6ff"
     },
     {
         "id":3,
         "legendName":"school",
-        "imgSrc":" url('/Expirio.jpeg') no-repeat ",
+        "imgSrc":" url('/Expirio.jpeg') center/auto no-repeat ",
         "legendColor":"#f97316"
     }
 ]
