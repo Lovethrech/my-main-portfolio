@@ -23,7 +23,7 @@ import HomeProjectBox from './HomeProjectBox.vue';
 
 @media screen and (max-width: 1024px){
     .home-project-box-main-ctn{
-        
+        flex-direction: column;
     }
 }
 </style>
