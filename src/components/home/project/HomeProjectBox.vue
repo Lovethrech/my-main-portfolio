@@ -86,6 +86,9 @@ const {homeProjectBoxDescItems}=defineProps(['homeProjectBoxDescItems']);
     color: #ffffff;
     margin:1vh 1vh 4vh;
 }
+.desc-bold{
+    font-weight: 700;
+}
 @media screen and (max-width: 1024px){
     .home-project-box{
         width: 100%;
