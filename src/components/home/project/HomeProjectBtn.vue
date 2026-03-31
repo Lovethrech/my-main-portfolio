@@ -1,6 +1,6 @@
 <template>
     <div class="home-project-btn-ctn display-flex-justify-center-place-center">
-        <RouterLink to="/">
+        <RouterLink to="/project">
             <button class="home-project-btn">
                 PROJECTS
             </button>
@@ -20,5 +20,14 @@
     letter-spacing: 1vh;
     padding: 1vh 3vh;
     font-size: 2vh;
+}
+
+@media screen and (max-width: 1024px){
+    .home-project-btn-ctn{
+        display: block;
+    }
+    .home-project-btn{
+        width: 100%;
+    }
 }
 </style>
