@@ -10,8 +10,7 @@
 
 <style scoped>
 .home-project-btn-ctn{
-    width: 100%;
-    
+    width: 100%;    
 }
 .home-project-btn{
     background-color: var(--bg-color);
