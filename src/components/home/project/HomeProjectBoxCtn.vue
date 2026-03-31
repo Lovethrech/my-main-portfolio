@@ -20,4 +20,10 @@ import HomeProjectBox from './HomeProjectBox.vue';
 .home-project-box-main-ctn{
     gap: 3vh;
 }
+
+@media screen and (max-width: 1024px){
+    .home-project-box-main-ctn{
+        
+    }
+}
 </style>

@@ -80,4 +80,7 @@ const {homeProjectBoxDescItems}=defineProps(['homeProjectBoxDescItems']);
     color: #ffffff;
     margin:1vh 1vh 4vh;
 }
+@media screen and (max-width: 1024px){
+
+}
 </style>
