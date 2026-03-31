@@ -46,15 +46,15 @@ const {homeProjectBoxDescItems}=defineProps(['homeProjectBoxDescItems']);
 </template>
 
 <style scoped>
-.home-project-box, .home-project-box-desc-ctn{
+.home-project-box-desc-ctn{
     display: flex;
     justify-content: end;
 }
 .home-project-box{
+    display: flex;
     background-color: #0a4134;;
     width:30vw;
     flex-direction: column;
-    flex-wrap: nowrap;
     border: 0.1vh groove #B99A45;
 }
 .home-project-box:nth-child(2){
@@ -81,6 +81,14 @@ const {homeProjectBoxDescItems}=defineProps(['homeProjectBoxDescItems']);
     margin:1vh 1vh 4vh;
 }
 @media screen and (max-width: 1024px){
-
+    .home-project-box{
+        width: 100%;
+        transform: scale(1);
+    }
+    .home-project-box-img{
+        margin:0;
+        width: 100%;
+        height: 100%;
+    }
 }
 </style>
