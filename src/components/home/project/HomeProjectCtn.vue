@@ -1,12 +1,14 @@
 <script setup>
 import HomeProjectTitle from './HomeProjectTitle.vue';
 import HomeProjectBoxCtn from './HomeProjectBoxCtn.vue';
+import HomeProjectBtn from "./HomeProjectBtn.vue";
 </script>
 
 <template>
     <section class="home-project-ctn display-flex-justify-center-place-center">
         <HomeProjectTitle/>
         <HomeProjectBoxCtn/>
+        <HomProjectBtn/>
     </section>
 </template>
 
