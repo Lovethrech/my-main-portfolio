@@ -8,7 +8,7 @@ import HomeProjectBtn from "./HomeProjectBtn.vue";
     <section class="home-project-ctn display-flex-justify-center-place-center">
         <HomeProjectTitle/>
         <HomeProjectBoxCtn/>
-        <HomProjectBtn/>
+        <HomeProjectBtn/>
     </section>
 </template>
 
