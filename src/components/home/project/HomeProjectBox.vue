@@ -36,10 +36,16 @@ const {homeProjectBoxDescItems}=defineProps(['homeProjectBoxDescItems']);
         </div>
         <div class="home-project-box-project-desc">
             <p class="home-project-box-project-desc-status">
-                Status: {{ homeProjectBoxDescItem.projectStatus }}
+                <b class="desc-bold">
+                 Status:   
+                </b>
+                 {{ homeProjectBoxDescItem.projectStatus }}
             </p>
             <p class="home-project-box-project-desc-details">
-                Details: {{ homeProjectBoxDescItem.projectDesc }}
+                <b class="desc-bold">
+                 Details:   
+                </b>
+                 {{ homeProjectBoxDescItem.projectDesc }}
             </p>
         </div>
     </div>
