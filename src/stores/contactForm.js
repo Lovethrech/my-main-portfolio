@@ -7,8 +7,8 @@ export const useContactFormStore=defineStore('contactForm', ()=>{
     const submitForm=(e)=>{
         e.preventDefault();
 
-        
+        const name=ref('Dolapo');
     }
 
-    return {submitForm}
+    return {name,submitForm}
 })
