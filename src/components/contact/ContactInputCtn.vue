@@ -15,7 +15,7 @@ const {labelName, nameType, nameFor, placeholder, nameId}=defineProps(['labelNam
         <div class="home-contact-input-ctn-mini-ctn">
             <div class="home-input-ctn">
                 <label class="home-label" :for="nameFor">{{labelName}}</label><br>
-                <input :type="nameType" :name="nameFor" :id="nameId" :placeholder="placeholder" class="home-input-value"/>
+                <input :type="nameType" :name="nameId" :id="nameFor" :placeholder="placeholder" class="home-input-value"/>
                 <p class="contact-error-message">
                     
                 </p>
