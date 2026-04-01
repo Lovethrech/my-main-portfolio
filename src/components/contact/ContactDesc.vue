@@ -6,3 +6,7 @@
         as soon as possible.
     </p>
 </template>
+
+<style scoped>
+
+</style>
