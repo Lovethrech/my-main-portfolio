@@ -1,12 +1,14 @@
 <script setup>
 import ContactTitle from './ContactTitle.vue';
+import ContactDesc from './ContactDesc.vue';
 import ContactForm from './ContactForm.vue';
 </script>
 
 <template>
     <section class="contact-ctn">
+        <ContactTitle/>
         <div class="contact-main-ctn display-flex-direction-row-justify-space-between">
-            <ContactTitle/>
+            <ContactDesc/>
             <ContactForm/>
         </div>
     </section>
