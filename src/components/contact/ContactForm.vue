@@ -1,4 +1,5 @@
 <script setup>
+import { ref } from "vue";
 import Contacts from "@/data/contacts.json";
 import ContactInputCtn from "./ContactInputCtn.vue";
 import ContactInputMsgCtn from "./ContactInputMsgCtn.vue";
