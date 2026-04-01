@@ -51,7 +51,7 @@ a, .link{
   width:100%;
 }
 .home-label, .home-input-value{
-  color:#fff;
+  color:var(--text-color);
   font-size: 2vh;
 }
 .home-label{
