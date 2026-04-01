@@ -14,3 +14,9 @@ import ContactInputMsgCtn from "./ContactInputMsgCtn.vue";
         </form>
     </div>
 </template>
+
+<style scoped>
+.contact-form-ctn{
+    width: 100%;
+}
+</style>
