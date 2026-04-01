@@ -3,6 +3,7 @@ import { useContactFormStore } from "@/stores/contactForm";
 import Contacts from "@/data/contacts.json";
 import ContactInputCtn from "./ContactInputCtn.vue";
 import ContactInputMsgCtn from "./ContactInputMsgCtn.vue";
+import ContactFormBtn from "./ContactFormBtn.vue";
 
 const contactFormStore=useContactFormStore();
 </script>
@@ -14,6 +15,7 @@ const contactFormStore=useContactFormStore();
             <ContactInputCtn :labelName="Contacts[1].labelName" :nameType="Contacts[1].nameType" :nameFor="Contacts[1].nameFor"></ContactInputCtn>
             <ContactInputMsgCtn :labelName="Contacts[2].labelName" :nameType="Contacts[2].nameType" :nameFor="Contacts[2].nameFor"></ContactInputMsgCtn>
             <br/>
+            <ContactFormBtn/>
         </form>
     </div>
 </template>
