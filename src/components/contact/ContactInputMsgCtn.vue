@@ -18,7 +18,9 @@ textarea{
         <div class="home-input-ctn">
             <label class="home-label" :for="nameFor">{{ labelName }}</label><br>
             <textarea :name="nameFor" :id="nameFor" :type="nameType" cols="30" rows="10" class="home-input-value"></textarea>
-            <p class="contact-error-message">Fill in the box</p>
+            <p class="contact-error-message">
+                
+            </p>
         </div>
     </div>
 </template>
