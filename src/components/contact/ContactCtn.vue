@@ -22,4 +22,13 @@ import ContactForm from './ContactForm.vue';
 .contact-main-ctn{
     width: 100%;
 }
+
+@media screen and (max-width: 1024px) {
+    .contact-ctn{
+        padding: 6vh var(--mobile-left-right-space);
+    }
+    .contact-main-ctn{
+        flex-direction: column;
+    }
+}
 </style>
