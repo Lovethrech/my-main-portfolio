@@ -8,5 +8,7 @@
 </template>
 
 <style scoped>
-
+.contact-desc{
+    width: 100%;
+}
 </style>

@@ -20,6 +20,6 @@ import ContactForm from './ContactForm.vue';
     padding: 6vh var(--desktop-left-right-space);
 }
 .contact-main-ctn{
-    
+    width: 100%;
 }
 </style>
