@@ -5,7 +5,9 @@ export const useContactFormStore=defineStore('contactForm', ()=>{
     const isValid=ref(true);
 
     const submitForm=(e)=>{
+        e.preventDefault();
 
+        
     }
 
     return {submitForm}
