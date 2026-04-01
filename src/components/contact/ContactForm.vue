@@ -1,5 +1,7 @@
 <script setup>
 import Contacts from "@/data/contacts.json";
+import ContactInputCtn from "./ContactInputCtn.vue";
+import ContactInputMsgCtn from "./ContactInputMsgCtn.vue";
 </script>
 
 <template>

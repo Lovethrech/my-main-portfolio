@@ -5,7 +5,7 @@ import ContactForm from './ContactForm.vue';
 
 <template>
     <section class="contact-ctn">
-        <div class="contact-main-ctn">
+        <div class="contact-main-ctn display-flex-direction-row-justify-space-between">
             <ContactTitle/>
             <ContactForm/>
         </div>
@@ -16,5 +16,8 @@ import ContactForm from './ContactForm.vue';
 .contact-ctn{
     min-height: 100vh;
     padding: 6vh var(--desktop-left-right-space);
+}
+.contact-main-ctn{
+    
 }
 </style>
