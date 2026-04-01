@@ -16,7 +16,6 @@ import ContactForm from './ContactForm.vue';
 
 <style scoped>
 .contact-ctn{
-    background: url("/public/tttwinkle.svg") center/auto no-repeat;
     min-height: 100vh;
     padding: 6vh var(--desktop-left-right-space);
 }
