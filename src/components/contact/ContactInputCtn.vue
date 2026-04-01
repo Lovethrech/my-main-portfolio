@@ -8,6 +8,11 @@ const {labelName, nameType, nameFor}=defineProps(['labelName', 'nameType', 'name
 .home-contact-input-ctn-main-ctn, .home-contact-input-ctn-mini-ctn{
     width:100%;
 }
+.contact-error-message{
+    color: red;
+    font-size: 1.4vh;
+    text-align: right;
+}
 </style>
 
 <template>
@@ -16,6 +21,7 @@ const {labelName, nameType, nameFor}=defineProps(['labelName', 'nameType', 'name
             <div class="home-input-ctn">
                 <label class="home-label" :for="nameFor">{{labelName}}</label><br>
                 <input :type="nameType" :name="nameFor" :id="nameFor" class="home-input-value" required />
+                <p class="contact-error-message">Fill in the box</p>
             </div><br>
         </div>
     </div>
