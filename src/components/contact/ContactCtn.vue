@@ -29,6 +29,7 @@ import ContactForm from './ContactForm.vue';
     }
     .contact-main-ctn{
         flex-direction: column;
+        gap:4vh;
     }
 }
 </style>
