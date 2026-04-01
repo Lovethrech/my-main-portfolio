@@ -13,6 +13,6 @@ import ContactTitle from './ContactTitle.vue';
 <style scoped>
 .contact-ctn{
     min-height: 100vh;
-    padding: 6vh var(--desktop-left-right-space)
+    padding: 6vh var(--desktop-left-right-space);
 }
 </style>
