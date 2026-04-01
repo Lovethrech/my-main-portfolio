@@ -3,18 +3,21 @@
         "id":"1",
         "labelName":"Name",
         "namaType":"text",
-        "nameFor":"name"
+        "nameFor":"name",
+        "placeholder":"Olaonipekun Dolapo"
     },
     {
         "id":"2",
         "labelName":"Email",
         "namaType":"email",
-        "nameFor":"email"
+        "nameFor":"email",
+        "placeholder":"rachxxxxxxxxxxxxx@gmail.com"
     },
     {
         "id":"1",
         "labelName":"Message",
         "namaType":"text",
-        "nameFor":"message"
+        "nameFor":"message",
+        "placeholder":"Please be direct..."
     }
 ]
