@@ -16,6 +16,7 @@ import ContactForm from './ContactForm.vue';
 
 <style scoped>
 .contact-ctn{
+    background: linear-gradient(to bottom, var(--general-components-bg-color), var(--bg-color));
     min-height: 100vh;
     padding: 6vh var(--desktop-left-right-space);
 }
