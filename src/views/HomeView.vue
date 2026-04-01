@@ -2,7 +2,7 @@
 import HomeHeroCtn from '@/components/home/hero/HomeHeroCtn.vue';
 import HomeAboutCtn from '@/components/home/about/HomeAboutCtn.vue';
 import HomeProjectCtn from '@/components/home/project/HomeProjectCtn.vue';
-
+import ContactCtn from '../components/contact/ContactCtn.vue';
 </script>
 
 <template>
@@ -10,5 +10,6 @@ import HomeProjectCtn from '@/components/home/project/HomeProjectCtn.vue';
     <HomeHeroCtn/>
     <HomeAboutCtn/>
     <HomeProjectCtn/>
+    <ContactCtn/>
   </main>
 </template>
