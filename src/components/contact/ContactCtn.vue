@@ -16,7 +16,7 @@ import ContactForm from './ContactForm.vue';
 
 <style scoped>
 .contact-ctn{
-    background: url("/public/oooscillate.svg") center/auto no-repeat;
+    background: url("/public/ttten.svg") center/auto no-repeat;
     background-size: cover;
     min-height: 100vh;
     padding: 6vh var(--desktop-left-right-space);
