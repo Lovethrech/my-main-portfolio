@@ -1,6 +1,6 @@
 <template>
     <div class="contact-form-ctn">
-        <form action="" class="contact-form">
+        <form action="" id="contact-form">
             
         </form>
     </div>
