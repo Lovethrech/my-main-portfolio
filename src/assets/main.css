@@ -67,3 +67,8 @@ a, .link{
   border-bottom: 0.1vh solid var(--text-color);
   padding: 1vh 3vw 1vh 1vw;
 }
+.contact-error-message{
+  color: red;
+  font-size: 1.4vh;
+  text-align: right;
+}

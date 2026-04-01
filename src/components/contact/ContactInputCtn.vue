@@ -8,11 +8,6 @@ const {labelName, nameType, nameFor}=defineProps(['labelName', 'nameType', 'name
 .home-contact-input-ctn-main-ctn, .home-contact-input-ctn-mini-ctn{
     width:100%;
 }
-.contact-error-message{
-    color: red;
-    font-size: 1.4vh;
-    text-align: right;
-}
 </style>
 
 <template>
