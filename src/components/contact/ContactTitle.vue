@@ -6,11 +6,9 @@
 
 <style scoped>
 .contact-title{
-    color: #b2fffc;
-    font-family: "Orbitron", serif;
     font-size:4vh;
     text-transform: uppercase;
-    text-align: left;
+    text-align: center;
     font-style: normal;
 }
 </style>

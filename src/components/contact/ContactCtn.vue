@@ -9,3 +9,10 @@ import ContactTitle from './ContactTitle.vue';
         </div>
     </section>
 </template>
+
+<style scoped>
+.contact-ctn{
+    min-height: 100vh;
+    padding: 6vh var(--desktop-left-right-space)
+}
+</style>
