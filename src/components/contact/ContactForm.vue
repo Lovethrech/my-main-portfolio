@@ -15,7 +15,7 @@ const contactFormStore=useContactFormStore();
             <ContactInputCtn :labelName="Contacts[1].labelName" :nameType="Contacts[1].nameType" :nameFor="Contacts[1].nameFor"></ContactInputCtn>
             <ContactInputMsgCtn :labelName="Contacts[2].labelName" :nameType="Contacts[2].nameType" :nameFor="Contacts[2].nameFor"></ContactInputMsgCtn>
             <br/>
-            <ContactFormBtn/>
+            <ContactFormBtn @click="contactFormStore.submitForm"/>
         </form>
     </div>
 </template>
