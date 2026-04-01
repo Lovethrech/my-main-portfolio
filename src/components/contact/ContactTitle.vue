@@ -15,7 +15,8 @@
 
 <style scoped>
 .contact-title-and-desc{
-    text-align: center;
+    width: 100%;
+    text-align: left;
 }
 .contact-title{
     font-size:4vh;
