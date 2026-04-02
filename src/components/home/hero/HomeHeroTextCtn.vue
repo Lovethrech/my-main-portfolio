@@ -59,7 +59,7 @@ const generalPadding=ref("2vh 4vh");
     margin:  2vh 4vh;
 }
 .hero-text-author-name{
-    font-size:  2vh;
+    font-size:  var(--h5-size);
     text-transform: uppercase;
     letter-spacing: 1vh;
     font-weight:600;
@@ -77,10 +77,7 @@ const generalPadding=ref("2vh 4vh");
 
 @media screen and (max-width: 1024px) {
     .hero-text-greetings{
-        font-size: 2vw;
-    }
-    .hero-text-author-name{
-        font-size: 3vw;
+        font-size: 1.6vw;
     }
 }
 </style>
