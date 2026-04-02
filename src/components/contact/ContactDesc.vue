@@ -9,6 +9,7 @@
 
 <style scoped>
 .contact-desc{
+    font-size: var(--h5-size);
     width: 100%;
 }
 </style>

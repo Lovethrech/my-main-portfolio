@@ -6,7 +6,7 @@
 
 <style scoped>
 .contact-title{
-    font-size:4vh;
+    font-size: var(--h2-size);
     text-transform: uppercase;    
     font-style: normal;
 }
