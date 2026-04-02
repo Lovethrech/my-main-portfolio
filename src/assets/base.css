@@ -7,9 +7,9 @@
   --text-color: #000000;
   --border-color: #e0e0e0;
   --h1-size: 10vh;
-  --h2-size: ;
-  --h3-size: ;
-  --h4-size: ;
+  --h2-size: 8vh;
+  --h3-size: 6vh;
+  --h4-size: 4vh;
   --p-size:2vh;
   --desktop-left-right-space: 8vh;
   --mobile-left-right-space: 4vw;
@@ -43,9 +43,9 @@ body{
 @media screen and (max-width: 1024px) {
   :root{
     --h1-size: 10vw;
-    --h2-size: ;
-    --h3-size: ;
-    --h4-size: ;
+    --h2-size: 8vw;
+    --h3-size: 6vw;
+    --h4-size: 4vw;
     --p-size:2vh;
   }
 }

@@ -8,6 +8,6 @@
 #home-about-title{
     color: var(--text-color);
     text-align: center;
-    font-size: 4vh;
+    font-size: var(--h2-size);
 }
 </style>

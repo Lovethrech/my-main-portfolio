@@ -82,8 +82,5 @@ const generalPadding=ref("2vh 4vh");
     .hero-text-author-name{
         font-size: 3vw;
     }
-    .hero-text-author-job-role{
-        
-    }
 }
 </style>
