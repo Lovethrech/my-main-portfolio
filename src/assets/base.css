@@ -6,7 +6,11 @@
   --round-border-radius: 10vh;
   --text-color: #000000;
   --border-color: #e0e0e0;
-  --p-font-size:2vh;
+  --h1-desktop-size: ;
+  --h2-desktop-size: ;
+  --h3-desktop-size: ;
+  --h4-desktop-size: ;
+  --p-size:2vh;
   --desktop-left-right-space: 8vh;
   --mobile-left-right-space: 4vw;
 }
@@ -33,4 +37,15 @@ body{
   background: var(--bg-color);
   color: var(--text-color);
   line-height: 1.6;
+}
+
+
+@media screen and (max-width: 1024px) {
+  :root{
+    --h1-desktop-size: ;
+    --h2-desktop-size: ;
+    --h3-desktop-size: ;
+    --h4-desktop-size: ;
+    --p-size:2vh;
+  }
 }
