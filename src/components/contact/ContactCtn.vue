@@ -16,6 +16,7 @@ import ContactForm from './ContactForm.vue';
 
 <style scoped>
 .contact-ctn{
+    background-color: var(--bg-color);
     min-height: 100vh;
     padding: 6vh var(--desktop-left-right-space);
 }

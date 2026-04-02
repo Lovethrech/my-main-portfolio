@@ -25,6 +25,7 @@ import HomeAboutDescStats from "./HomeAboutDescStats.vue";
 
 <style scoped>
 .home-about-ctn{
+    background-color: var(--bg-color);
     min-height:100vh;
     padding: 6vh 0 3vh var(--desktop-left-right-space);
 }
