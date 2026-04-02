@@ -4,8 +4,8 @@ import FooterIcon from './FooterIcon.vue';
 </script>
 
 <template>
-    <footer class="main-footer">
-        <div class="main-footer">
+    <footer class="main-footer display-flex-justify-center-place-center">
+        <div class="main-footer-main-ctn">
             <FooterIcon :FooterLinkItems="FooterLinkItems"/>
         </div>
     </footer>
@@ -14,5 +14,10 @@ import FooterIcon from './FooterIcon.vue';
 <style scoped>
 .main-footer{
     background-color: var(--general-components-bg-color);
+}
+.main-footer-main-ctn{
+    display: flex;
+    flex-direction: row;
+    gap:3vh;
 }
 </style>
