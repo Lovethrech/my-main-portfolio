@@ -7,6 +7,10 @@ a, .link{
 .bold-text{
   font-weight:600;
 }
+main{
+  background-color: var(--general-components-bg-color);
+  min-height: 86vh;
+}
 
 .general-bg-color-theme-default-text-white{
   background-color: var(--general-components-bg-color);
