@@ -33,7 +33,7 @@
 }
 .about-desc{
     text-align: justify;
-    font-size:2.6vh;
+    font-size: var(--h4-size);
     color: #dbd8d8;
     line-height: 3;
 }
