@@ -34,6 +34,13 @@
 .about-desc{
     text-align: justify;
     font-size:2.6vh;
-    color: #c0bcbc;
+    color: #dbd8d8;
+    line-height: 3;
+}
+
+@media screen and (max-width: 1024px) {
+    .about-desc{
+        font-size: 2vh;
+    }
 }
 </style>

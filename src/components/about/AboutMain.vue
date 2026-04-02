@@ -14,4 +14,10 @@ import AboutDesc from './AboutDesc.vue';
 .about-main{
     padding:  2vh var(--desktop-left-right-space) 0;
 }
+
+@media screen and (max-width: 1024px) {
+    .about-main{
+        padding: 2vh var(--mobile-left-right-space);
+    }
+}
 </style>
