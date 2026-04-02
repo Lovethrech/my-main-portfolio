@@ -6,7 +6,7 @@ import FooterIcon from './FooterIcon.vue';
 <template>
     <footer class="main-footer">
         <div class="main-footer">
-            <FooterIcon/>
+            <FooterIcon :FooterLinkItems="FooterLinkItems"/>
         </div>
     </footer>
 </template>
