@@ -12,6 +12,6 @@ import AboutDesc from './AboutDesc.vue';
 
 <style scoped>
 .about-main{
-    padding: var(--desktop-left-right-space);
+    padding:  2vh var(--desktop-left-right-space) 0;
 }
 </style>
