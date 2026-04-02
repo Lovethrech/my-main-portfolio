@@ -10,6 +10,7 @@
   --h2-size: 8vh;
   --h3-size: 6vh;
   --h4-size: 4vh;
+  --h5-size:2vh;
   --p-size:2vh;
   --desktop-left-right-space: 8vh;
   --mobile-left-right-space: 4vw;
@@ -46,6 +47,7 @@ body{
     --h2-size: 8vw;
     --h3-size: 6vw;
     --h4-size: 4vw;
+    --h5-size:2vh;
     --p-size:2vh;
   }
 }

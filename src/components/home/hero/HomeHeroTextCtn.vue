@@ -26,9 +26,9 @@ const generalPadding=ref("2vh 4vh");
             />
         </div>
         
-        <h2 class="hero-text-author-name">
+        <h5 class="hero-text-author-name">
             Olaonipekun Dolapo Rachael
-        </h2>
+        </h5>
         <h1 class="hero-text-author-job-role">
             Fullstack
             <br/>
