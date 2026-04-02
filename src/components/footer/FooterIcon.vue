@@ -16,7 +16,7 @@ const {FooterLinkItems}=defineProps(['FooterLinkItems']);
 
 <style scoped>
 .footer-icon-ctn{
-    font-size: var(--h4-size);
+    font-size: var(--h5-size);
     background-color: var(--bg-color);
     padding: 0.5vh 1vh;
     border-radius: var(--border-radius);
