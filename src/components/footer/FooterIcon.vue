@@ -8,8 +8,8 @@ const {FooterLinkItems}=defineProps(['FooterLinkItems']);
 <template>
     <div class="footer-icon-ctn" v-for="FooterLinkItem in FooterLinkItems" :key="FooterLinkItem.id">
         <RouterLink :to="FooterLinkItem.iconLink">
-            <div class="footer-icon">
-                {{ FooterLinkItem.name }}
+            <div class="footer-icon" v-html="FooterLinkItem.icon">
+                
             </div>
         </RouterLink>
     </div>
