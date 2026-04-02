@@ -27,6 +27,7 @@ const {isDark}=storeToRefs(themeStore);
 <style scoped>
 .theme-toggle{
     padding: 2vh;
+    font-size: var(--h4-size);
 }
 @media screen and (max-width: 950px) {
     .theme-toggle{

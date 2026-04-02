@@ -69,7 +69,7 @@ const fadeMenuDropdown=()=>{
 <style scoped>
 .mobile-nav-menu-icon{
     color: #ffffff;
-    font-size:28px;
+    font-size: var(--h4-size);
 }
 .mobile-nav-menu-dropdown-overlay{
     position:absolute;
