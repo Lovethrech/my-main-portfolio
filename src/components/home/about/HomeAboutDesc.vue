@@ -34,8 +34,8 @@ const btnDescLink=ref("/about");
 <style scoped>
 .home-about-desc{
     width: 100%;
-    font-size: 2vh;
-    line-height: 2;
+    font-size: var(--h5-size);
+    line-height: 3;
     text-align:justify;
 }
 #author-name{

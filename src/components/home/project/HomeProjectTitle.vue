@@ -9,8 +9,10 @@
 
 <style scoped>
 .home-project-title{
-    font-size: 4vh;
+    font-size: var(--h3-size);
     font-weight: 600;
+    text-transform: uppercase;
+    text-align:center;
     padding: 1vh 5vh;
     color:#ffffff;
     border-radius: var(--border-radius);
@@ -18,7 +20,6 @@
 
 @media screen and (max-width:1024px) {
     .home-project-title{
-        font-size: 3vh;
         padding: 1vh 3vh;
     }
 }

@@ -37,15 +37,15 @@ const {homeProjectBoxDescItems}=defineProps(['homeProjectBoxDescItems']);
         <div class="home-project-box-project-desc">
             <p class="home-project-box-project-desc-status">
                 <b class="desc-bold">
-                 STATUS:   
+                STATUS:   
                 </b>
-                 {{ homeProjectBoxDescItem.projectStatus }}
+                {{ homeProjectBoxDescItem.projectStatus }}
             </p>
             <p class="home-project-box-project-desc-details">
                 <b class="desc-bold">
-                 DETAILS:   
+                DETAILS:   
                 </b>
-                 {{ homeProjectBoxDescItem.projectDesc }}
+                {{ homeProjectBoxDescItem.projectDesc }}
             </p>
         </div>
     </div>
@@ -82,8 +82,12 @@ const {homeProjectBoxDescItems}=defineProps(['homeProjectBoxDescItems']);
     height: 1vh;
     border-radius: 50%;
 }
+.home-project-box-legend-name{
+    font-size: var(--p-size);
+}
 .home-project-box-project-desc{
     color: #ffffff;
+    font-size: var(--h5-size);
     margin:1vh 1vh 4vh;
 }
 .desc-bold{

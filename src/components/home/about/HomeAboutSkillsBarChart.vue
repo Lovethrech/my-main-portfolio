@@ -120,6 +120,7 @@ const skills=ref([
     gap: 1vh;
 }
 .bar-label {
+    font-size: var(--h5-size);
     font-weight: 600;
     white-space: nowrap;
     overflow: hidden;
@@ -159,7 +160,7 @@ const skills=ref([
 
 .legend-item {
     gap: 1vh;
-    font-size: 1.4vh;
+    font-size: var(--p-size);
 }
 .legend-dot {
     display: inline-block;
