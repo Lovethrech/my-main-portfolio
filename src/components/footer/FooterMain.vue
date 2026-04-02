@@ -12,5 +12,7 @@ import FooterIcon from './FooterIcon.vue';
 </template>
 
 <style scoped>
-
+.main-footer{
+    background-color: var(--general-components-bg-color);
+}
 </style>
