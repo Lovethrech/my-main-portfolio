@@ -9,3 +9,9 @@ import AboutDesc from './AboutDesc.vue';
         <AboutDesc/>
     </section>
 </template>
+
+<style scoped>
+.about-main{
+    padding: var(--desktop-left-right-space);
+}
+</style>
