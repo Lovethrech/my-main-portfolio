@@ -8,6 +8,6 @@
 .about-title{
     color: #ffffff;
     text-align: center;
-    font-size: var(--h2-size);
+    font-size: var(--h3-size);
 }
 </style>
