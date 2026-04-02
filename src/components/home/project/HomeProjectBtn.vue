@@ -1,6 +1,6 @@
 <template>
     <div class="home-project-btn-ctn display-flex-justify-center-place-center">
-        <RouterLink to="/project">
+        <RouterLink to="/projects">
             <button class="home-project-btn">
                 PROJECTS
             </button>
