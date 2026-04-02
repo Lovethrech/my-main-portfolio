@@ -67,7 +67,7 @@ const generalPadding=ref("2vh 4vh");
 }
 .hero-text-author-job-role{
     margin:  0 4vh;
-    font-size: 10vh;
+    font-size: var(--h1-size);
     font-weight: 800;
     text-transform: uppercase;
     background: linear-gradient(to right, #B99A45, #C7AE6A);
@@ -83,7 +83,7 @@ const generalPadding=ref("2vh 4vh");
         font-size: 3vw;
     }
     .hero-text-author-job-role{
-        font-size: 10vw;
+        
     }
 }
 </style>

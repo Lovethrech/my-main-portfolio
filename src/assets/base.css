@@ -42,10 +42,10 @@ body{
 
 @media screen and (max-width: 1024px) {
   :root{
-    --h1-desktop-size: ;
-    --h2-desktop-size: ;
-    --h3-desktop-size: ;
-    --h4-desktop-size: ;
+    --h1-size: 10vw;
+    --h2-size: ;
+    --h3-size: ;
+    --h4-size: ;
     --p-size:2vh;
   }
 }
