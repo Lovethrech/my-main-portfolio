@@ -13,6 +13,10 @@
     width: 100%;
 }
 .about-download-cv{
-    
+    padding:1vh;
+    font-size: 2vh;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    border: 0.5vh double var(--general-components-bg-color);
 }
 </style>

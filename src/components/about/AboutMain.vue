@@ -8,6 +8,7 @@ import AboutCVBtn from './AboutCVBtn.vue';
     <section class="about-main">
         <AboutTitle/>
         <AboutDesc/>
+        <br/>
         <AboutCVBtn/>
     </section>
 </template>
