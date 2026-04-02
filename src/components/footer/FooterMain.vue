@@ -15,8 +15,6 @@ import FooterIcon from './FooterIcon.vue';
 .main-footer{
     background-color: var(--general-components-bg-color);
     padding: 1vh 4vh;
-    border-top-left-radius: 10vh;
-    border-top-right-radius: 10vh;
 }
 .main-footer-main-ctn{
     display: flex;

@@ -13,6 +13,5 @@ import HomeHeroUserProfileImage from '@/components/home/hero/HomeHeroUserProfile
 #about-view{
     background-color: var(--general-components-bg-color);
     border-top: 1vh double var(--general-components-bg-color);
-    border-bottom-left-radius: 8vh;
 }
 </style>
