@@ -1,5 +1,14 @@
+<script setup>
+import HomeAboutTitle from '@/components/home/about/HomeAboutTitle.vue';
+import HomeHeroUserProfileImage from '@/components/home/hero/HomeHeroUserProfileImage.vue';
+</script>
+
 <template>
     <main id="about-view">
+        <HomeAboutTitle/>
+        <div class="about-view-main-ctn">
+            <HomeHeroUserProfileImage/>
+        </div>
         <p class="home-about-desc">
             I am <b class="author-name bold-text">OLAONIPEKUN RACHAEL DOLAPO</b>, a passionate and determined aspiring Fullstack Developer based in Nigeria.  
             With a strong foundation in mathematics and numerical problem-solving, I discovered my love for building 
@@ -28,7 +37,8 @@
 
 <style scoped>
 #about-view{
-    background-color: var(--bg-color);
+    background-color: var(--general-components-bg-color);
     border-top: 1vh double var(--general-components-bg-color);
+    border-bottom-left-radius: 8vh;
 }
 </style>
