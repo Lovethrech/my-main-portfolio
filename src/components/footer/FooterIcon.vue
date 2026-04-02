@@ -7,10 +7,10 @@ const {FooterLinkItems}=defineProps(['FooterLinkItems']);
 
 <template>
     <div class="footer-icon-ctn" v-for="FooterLinkItem in FooterLinkItems" :key="FooterLinkItem.id">
-        <RouterLink :to="FooterLinkItem.iconLink">
+        <a :href="FooterLinkItem.iconLink" target="__blank">
             <div class="footer-icon" v-html="FooterLinkItem.icon">
             </div>
-        </RouterLink>
+        </a>
     </div>
 </template>
 
