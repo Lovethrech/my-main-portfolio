@@ -6,9 +6,6 @@ import HomeHeroUserProfileImage from '@/components/home/hero/HomeHeroUserProfile
 <template>
     <main id="about-view">
         <AboutMain/>
-        <div class="about-view-main-ctn">
-            <HomeHeroUserProfileImage/>
-        </div>
     </main>
 </template>
 

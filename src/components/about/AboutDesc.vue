@@ -28,9 +28,11 @@
 
 <style scoped>
 .about-desc-ctn{
-    background: url('/public/cccoil_green.svg') center/auto no-repeat;
+    background: url('/public/userProfile.png') center bottom/ 60vh auto no-repeat,
+    url('/public/cccoil_green.svg') center/auto no-repeat;
 }
 .about-desc{
-    font-size: var(--h3-size);
+    font-size:3vh;
+    color: #c0bcbc;
 }
 </style>
