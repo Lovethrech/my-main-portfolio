@@ -14,3 +14,9 @@ const {FooterLinkItems}=defineProps(['FooterLinkItems']);
         </RouterLink>
     </div>
 </template>
+
+<style scoped>
+.footer-icon-ctn{
+    font-size: var(--h5-size);
+}
+</style>
