@@ -19,4 +19,7 @@ const {FooterLinkItems}=defineProps(['FooterLinkItems']);
 .footer-icon-ctn{
     font-size: var(--h5-size);
 }
+.footer-icon{
+    color: #ffffff;
+}
 </style>

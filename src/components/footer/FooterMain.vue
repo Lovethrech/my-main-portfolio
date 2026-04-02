@@ -13,10 +13,6 @@ import FooterIcon from './FooterIcon.vue';
 
 <style scoped>
 .main-footer{
-    position:absolute;
-    bottom:0;
-    left: 0;
-    width: 100%;
     background-color: var(--general-components-bg-color);
     padding: 1vh 4vh;
     border-top-left-radius: 10vh;
