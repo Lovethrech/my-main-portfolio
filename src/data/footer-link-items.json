@@ -2,37 +2,37 @@
     {
         "id": 1,
         "name":"Github",
-        "icon":"",
+        "icon":"<i class='ri-github-line'></i>",
         "iconLink":"https://github.com/Lovethrech"
     },
     {
         "id": 2,
         "name":"Whatsapp",
-        "icon":"",
+        "icon":"<i class='ri-whatsapp-line'></i>",
         "iconLink":"https://wa.me/+2349040036959"
     },
     {
         "id": 3,
         "name":"Telegram",
-        "icon":"",
+        "icon":"<i class='ri-telegram-2-line'></i>",
         "iconLink":"https://t.me/+23450170070"
     },
     {
         "id": 4,
         "name":"Instagram",
-        "icon":"",
+        "icon":"<i class='ri-instagram-line'></i>",
         "iconLink":"https://www.instagram.com/baby.raychi/"
     },
     {
         "id": 5,
         "name":"Gmail",
-        "icon":"",
+        "icon":"<i class='i-google-line'></i>",
         "iconLink":"mailto:rachealdolapo45@gmail.com"
     },
     {
         "id": 6,
         "name":"LinkedIn",
-        "icon":"",
+        "icon":"<i class='ri-linkedin-line'></i>",
         "iconLink":"https://www.linkedin.com/in/rachael-olaonipekun-aa535b22b/"
     }
 ]
