@@ -1,13 +1,11 @@
 <script setup>
 import AboutMain from '@/components/about/AboutMain.vue';
-import HomeAboutTitle from '@/components/home/about/HomeAboutTitle.vue';
 import HomeHeroUserProfileImage from '@/components/home/hero/HomeHeroUserProfileImage.vue';
 </script>
 
 <template>
     <main id="about-view">
         <AboutMain/>
-        <HomeAboutTitle/>
         <div class="about-view-main-ctn">
             <HomeHeroUserProfileImage/>
         </div>

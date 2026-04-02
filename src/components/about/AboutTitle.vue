@@ -5,8 +5,8 @@
 </template>
 
 <style scoped>
-#home-about-title{
-    color: var(--text-color);
+.about-title{
+    color: #ffffff;
     text-align: center;
     font-size: var(--h2-size);
 }
