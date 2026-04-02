@@ -54,7 +54,7 @@ const generalPadding=ref("2vh 4vh");
     padding: 0.5vh 2vh;
     border-radius: 8vh 0 0 8vh;
     text-transform: uppercase;
-    font-size: 1.4vh;
+    font-size: var(--p-size);
     font-style: italic;
     margin:  2vh 4vh;
 }
@@ -73,11 +73,5 @@ const generalPadding=ref("2vh 4vh");
     background: linear-gradient(to right, #B99A45, #C7AE6A);
     background-clip: text;
     color:transparent;
-}
-
-@media screen and (max-width: 1024px) {
-    .hero-text-greetings{
-        font-size: 1.6vw;
-    }
 }
 </style>
