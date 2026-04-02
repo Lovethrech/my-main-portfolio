@@ -10,3 +10,7 @@ import FooterIcon from './FooterIcon.vue';
         </div>
     </footer>
 </template>
+
+<style scoped>
+
+</style>
