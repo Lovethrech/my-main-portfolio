@@ -90,7 +90,7 @@ const skills=ref([
 }
 .chart-title{
     text-align: center;
-    font-size: 2.5vh;
+    font-size: var(--h4-size);
     margin-bottom: 2vh;
     color: #ffffff;
 }
