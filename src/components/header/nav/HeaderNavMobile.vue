@@ -98,7 +98,7 @@ const fadeMenuDropdown=()=>{
     margin-right: 4vh;
     text-align: right;
     text-transform: capitalize;
-    font-size: 28px;
+    font-size:var(--h4-size);
 }
 
 @media screen and (min-width: 951px) {

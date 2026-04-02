@@ -34,7 +34,7 @@ const {navBarItems}=defineProps(['navBarItems']);
 .desktop-nav-link-desc{
     color: #ffffff;
     text-transform: capitalize;
-    font-size: var(--p-size);
+    font-size: var(--h5-size);
     transition: transform .2s ease;
 }
 .desktop-nav-link-desc:hover{
