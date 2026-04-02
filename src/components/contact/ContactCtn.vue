@@ -19,7 +19,7 @@ import ContactForm from './ContactForm.vue';
     background-color: var(--bg-color);
     min-height: 100vh;
     padding: 6vh var(--desktop-left-right-space);
-    border-top: 1vh groove var(--general-components-bg-color);
+    border-top: 1vh double var(--general-components-bg-color);
 }
 .contact-main-ctn{
     width: 100%;
