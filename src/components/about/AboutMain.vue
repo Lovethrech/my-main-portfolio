@@ -1,12 +1,14 @@
 <script setup>
 import AboutTitle from './AboutTitle.vue';
 import AboutDesc from './AboutDesc.vue';
+import AboutCVBtn from './AboutCVBtn.vue';
 </script>
 
 <template>
     <section class="about-main">
         <AboutTitle/>
         <AboutDesc/>
+        <AboutCVBtn/>
     </section>
 </template>
 
