@@ -25,3 +25,10 @@
         </p>
     </main>
 </template>
+
+<style scoped>
+#about-view{
+    background-color: var(--bg-color);
+    border-top: 1vh double var(--general-components-bg-color);
+}
+</style>

@@ -9,7 +9,7 @@ a, .link{
 }
 main{
   background-color: var(--general-components-bg-color);
-  min-height: 86vh;
+  min-height: 90vh;
 }
 
 .general-bg-color-theme-default-text-white{
