@@ -10,7 +10,7 @@
     background-color: var(--bg-color);
     color: var(--text-color);
     padding: 1vh;
-    font-size: 2vh;
+    font-size: var(--p-size);
     border: 0.2vh solid #a7a4a4;
     transition: background-color .4s ease-in-out, color .2s ease-in;
 }

@@ -52,7 +52,7 @@ a, .link{
 }
 .home-label, .home-input-value{
   color:var(--text-color);
-  font-size: 2vh;
+  font-size: var(--h5-size);
 }
 .home-label{
   font-weight: 400;
