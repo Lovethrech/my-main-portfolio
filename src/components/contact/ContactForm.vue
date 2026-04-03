@@ -9,7 +9,9 @@ const errorMsg=ref({name:'', email:'', message:''});
 const success=ref(false);
 const isSubmitting=ref(false);
 
-
+const validateAndSubmit= async()=>{
+    
+}
 </script>
 
 <template>
