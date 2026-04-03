@@ -1,7 +1,7 @@
 <script setup>
 import { defineProps} from "vue";
 
-const {labelName, nameType, nameFor, placeholder, nameId}=defineProps(['labelName', 'nameType', 'nameFor', 'placeholder', 'nameId']);
+const {labelName, nameType, nameFor, placeholder, errorMsg}=defineProps(['labelName', 'nameType', 'nameFor', 'placeholder', 'errorMsg']);
 </script>
 
 <style scoped>
@@ -15,9 +15,8 @@ const {labelName, nameType, nameFor, placeholder, nameId}=defineProps(['labelNam
         <div class="home-contact-input-ctn-mini-ctn">
             <div class="home-input-ctn">
                 <label class="home-label" :for="nameFor">{{labelName}}</label><br>
-                <input :type="nameType" :name="nameId" :id="nameFor" :placeholder="placeholder" class="home-input-value"/>
-                <p class="contact-error-message">
-                    
+                <input :type="nameType" :name="nameFor" :id="nameFor" :placeholder="placeholder" class="home-input-value"/>
+                <p class="contact-error-message" :id="errorMsg">
                 </p>
             </div><br>
         </div>

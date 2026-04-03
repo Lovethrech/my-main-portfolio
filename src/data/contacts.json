@@ -4,20 +4,23 @@
         "labelName":"Name",
         "namaType":"text",
         "nameFor":"name",
-        "placeholder":"Olaonipekun Dolapo"
+        "placeholder":"Olaonipekun Dolapo",
+        "errorMsg":"name-error"
     },
     {
         "id":"2",
         "labelName":"Email",
         "namaType":"email",
         "nameFor":"email",
-        "placeholder":"rachxxxxxxxxxxxxx@gmail.com"
+        "placeholder":"rachxxxxxxxxxxxxx@gmail.com",
+        "errorMsg":"email-error"
     },
     {
         "id":"1",
         "labelName":"Message",
         "namaType":"text",
         "nameFor":"message",
-        "placeholder":"Please be direct..."
+        "placeholder":"Please be direct...",
+        "errorMsg":"message-error"
     }
 ]
