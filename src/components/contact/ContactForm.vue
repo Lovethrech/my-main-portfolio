@@ -7,12 +7,12 @@ import ContactFormBtn from "./ContactFormBtn.vue";
 
 <template>
     <div class="contact-form-ctn">
-        <form action="" id="contact-form" @submit="submitForm">
+        <form action="" id="contact-form">
             <ContactInputCtn :labelName="Contacts[0].labelName" :nameType="Contacts[0].nameType" :nameFor="Contacts[0].nameFor" :placeholder="Contacts[0].placeholder"></ContactInputCtn>
             <ContactInputCtn :labelName="Contacts[1].labelName" :nameType="Contacts[1].nameType" :nameFor="Contacts[1].nameFor" :placeholder="Contacts[1].placeholder"></ContactInputCtn>
             <ContactInputMsgCtn :labelName="Contacts[2].labelName" :nameType="Contacts[2].nameType" :nameFor="Contacts[2].nameFor" :placeholder="Contacts[2].placeholder"></ContactInputMsgCtn>
             <br/>
-            <ContactFormBtn @click="submitForm"/>
+            <ContactFormBtn/>
             <p id="form-success">
                 Sucessfully submitted!
             </p>
