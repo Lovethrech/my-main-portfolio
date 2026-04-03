@@ -2,7 +2,6 @@
 import Contacts from "@/data/contacts.json";
 import ContactInputCtn from "./ContactInputCtn.vue";
 import ContactInputMsgCtn from "./ContactInputMsgCtn.vue";
-import ContactFormBtn from "./ContactFormBtn.vue";
 </script>
 
 <template>
@@ -12,7 +11,9 @@ import ContactFormBtn from "./ContactFormBtn.vue";
             <ContactInputCtn :labelName="Contacts[1].labelName" :nameType="Contacts[1].nameType" :nameFor="Contacts[1].nameFor" :placeholder="Contacts[1].placeholder"></ContactInputCtn>
             <ContactInputMsgCtn :labelName="Contacts[2].labelName" :nameType="Contacts[2].nameType" :nameFor="Contacts[2].nameFor" :placeholder="Contacts[2].placeholder"></ContactInputMsgCtn>
             <br/>
-            <ContactFormBtn/>
+            <button type="submit" id="contact-form-btn">
+                Submit Message
+            </button>
             <p id="form-success">
                 Sucessfully submitted!
             </p>
@@ -23,6 +24,20 @@ import ContactFormBtn from "./ContactFormBtn.vue";
 <style scoped>
 .contact-form-ctn{
     width: 100%;
+}
+#contact-form-btn{
+    width: 100%;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    padding: 1vh;
+    font-size: var(--p-size);
+    border: 0.2vh solid #a7a4a4;
+    transition: background-color .4s ease-in-out, color .2s ease-in;
+}
+#contact-form-btn:hover{
+    cursor: pointer;
+    background-color: var(--general-components-bg-color);
+    color: #ffffff;
 }
 #form-success{
     color: green;
