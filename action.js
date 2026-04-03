@@ -1,6 +1,4 @@
 document.addEventListener('DOMContentLoaded', ()=>{
-    const body= document.body;
-
     const form=document.getElementById('contact-form');
     const successMsg=document.getElementById('form-success');
 
