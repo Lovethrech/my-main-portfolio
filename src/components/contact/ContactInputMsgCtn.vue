@@ -17,7 +17,7 @@ textarea{
     <div class="home-contact-input-msg-ctn-main-ctn">
         <div class="home-input-ctn">
             <label class="home-label" :for="nameFor">{{ labelName }}</label><br>
-            <textarea :name="nameFor" :id="nameFor" :type="nameType" cols="30" rows="10" :placeholder="placeholder" class="home-input-value"></textarea>
+            <textarea :v-model="nameFor" :id="nameFor" :type="nameType" cols="30" rows="10" :placeholder="placeholder" class="home-input-value"></textarea>
             <p class="contact-error-message" :id="errorMsg">
                 
             </p>
