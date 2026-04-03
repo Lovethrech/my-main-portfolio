@@ -4,7 +4,8 @@ import Contacts from "@/data/contacts.json";
 import ContactInputCtn from "./ContactInputCtn.vue";
 import ContactInputMsgCtn from "./ContactInputMsgCtn.vue";
 
-const formData=ref({name:'', email:'', message:""});
+const formData=ref({name:'My name is', email:'', message:''});
+console.log(formData)
 </script>
 
 <template>
