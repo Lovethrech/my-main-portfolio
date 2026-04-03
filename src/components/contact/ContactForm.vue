@@ -14,7 +14,7 @@ import ContactInputMsgCtn from "./ContactInputMsgCtn.vue";
             <button type="submit" id="contact-form-btn">
                 Submit Message
             </button>
-            <p id="form-success">
+            <p id="form-success" style="display: none; color: green;">
                 Sucessfully submitted!
             </p>
         </form>
