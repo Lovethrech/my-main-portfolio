@@ -12,7 +12,7 @@ import ContactFormBtn from "./ContactFormBtn.vue";
             <ContactInputCtn :labelName="Contacts[1].labelName" :nameType="Contacts[1].nameType" :nameFor="Contacts[1].nameFor" :placeholder="Contacts[1].placeholder"></ContactInputCtn>
             <ContactInputMsgCtn :labelName="Contacts[2].labelName" :nameType="Contacts[2].nameType" :nameFor="Contacts[2].nameFor" :placeholder="Contacts[2].placeholder"></ContactInputMsgCtn>
             <br/>
-            <ContactFormBtn @click="contactFormStore.submitForm"/>
+            <ContactFormBtn @click="submitForm"/>
             <p id="form-success">
                 Sucessfully submitted!
             </p>
