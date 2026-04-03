@@ -17,7 +17,7 @@ const contactFormStore=useContactFormStore();
             <br/>
             <ContactFormBtn @click="contactFormStore.submitForm"/>
             <p id="form-success">
-                
+                Sucessfully submitted!
             </p>
         </form>
     </div>
@@ -26,5 +26,9 @@ const contactFormStore=useContactFormStore();
 <style scoped>
 .contact-form-ctn{
     width: 100%;
+}
+#form-success{
+    color: green;
+    font-size: var(--h4-size);
 }
 </style>
