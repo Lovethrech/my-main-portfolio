@@ -6,6 +6,7 @@ import ContactInputMsgCtn from "./ContactInputMsgCtn.vue";
 
 const formData=ref({name:'My name is', email:'', message:''});
 const errorMsg=ref({name:'', email:'', message:''});
+const isSubmitting=ref(false);
 </script>
 
 <template>
