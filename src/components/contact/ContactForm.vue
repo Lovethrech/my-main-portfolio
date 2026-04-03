@@ -5,7 +5,7 @@ import ContactInputCtn from "./ContactInputCtn.vue";
 import ContactInputMsgCtn from "./ContactInputMsgCtn.vue";
 
 const formData=ref({name:'My name is', email:'', message:''});
-const errorMsg=ref({name:'', email='', message:''});
+const errorMsg=ref({name:'', email:'', message:''});
 </script>
 
 <template>
@@ -17,7 +17,7 @@ const errorMsg=ref({name:'', email='', message:''});
                 :nameFor="Contacts[0].nameFor" 
                 :dataModel="formData.name"
                 :placeholder="Contacts[0].placeholder" 
-                :errorMsg="Contacts[0].errorMsg"
+                :errorMsg="errorMsg.name"
             />
             <ContactInputCtn 
                 :labelName="Contacts[1].labelName" 
@@ -25,7 +25,7 @@ const errorMsg=ref({name:'', email='', message:''});
                 :nameFor="Contacts[1].nameFor" 
                 :dataModel="formData.email"
                 :placeholder="Contacts[1].placeholder" 
-                :errorMsg="Contacts[1].errorMsg"
+                :errorMsg="errorMsg.email"
             />
             <ContactInputMsgCtn 
                 :labelName="Contacts[2].labelName" 
@@ -33,7 +33,7 @@ const errorMsg=ref({name:'', email='', message:''});
                 :nameFor="Contacts[2].nameFor" 
                 :dataModel="formData.message"
                 :placeholder="Contacts[2].placeholder" 
-                :errorMsg="Contacts[2].errorMsg"
+                :errorMsg="errorMsg.message"
             />
             <br/>
             <button type="submit" id="contact-form-btn">
