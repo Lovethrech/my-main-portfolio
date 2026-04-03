@@ -16,7 +16,7 @@ const {labelName, nameType, nameFor, placeholder, errorMsg, dataModel}=definePro
             <div class="home-input-ctn">
                 <label class="home-label" :for="nameFor">{{labelName}}</label><br>
                 <input :type="nameType" :value="dataModel" :id="nameFor" :placeholder="placeholder" class="home-input-value"/>
-                <p class="contact-error-message" :id="errorMsg">
+                <p class="contact-error-message" v-html="errorMsg">
                 </p>
             </div><br>
         </div>
