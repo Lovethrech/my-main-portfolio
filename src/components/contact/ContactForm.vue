@@ -8,6 +8,8 @@ const formData=ref({name:'My name is', email:'', message:''});
 const errorMsg=ref({name:'', email:'', message:''});
 const success=ref(false);
 const isSubmitting=ref(false);
+
+
 </script>
 
 <template>
@@ -39,9 +41,9 @@ const isSubmitting=ref(false);
             />
             <br/>
             <button type="submit" id="contact-form-btn" :disabled="isSubmitting">
-                Submit Message
+                {{ isSubmitting ? 'Sending...' : 'Send Message' }}
             </button>
-            <p id="form-success" style="display: none; color: green;">
+            <p v-if="success" id="form-success">
                 Sucessfully submitted!
             </p>
         </form>
