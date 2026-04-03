@@ -5,7 +5,7 @@ import ContactInputCtn from "./ContactInputCtn.vue";
 import ContactInputMsgCtn from "./ContactInputMsgCtn.vue";
 
 const formData=ref({name:'My name is', email:'', message:''});
-console.log(formData)
+const errorMsg=ref({name:'', email='', message=''});
 </script>
 
 <template>
