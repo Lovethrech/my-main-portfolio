@@ -10,7 +10,8 @@ const success=ref(false);
 const isSubmitting=ref(false);
 
 const validateAndSubmit= async()=>{
-    
+    errorMsg.value={name:'', email:'', message:''}
+    let valid=true
 }
 </script>
 
