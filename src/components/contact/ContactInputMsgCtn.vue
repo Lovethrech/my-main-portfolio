@@ -1,7 +1,7 @@
 <script setup>
 import { defineProps} from "vue";
 
-const {labelName, nameType, nameFor, placeholder}=defineProps(['labelName', 'nameType', 'nameFor', 'placeholder']);
+const {labelName, nameType, nameFor, placeholder, errorMsg}=defineProps(['labelName', 'nameType', 'nameFor', 'placeholder', 'errorMsg']);
 </script>
 
 <style scoped>
