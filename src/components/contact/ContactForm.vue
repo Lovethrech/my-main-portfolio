@@ -4,20 +4,45 @@ import Contacts from "@/data/contacts.json";
 import ContactInputCtn from "./ContactInputCtn.vue";
 import ContactInputMsgCtn from "./ContactInputMsgCtn.vue";
 
-const formData=ref({name:'My name is', email:'', message:''});
+const formData=ref({name:'', email:'', message:''});
 const errorMsg=ref({name:'', email:'', message:''});
 const success=ref(false);
 const isSubmitting=ref(false);
 
 const validateAndSubmit= async()=>{
-    errorMsg.value={name:'', email:'', message:''}
-    let valid=true
+    errorMsg.value={name:'', email:'', message:''};
+    let valid=true;
+
+    if (!formData.value.name.trim()) {
+        errorMsg.value.name = 'Name is required';
+        valid = false;
+    }
+    if (!formData.value.email.trim() || !/\S+@\S+\.\S+/.test(formData.value.email)) {
+        errorMsg.value.email = 'Please enter a valid email';
+        valid = false;
+    }
+    if (!formData.value.message.trim()) {
+        errorMsg.value.message = 'Message is required';
+        valid = false;
+    }
+
+    if (!valid) return;
+
+    isSubmitting.value = true;
+
+    await new Promise(resolve => setTimeout(resolve, 800))
+    console.log('Form submitted:', formData.value)
+    success.value = true
+    formData.value = { name: '', email: '', message: '' }
+
+    setTimeout(() => success.value = false, 5000)
+    isSubmitting.value = false
 }
 </script>
 
 <template>
     <div class="contact-form-ctn">
-        <form action="" id="contact-form">
+        <form action="" id="contact-form" @submit.prevent="validateAndSubmit">
             <ContactInputCtn 
                 :labelName="Contacts[0].labelName" 
                 :nameType="Contacts[0].nameType" 
