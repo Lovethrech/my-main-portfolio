@@ -1,7 +1,10 @@
 <script setup>
+import {ref} from "vue";
 import Contacts from "@/data/contacts.json";
 import ContactInputCtn from "./ContactInputCtn.vue";
 import ContactInputMsgCtn from "./ContactInputMsgCtn.vue";
+
+const formData=ref({name:'', email:'', message:""});
 </script>
 
 <template>
@@ -11,6 +14,7 @@ import ContactInputMsgCtn from "./ContactInputMsgCtn.vue";
                 :labelName="Contacts[0].labelName" 
                 :nameType="Contacts[0].nameType" 
                 :nameFor="Contacts[0].nameFor" 
+                :dataModel="formData.name"
                 :placeholder="Contacts[0].placeholder" 
                 :errorMsg="Contacts[0].errorMsg"
             />
@@ -18,6 +22,7 @@ import ContactInputMsgCtn from "./ContactInputMsgCtn.vue";
                 :labelName="Contacts[1].labelName" 
                 :nameType="Contacts[1].nameType" 
                 :nameFor="Contacts[1].nameFor" 
+                :dataModel="formData.email"
                 :placeholder="Contacts[1].placeholder" 
                 :errorMsg="Contacts[1].errorMsg"
             />
@@ -25,6 +30,7 @@ import ContactInputMsgCtn from "./ContactInputMsgCtn.vue";
                 :labelName="Contacts[2].labelName" 
                 :nameType="Contacts[2].nameType" 
                 :nameFor="Contacts[2].nameFor" 
+                :dataModel="formData.message"
                 :placeholder="Contacts[2].placeholder" 
                 :errorMsg="Contacts[2].errorMsg"
             />
