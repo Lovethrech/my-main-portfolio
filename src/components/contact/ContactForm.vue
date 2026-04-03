@@ -7,9 +7,27 @@ import ContactInputMsgCtn from "./ContactInputMsgCtn.vue";
 <template>
     <div class="contact-form-ctn">
         <form action="" id="contact-form">
-            <ContactInputCtn :labelName="Contacts[0].labelName" :nameType="Contacts[0].nameType" :nameFor="Contacts[0].nameFor" :placeholder="Contacts[0].placeholder" :errorMsg="Contacts[0].errorMsg"></ContactInputCtn>
-            <ContactInputCtn :labelName="Contacts[1].labelName" :nameType="Contacts[1].nameType" :nameFor="Contacts[1].nameFor" :placeholder="Contacts[1].placeholder" :errorMsg="Contacts[1].errorMsg"></ContactInputCtn>
-            <ContactInputMsgCtn :labelName="Contacts[2].labelName" :nameType="Contacts[2].nameType" :nameFor="Contacts[2].nameFor" :placeholder="Contacts[2].placeholder" :errorMsg="Contacts[2].errorMsg"></ContactInputMsgCtn>
+            <ContactInputCtn 
+                :labelName="Contacts[0].labelName" 
+                :nameType="Contacts[0].nameType" 
+                :nameFor="Contacts[0].nameFor" 
+                :placeholder="Contacts[0].placeholder" 
+                :errorMsg="Contacts[0].errorMsg"
+            />
+            <ContactInputCtn 
+                :labelName="Contacts[1].labelName" 
+                :nameType="Contacts[1].nameType" 
+                :nameFor="Contacts[1].nameFor" 
+                :placeholder="Contacts[1].placeholder" 
+                :errorMsg="Contacts[1].errorMsg"
+            />
+            <ContactInputMsgCtn 
+                :labelName="Contacts[2].labelName" 
+                :nameType="Contacts[2].nameType" 
+                :nameFor="Contacts[2].nameFor" 
+                :placeholder="Contacts[2].placeholder" 
+                :errorMsg="Contacts[2].errorMsg"
+            />
             <br/>
             <button type="submit" id="contact-form-btn">
                 Submit Message

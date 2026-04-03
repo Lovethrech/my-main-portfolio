@@ -6,12 +6,11 @@ document.addEventListener('DOMContentLoaded', ()=>{
         form.addEventListener('submit', (e)=>{
             e.preventDefault();
 
-            document.querySelectorAll('.error').forEach( el=> el.textContent= '' );
+            document.querySelectorAll('.contact-error-message').forEach( el=> el.textContent= '' );
             let isValid=true;
 
             // Name 
             const name= document.getElementById('name').value.trim();
-            console.log(name);
             if (name === ''){
                 document.getElementById('name-error').textContent= 'Name is required';
                 isValid=false;
