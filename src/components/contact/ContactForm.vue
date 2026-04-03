@@ -79,11 +79,10 @@ const validateAndSubmit= async()=>{
 </template>
 
 <style scoped>
-.contact-form-ctn{
+.contact-form-ctn, #contact-form-btn{
     width: 100%;
 }
 #contact-form-btn{
-    width: 100%;
     background-color: var(--bg-color);
     color: var(--text-color);
     padding: 1vh;
