@@ -6,6 +6,7 @@ import ContactInputMsgCtn from "./ContactInputMsgCtn.vue";
 
 const formData=ref({name:'My name is', email:'', message:''});
 const errorMsg=ref({name:'', email:'', message:''});
+const success=ref(false);
 const isSubmitting=ref(false);
 </script>
 
@@ -37,7 +38,7 @@ const isSubmitting=ref(false);
                 :errorMsg="errorMsg.message"
             />
             <br/>
-            <button type="submit" id="contact-form-btn">
+            <button type="submit" id="contact-form-btn" :disabled="isSubmitting">
                 Submit Message
             </button>
             <p id="form-success" style="display: none; color: green;">
