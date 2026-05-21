@@ -40,7 +40,7 @@ const {name,rate}=defineProps(['name', 'rate']);
         border-bottom: 0.1vh dashed rgba(255, 255, 255, 0.493);
     }
     .stack-professional-skill-card-main-ctn:last-child{
-        border:0;
+        border:0
     }
 }
 @media screen and (max-width: 450px) {

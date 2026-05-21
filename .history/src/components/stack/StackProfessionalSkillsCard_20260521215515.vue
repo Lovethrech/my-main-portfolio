@@ -39,9 +39,6 @@ const {name,rate}=defineProps(['name', 'rate']);
         flex-direction: column;
         border-bottom: 0.1vh dashed rgba(255, 255, 255, 0.493);
     }
-    .stack-professional-skill-card-main-ctn:last-child{
-        border:0;
-    }
 }
 @media screen and (max-width: 450px) {
     .stack-professional-skill-card-main-ctn-title{

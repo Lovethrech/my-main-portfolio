@@ -25,9 +25,7 @@ import StackSkillsCard from './StackSkillsCard.vue';
     gap:2vh;
     flex-wrap: wrap;
 }
-@media screen and (max-width: 960px) {
-    .stack-skill-mini-ctn{
-        gap:0;
-    }
+@
+media screen and (max-width: 960px) {
 }
 </style>
