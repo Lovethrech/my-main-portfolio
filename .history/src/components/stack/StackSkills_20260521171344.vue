@@ -6,13 +6,13 @@ import StackSkillsCard from './StackSkillsCard.vue';
 <template>
     <div class="stack-skill-main-ctn">
         <div class="stack-skill-mini-ctn">
-            <StackSkillsCard
+            <!-- <StackSkillsCard
                 v-for="skillsStack in skillsStacks"
                 :key="skillsStack.id"
                 :skill="skillsStack.skill"
                 :years="skillsStack.years"
             >
-            </StackSkillsCard>
+            </StackSkillsCard> -->
         </div>
     </div>
 </template>

@@ -1,0 +1,53 @@
+[
+    {
+        "id": 1,
+        "name":"Hardware Installation",
+        "rate":"<img src='/star.svg' alt='Full Star Icon'/><img src='/star.svg' alt='Full Star Icon'/><img src='/star.svg' alt='Full Star Icon'/><img src='/star.svg' alt='Full Star Icon'/><img src='/star.svg' alt='Full Star Icon'/>"
+    },
+    {
+        "id": 2,
+        "name":"software installation",
+        "rate":"<img src='/star.svg' alt='Full Star Icon'/><img src='/star.svg' alt='Full Star Icon'/><img src='/star.svg' alt='Full Star Icon'/><img src='/star.svg' alt='Full Star Icon'/><img src='/star.svg' alt='Full Star Icon'/>"
+    },
+    {
+        "id": 3,
+        "name":"system maintenance",
+        "rate":"<img src='/star.svg' alt='Full Star Icon'/><img src='/star.svg' alt='Full Star Icon'/><img src='/star.svg' alt='Full Star Icon'/><img src='/star.svg' alt='Full Star Icon'/><img src='/star-half.svg' alt='Half Star Icon'/>"
+    },
+    {
+        "id": 4,
+        "name":"programming",
+        "rate":"<img src='/star.svg' alt='Full Star Icon'/><img src='/star.svg' alt='Full Star Icon'/><img src='/star.svg' alt='Full Star Icon'/><img src='/star.svg' alt='Full Star Icon'/><img src='/star.svg' alt='Full Star Icon'/>"
+    },
+    {
+        "id": 5,
+        "name":"networking",
+        "rate":"<img src='/star.svg' alt='Full Star Icon'/><img src='/star.svg' alt='Full Star Icon'/><img src='/star.svg' alt='Full Star Icon'/><img src='/star-half.svg' alt='Half Star Icon'/><img src='/star-half.svg' alt='Half Star Icon'/>"
+    },
+    {
+        "id": 6,
+        "name":"leadership",
+        "rate":"<img src='/star.svg' alt='Full Star Icon'/><img src='/star.svg' alt='Full Star Icon'/><img src='/star.svg' alt='Full Star Icon'/><img src='/star.svg' alt='Full Star Icon'/><img src='/star.svg' alt='Full Star Icon'/>"
+    },
+    {
+        "id": 7,
+        "name":"team work",
+        "rate":"<img src='/star.svg' alt='Full Star Icon'/><img src='/star.svg' alt='Full Star Icon'/><img src='/star.svg' alt='Full Star Icon'/><img src='/star.svg' alt='Full Star Icon'/><img src='/star.svg' alt='Full Star Icon'/>"
+    },
+    {
+        "id": 8,
+        "name":"problem-solving",
+        "rate":"<img src='/star.svg' alt='Full Star Icon'/><img src='/star.svg' alt='Full Star Icon'/><img src='/star.svg' alt='Full Star Icon'/><img src='/star.svg' alt='Full Star Icon'/><img src='/star.svg' alt='Full Star Icon'/>"
+    },
+    {
+        "id": 9,
+        "name":"critical thinking",
+        "rate":"<img src='/star.svg' alt='Full Star Icon'/><img src='/star.svg' alt='Full Star Icon'/><img src='/star.svg' alt='Full Star Icon'/><img src='/star.svg' alt='Full Star Icon'/><img src='/star-half.svg' alt='Half Star Icon'/>"
+    },
+    {
+        "id": 10,
+        "name":"time management",
+        "rate":"<img src='/star.svg' alt='Full Star Icon'/><img src='/star.svg' alt='Full Star Icon'/><img src='/star.svg' alt='Full Star Icon'/><img src='/star.svg' alt='Full Star Icon'/><img src='/star-half.svg' alt='Half Star Icon'/>"
+    }
+
+]

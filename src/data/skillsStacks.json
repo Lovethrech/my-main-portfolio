@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "skill":"html",
+        "years": "5 years of experience"
+    },
+    {
+        "id": 2,
+        "skill":"css",
+        "years": "5 years of experience"
+    },
+    {
+        "id": 3,
+        "skill":"javascript",
+        "years": "5 years of experience"
+    },
+    {
+        "id": 4,
+        "skill":"accessibility",
+        "years": "4 years of experience"
+    },
+    {
+        "id": 5,
+        "skill":"vue",
+        "years": "4 years of experience"
+    },
+    {
+        "id": 6,
+        "skill":"less",
+        "years": "4 years of experience"
+    },
+    {
+        "id": 7,
+        "skill":"git",
+        "years": "4 years of experience"
+    },
+    {
+        "id": 8,
+        "skill":"postgreSQL",
+        "years": "2 years of experience"
+    },
+    {
+        "id": 9,
+        "skill":"node (express.js)",
+        "years": "4 years of experience"
+    },
+    {
+        "id": 10,
+        "skill":"graphql",
+        "years": "2 years of experience"
+    },
+    {
+        "id": 11,
+        "skill":"rest api",
+        "years": "4 years of experience"
+    }
+]

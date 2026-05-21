@@ -1,7 +1,7 @@
 <script setup>
 import profSkillsStacks from "@/data/stack/prof-skills-stack.json";
 // import StackHL from "./StackHL.vue";
-// import StackProfessionalSkillsCard from './StackProfessionalSkillsCard.vue';
+import StackProfessionalSkillsCard from './StackProfessionalSkillsCard.vue';
 </script>
 
 <template>
