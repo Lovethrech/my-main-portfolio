@@ -18,12 +18,12 @@
     background-color: var(--bg-color);
     color: var(--text-color);
     border: 0.5vh double var(--general-components-bg-color);
-    transition: background-color .2s, color .3s, transform .1s;
+    transition: ;
 }
 .about-download-cv:hover{
     cursor: pointer;
     background-color: #ffffff;
     color: #000000;
-    transform: scale(0.98);
+    
 }
 </style>

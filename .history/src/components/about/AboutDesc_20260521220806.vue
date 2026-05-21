@@ -40,7 +40,7 @@
 
 @media screen and (max-width: 1024px) {
     .about-desc{
-        font-size: 1.5vh;
+        font-size: 1.4vh;
     }
 }
 </style>
