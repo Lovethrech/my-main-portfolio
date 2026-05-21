@@ -1,15 +1,15 @@
 <script setup>
 import StackSkills from './StackSkills.vue';
-import StackProfessionalSkills from './StackProfessionalSkills.vue';
+// import StackProfessionalSkills from './StackProfessionalSkills.vue';
 </script>
 
 <template>
     <div class="stack-main-ctn">
         <div class="stack-mini-ctn">
-            <StackSkills></StackSkills>
+            <!-- <StackSkills></StackSkills> -->
             <br/>
             <br/>
-            <StackProfessionalSkills></StackProfessionalSkills>
+            <!-- <StackProfessionalSkills></StackProfessionalSkills> -->
         </div>
     </div>
 </template>

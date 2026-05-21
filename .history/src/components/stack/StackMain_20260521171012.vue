@@ -9,7 +9,7 @@ import StackProfessionalSkills from './StackProfessionalSkills.vue';
             <StackSkills></StackSkills>
             <br/>
             <br/>
-            <StackProfessionalSkills></StackProfessionalSkills>
+            <!-- <StackProfessionalSkills></StackProfessionalSkills> -->
         </div>
     </div>
 </template>
