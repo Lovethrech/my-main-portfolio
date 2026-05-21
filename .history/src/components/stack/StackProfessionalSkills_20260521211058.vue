@@ -30,11 +30,9 @@ import StackProfessionalSkillsCard from './StackProfessionalSkillsCard.vue';
     gap:20px;
 }
 .stack-professional-skill-main-ctn-title{
+    bg-color
     color: hsl(166, 91%, 49%);
-    padding: 2vh 0;
-    margin-bottom: 8vh;
-    border-top: 0.1vh solid hsl(166, 91%, 29%);  
-    border-bottom: 0.1vh solid hsl(166, 91%, 29%); 
+    margin-bottom: 20px;
     font-family: "Orbitron", serif;
     font-size:3vh;
     text-transform: uppercase;

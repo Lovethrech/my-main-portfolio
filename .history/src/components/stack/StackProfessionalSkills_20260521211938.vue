@@ -34,7 +34,7 @@ import StackProfessionalSkillsCard from './StackProfessionalSkillsCard.vue';
     padding: 2vh 0;
     margin-bottom: 8vh;
     border-top: 0.1vh solid hsl(166, 91%, 29%);  
-    border-bottom: 0.1vh solid hsl(166, 91%, 29%); 
+    border-bottom: 0.1vh solid var(--bg-color);  
     font-family: "Orbitron", serif;
     font-size:3vh;
     text-transform: uppercase;

@@ -14,7 +14,7 @@ import StackMain from "@/components/stack/StackMain.vue";
 <style scoped>
 .stack-title{
     margin:  0 6vw;
-    border-bottom: 0.1vh solid hsl(166, 91%, 29%);    
+    border-top: 1vh solid var    
     color: hsl(166, 91%, 49%);
     margin-bottom: 20px;
     font-size:4vh;
