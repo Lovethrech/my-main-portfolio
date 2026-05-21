@@ -6,5 +6,3 @@
         </section>
     </main>
 </template>
-
-<
