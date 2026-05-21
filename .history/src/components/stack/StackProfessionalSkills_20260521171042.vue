@@ -6,7 +6,7 @@
 
 <template>
     <div class="stack-professional-skill-main-ctn">
-        <!-- <StackHL></StackHL>
+        <StackHL></StackHL>
         <br/>
         <h2 class="stack-professional-skill-main-ctn-title">
             Professional Skills
@@ -20,7 +20,7 @@
             :rate="profSkillsStack.rate"
             >
             </StackProfessionalSkillsCard>
-        </div> -->
+        </div>
     </div>
 </template>
 
