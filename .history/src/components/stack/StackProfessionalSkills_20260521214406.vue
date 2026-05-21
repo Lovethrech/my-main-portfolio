@@ -43,7 +43,7 @@ import StackProfessionalSkillsCard from './StackProfessionalSkillsCard.vue';
 }
 @media screen and (max-width: 650px) {
     .stack-professional-skill-main-ctn-title{
-        font-size: 4vw;
+        font-size:18px;
     }
 }
 </style>

@@ -41,9 +41,9 @@ import StackProfessionalSkillsCard from './StackProfessionalSkillsCard.vue';
     text-align:center;
     letter-spacing:2vh;
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 4650px) {
     .stack-professional-skill-main-ctn-title{
-        font-size: 4vw;
+        font-size:18px;
     }
 }
 </style>

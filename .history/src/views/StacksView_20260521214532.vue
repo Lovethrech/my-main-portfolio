@@ -25,7 +25,7 @@ import StackMain from "@/components/stack/StackMain.vue";
 
 @media screen and (max-width: 650px) {
     .stack-title{
-        font-size: 3vh;
+        font-size: 24px;
     }
 }
 </style>
