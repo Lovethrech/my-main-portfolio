@@ -23,7 +23,7 @@ const {skill, years}=defineProps(['skill', 'years']);
 }
 .stack-skills-card-main-ctn-title{
     text-transform: uppercase;
-    font-size:2.4vh;
+    font-size:2vh;
     font-weight: 600;
 }
 .stack-skills-card-main-ctn-desc{
@@ -43,10 +43,10 @@ const {skill, years}=defineProps(['skill', 'years']);
         width: 45%;
     }
     .stack-skills-card-main-ctn-title{
-        font-size:2vh;
+        font-size:16px;
     }
     .stack-skills-card-main-ctn-desc{
-        font-size: 1.5vh;
+        font-size: 10px;
     }
 }
 
