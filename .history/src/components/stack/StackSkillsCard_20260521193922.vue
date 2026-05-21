@@ -34,7 +34,7 @@ const {skill, years}=defineProps(['skill', 'years']);
 
 @media screen and (max-width:960px) and (min-width: 511px) {
     .stack-skills-card-main-ctn{
-        width: 44%;
+        width:42vw;
     }
 }
 
