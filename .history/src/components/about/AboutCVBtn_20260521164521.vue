@@ -1,6 +1,6 @@
 <template>
     <div class="about-download-cv-ctn">
-        <a href="/Olaonipekun_Dolapo_Rachael_CV.pdf" download="olaonipekun-dolapo-rachael-cv" class="link">
+        <a href="/Olao.pdf" download="olaonipekun-dolapo-rachael-cv" class="link">
             <button class="about-download-cv">
                 Download CV
             </button>
