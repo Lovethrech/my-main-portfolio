@@ -1,12 +1,12 @@
 <script setup>
-import StackMain from "@/components/stack/StackMain.vue";
+import Stack from "@/components/stack/StackMain.vue";
 </script>
 
 <template>
     <main id="stacks-view">
         <section>
             <h3 class="about-title">Stacks</h3>
-            <StackMain></StackMain>
+            <Stack></Stack>
         </section>
     </main>
 </template>

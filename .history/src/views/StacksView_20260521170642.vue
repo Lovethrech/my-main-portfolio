@@ -6,7 +6,7 @@ import StackMain from "@/components/stack/StackMain.vue";
     <main id="stacks-view">
         <section>
             <h3 class="about-title">Stacks</h3>
-            <StackMain></StackMain>
+            <Stack></Stack>
         </section>
     </main>
 </template>
