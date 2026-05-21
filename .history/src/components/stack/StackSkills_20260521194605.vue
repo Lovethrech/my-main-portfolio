@@ -22,7 +22,7 @@ import StackSkillsCard from './StackSkillsCard.vue';
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    gap:2vh;
+    gap:10vh;
     flex-wrap: wrap;
 }
 </style>
