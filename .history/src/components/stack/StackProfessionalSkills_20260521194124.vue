@@ -16,7 +16,7 @@ import StackProfessionalSkillsCard from './StackProfessionalSkillsCard.vue';
             :rate="profSkillsStack.rate"
             >
             </StackProfessionalSkillsCard>
-        </div>
+        </div> -->
     </div>
 </template>
 

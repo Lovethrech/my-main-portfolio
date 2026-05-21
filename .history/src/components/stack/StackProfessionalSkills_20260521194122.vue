@@ -8,6 +8,7 @@ import StackProfessionalSkillsCard from './StackProfessionalSkillsCard.vue';
         <h2 class="stack-professional-skill-main-ctn-title">
             Professional Skills
         </h2>
+        <StackHL></StackHL>
         <div class="stack-professional-skill-mini-ctn">
             <StackProfessionalSkillsCard
             v-for="profSkillsStack in profSkillsStacks"
@@ -16,7 +17,7 @@ import StackProfessionalSkillsCard from './StackProfessionalSkillsCard.vue';
             :rate="profSkillsStack.rate"
             >
             </StackProfessionalSkillsCard>
-        </div>
+        </div> -->
     </div>
 </template>
 

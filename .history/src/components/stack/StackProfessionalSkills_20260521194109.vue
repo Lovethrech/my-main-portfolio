@@ -1,13 +1,16 @@
 <script setup>
-import profSkillsStacks from "@/data/prof-skills-stack.json";
-import StackProfessionalSkillsCard from './StackProfessionalSkillsCard.vue';
+import profSkillsStacks from "@/data/stack/prof-skills-stack.json";
+import St/ackProfessionalSkillsCard from './StackProfessionalSkillsCard.vue';
 </script>
 
 <template>
     <div class="stack-professional-skill-main-ctn">
+        <!-- <StackHL></StackHL>
+        <br/>
         <h2 class="stack-professional-skill-main-ctn-title">
             Professional Skills
         </h2>
+        <StackHL></StackHL>
         <div class="stack-professional-skill-mini-ctn">
             <StackProfessionalSkillsCard
             v-for="profSkillsStack in profSkillsStacks"
@@ -16,7 +19,7 @@ import StackProfessionalSkillsCard from './StackProfessionalSkillsCard.vue';
             :rate="profSkillsStack.rate"
             >
             </StackProfessionalSkillsCard>
-        </div>
+        </div> -->
     </div>
 </template>
 
