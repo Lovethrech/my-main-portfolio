@@ -1,24 +1,21 @@
-<script setup>
-import Stack from "@/components/stack/Stack.vue";
-</script>
-
 <template>
     <main id="stacks-view">
         <section>
             <h3 class="about-title">Stacks</h3>
-            <Stack></Stack>
+            <!-- <Stack></Stack> -->
         </section>
     </main>
 </template>
 
 <style scoped>
 .about-title{
-    color: hsl(166, 91%, 49%);
+    color: var()
     margin-bottom: 20px;
+    font-family: "Orbitron", serif;
     font-size:4vh;
     text-transform: uppercase;
     text-align:center;
-    letter-spacing:2vh;
+    letter-spacing:10px;
 }
 
 @media screen and (max-width: 450px) {

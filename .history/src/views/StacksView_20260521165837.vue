@@ -1,5 +1,5 @@
 <script setup>
-import Stack from "@/components/stack/Stack.vue";
+import Stack from "@"
 </script>
 
 <template>

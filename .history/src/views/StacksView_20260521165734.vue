@@ -1,12 +1,8 @@
-<script setup>
-import Stack from "@/components/stack/Stack.vue";
-</script>
-
 <template>
     <main id="stacks-view">
         <section>
             <h3 class="about-title">Stacks</h3>
-            <Stack></Stack>
+            <!-- <Stack></Stack> -->
         </section>
     </main>
 </template>
