@@ -1,12 +1,12 @@
 <script setup>
-import ProjectMain from "@/components/project/ProjectMain.vue";
+import projectMain from "@/components/project/projectMain.vue";
 </script>
 
 <template>
     <main id="projects-view">
         <section>
             <h3 class="project-title">projects</h3>
-            <ProjectMain></ProjectMain>
+            <!-- <projectMain></projectMain> -->
         </section>
     </main>
 </template>
