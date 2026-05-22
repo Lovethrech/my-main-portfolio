@@ -1,18 +1,18 @@
 <script setup>
-// import projectMain from "@/components/project/projectMain.vue";
+import StackMain from "@/components/stack/StackMain.vue";
 </script>
 
 <template>
-    <main id="projects-view">
+    <main id="stacks-view">
         <section>
-            <h3 class="project-title">projects</h3>
-            <!-- <projectMain></projectMain> -->
+            <h3 class="stack-title">Stacks</h3>
+            <!-- <StackMain></StackMain> -->
         </section>
     </main>
 </template>
 
 <style scoped>
-.project-title{
+.stack-title{
     margin:  0 6vw;
     border-bottom: 0.1vh solid hsl(166, 91%, 29%);    
     color: hsl(166, 91%, 49%);
@@ -24,7 +24,7 @@
 }
 
 @media screen and (max-width: 650px) {
-    .project-title{
+    .stack-title{
         font-size: 3vh;
     }
 }
