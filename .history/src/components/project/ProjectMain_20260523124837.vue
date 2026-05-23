@@ -4,6 +4,6 @@ import ProjectCard from './ProjectCard.vue';
 
 <template>
     <div class="project-main">
-        <ProjectCard/>
+        
     </div>
 </template>
