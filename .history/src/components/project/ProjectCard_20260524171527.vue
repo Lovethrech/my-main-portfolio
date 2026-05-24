@@ -49,7 +49,7 @@ const displayCardCtn=()=>{
                                 {{ projectItemStack.name }}
                             </p>
                             <div class="project-card-stack-list-level-ctn">
-                                <div class="project-card-stack-list-level" :style="{backgroundColor: projectItemStack.colorCode, width: projectItemStack.width}"></div>
+                                <div class="project-card-stack-list-level" :style="{backgroundColor: }"></div>
                             </div>
                         </div>
                     </div>
