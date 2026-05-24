@@ -42,7 +42,6 @@ const displayCardCtn=()=>{
     width:100%;
 }
 .project-card-header{
-    padding: 0 2vh;
     gap: 2vh;
     background-color: #0000003b;
 }

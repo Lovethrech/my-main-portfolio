@@ -40,11 +40,11 @@ const displayCardCtn=()=>{
 .project-card{
     background: url(/room-page.jpeg) no-repeat;
     width:100%;
+    padding: 0 2vh;
 }
 .project-card-header{
-    padding: 0 2vh;
     gap: 2vh;
-    background-color: #0000003b;
+    background-color: #000000;
 }
 .project-card-header-icon, .project-card-header-name,  .project-card-header-min-max{
     font-size: 4vh;

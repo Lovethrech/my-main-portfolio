@@ -33,18 +33,18 @@ const displayCardCtn=()=>{
                 {{cardMinMaxIcon}}
             </div>
         </div>
+        <!-- alt-height: 70vh transition: textAlign 2s-->
     </div>
 </template>
 
 <style scoped>
 .project-card{
-    background: url(/room-page.jpeg) no-repeat;
+    background-color: orange;
     width:100%;
+    padding: 0 2vh;
 }
 .project-card-header{
-    padding: 0 2vh;
     gap: 2vh;
-    background-color: #0000003b;
 }
 .project-card-header-icon, .project-card-header-name,  .project-card-header-min-max{
     font-size: 4vh;
