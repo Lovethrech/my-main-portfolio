@@ -18,16 +18,5 @@ const {cardMenuIcon, headerNamePosition, projectItemName, cardMinMaxIcon}=define
 </template>
 
 <style scoped>
-.project-card-header{
-    padding: 0 2vh;
-    gap: 2vh;
-    background-color: #0000008a;
-    color: #ffffff;
-}
-.project-card-header-icon, .project-card-header-name,  .project-card-header-min-max{
-    font-size: 4vh;
-}
-.project-card-header-name{
-    width: 100%;
-}
+
 </style>
