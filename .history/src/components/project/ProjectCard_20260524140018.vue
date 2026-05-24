@@ -62,7 +62,7 @@ const displayCardCtn=()=>{
     width: 100%;
 }
 .project-card-hidden-ctn{
-    background-color: #ffffff9c;
+    background-color: #ffffff7a;
     color: #000000;
     padding: 2vh 
 }
