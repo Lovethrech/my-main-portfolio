@@ -8,14 +8,12 @@ const {projectItems} = defineProps(["projectItems"]);
     <div class="project-card">
         <div class="project-card-header">
             <div class="project-card-header-icon">
-                =
+
             </div>
             <h3 class="project-card-header-name">
                 {{ projectItems[0].name }}
             </h3>
-            <div class="project-card-header-min-max">
-                +
-            </div>
+            .
         </div>
         <!-- alt-height: 70vh -->
     </div>
@@ -27,10 +25,7 @@ const {projectItems} = defineProps(["projectItems"]);
     width:100%;
     height: 10vh;
 }
-.project-card-header{
-    
-}
-.project-card-header-name{
+#project-card-header-name{
     font-size:
 }
 </style>
