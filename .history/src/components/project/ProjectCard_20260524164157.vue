@@ -31,7 +31,7 @@ const displayCardCtn=()=>{
             :cardMenuIcon="cardMenuIcon"
             :headerNamePosition="headerNamePosition"
             :projectItemName="projectItems[0].name"
-            :cardMinMaxIcon="cardMinMaxIcon"
+            
         />
         <div class="project-card-header display-flex-direction-row-justify-space-between">
             <div class="project-card-header-icon" v-html="cardMenuIcon">
