@@ -34,13 +34,14 @@ const displayCardCtn=()=>{
             </div>
         </div>
         <div class="project-card-hidden-ctn">
-            <div class="project-card-desc">
+                <div class="project-card-desc">
 
             </div>
             <div class="project-card-footer">
 
             </div>
         </div>
+        
     </div>
 </template>
 

@@ -41,6 +41,7 @@ const displayCardCtn=()=>{
 
             </div>
         </div>
+        
     </div>
 </template>
 
