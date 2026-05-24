@@ -55,6 +55,7 @@ const displayCardCtn=()=>{
     background: url(/room-page.jpeg) top/100vh no-repeat;
     background-size: cover;
     width:100%;
+    transition: height .8s ease-in-out;
 }
 .project-card-header{
     padding: 0 2vh;

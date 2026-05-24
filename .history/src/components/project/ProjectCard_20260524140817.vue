@@ -42,7 +42,7 @@ const displayCardCtn=()=>{
 
                 </div>
             </div>
-            <!-- background: url(/room-page.jpeg) top/100vh no-repeat; -->
+            
             <div class="project-card-footer">
 
             </div>
@@ -53,7 +53,7 @@ const displayCardCtn=()=>{
 <style scoped>
 .project-card{
     background: url(/room-page.jpeg) top/100vh no-repeat;
-    background-size: cover;
+    background-size: conatain;
     width:100%;
 }
 .project-card-header{
@@ -68,7 +68,7 @@ const displayCardCtn=()=>{
     width: 100%;
 }
 .project-card-hidden-ctn{
-    height: 91%;
+    height: 100%;
     background-color: #ffffff9c;
     color: #000000;
     padding: 2vh 
