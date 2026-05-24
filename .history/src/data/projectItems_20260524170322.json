@@ -13,17 +13,17 @@
             {
                 "id":2,
                 "name":"CSS",
-                "colorCode":"orange"
+                "colorCode":""
             },
             {
                 "id":3,
                 "name":"JavaScript",
-                "colorCode":"red"
+                "colorCode":""
             },
             {
                 "id":4,
                 "name":"Vue",
-                "colorCode":"green"
+                "colorCode":""
             }
         ],
         "status":"Ended",
