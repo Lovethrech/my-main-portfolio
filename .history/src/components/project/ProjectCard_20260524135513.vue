@@ -36,9 +36,7 @@ const displayCardCtn=()=>{
         <div class="project-card-desc">
 
         </div>
-        <div class="project-card-footer">
-            
-        </div>
+        .project-card-footer
     </div>
 </template>
 

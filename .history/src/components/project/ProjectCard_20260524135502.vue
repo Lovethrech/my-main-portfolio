@@ -33,12 +33,7 @@ const displayCardCtn=()=>{
                 {{cardMinMaxIcon}}
             </div>
         </div>
-        <div class="project-card-desc">
-
-        </div>
-        <div class="project-card-footer">
-            
-        </div>
+        .project-card-desc
     </div>
 </template>
 
