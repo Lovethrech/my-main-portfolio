@@ -4,36 +4,24 @@ import { defineProps, ref } from 'vue';
 const {projectItems} = defineProps(["projectItems"]);
 const cardHeight=ref("100%");
 const cardMinMaxIcon=ref("+");
-const headerNamePosition=ref("left");
 
-const displayCardCtn=()=>{
-    if (cardMinMaxIcon.value==="+"){
-        cardMinMaxIcon.value="-";
-        cardHeight.value="70vh";
-        headerNamePosition.value="center";
-    }
-    else{
-        cardMinMaxIcon.value="+";
-        cardHeight.value="100%";
-        headerNamePosition.value="left";
-    }
-}
+const displayCard
 </script>
 
 <template>
-    <div @click="displayCardCtn" class="project-card" :style="{height: cardHeight}">
+    <div class="project-card" :style="{height: cardHeight}">
         <div class="project-card-header display-flex-direction-row-justify-space-between">
             <div class="project-card-header-icon">
                 =
             </div>
-            <h3 class="project-card-header-name" :style="{textAlign: headerNamePosition}">
+            <h3 class="project-card-header-name">
                 {{ projectItems[0].name }}
             </h3>
             <div class="project-card-header-min-max">
                 {{cardMinMaxIcon}}
             </div>
         </div>
-        <!-- alt-height: 70vh transition: textAlign 2s-->
+        <!-- alt-height: 70vh -->
     </div>
 </template>
 

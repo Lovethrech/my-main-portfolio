@@ -26,7 +26,7 @@ const displayCardCtn=()=>{
             <div class="project-card-header-icon">
                 =
             </div>
-            <h3 class="project-card-header-name" :style="{textAlign: headerNamePosition}">
+            <h3 class="project-card-header-name" :style="{textAlign: headerNamePosition, }">
                 {{ projectItems[0].name }}
             </h3>
             <div class="project-card-header-min-max">
@@ -42,6 +42,9 @@ const displayCardCtn=()=>{
     background-color: orange;
     width:100%;
     padding: 0 2vh;
+}
+.project-card:focus{
+
 }
 .project-card-header{
     gap: 2vh;

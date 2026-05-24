@@ -43,6 +43,9 @@ const displayCardCtn=()=>{
     width:100%;
     padding: 0 2vh;
 }
+.project-card:focus{
+    transition: textAlign 2s;
+}
 .project-card-header{
     gap: 2vh;
 }

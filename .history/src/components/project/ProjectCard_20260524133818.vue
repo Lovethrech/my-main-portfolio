@@ -15,7 +15,6 @@ const displayCardCtn=()=>{
     else{
         cardMinMaxIcon.value="+";
         cardHeight.value="100%";
-        headerNamePosition.value="left";
     }
 }
 </script>
@@ -33,7 +32,7 @@ const displayCardCtn=()=>{
                 {{cardMinMaxIcon}}
             </div>
         </div>
-        <!-- alt-height: 70vh transition: textAlign 2s-->
+        <!-- alt-height: 70vh -->
     </div>
 </template>
 
