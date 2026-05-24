@@ -6,7 +6,7 @@ const {projectItems} = defineProps(["projectItems"]);
 
 <template>
     <div class="project-card">
-        <div class="project-card-header display-flex-direction-row-justify-space-between">
+        <div class="project-card-header">
             <div class="project-card-header-icon">
                 =
             </div>
@@ -31,8 +31,6 @@ const {projectItems} = defineProps(["projectItems"]);
 
 }
 .project-card-header-name{
-    width: 100%;
-    background-color: red;
-    font-size: 6vh;
+    font-size:;
 }
 </style>

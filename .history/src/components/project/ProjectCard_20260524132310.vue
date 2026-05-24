@@ -33,6 +33,6 @@ const {projectItems} = defineProps(["projectItems"]);
 .project-card-header-name{
     width: 100%;
     background-color: red;
-    font-size: 6vh;
+    font-size: 4vh;
 }
 </style>
