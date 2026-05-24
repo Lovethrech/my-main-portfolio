@@ -1,7 +1,6 @@
 <script setup>
 import { defineProps, ref } from 'vue';
 import ProjectCardHeader from './ProjectCardHeader.vue';
-import ProjectCardDescAndStack from './ProjectCardDescAndStack.vue';
 
 const {projectItems} = defineProps(["projectItems"]);
 const projectItemStacks = projectItems[0].stack;
@@ -35,7 +34,7 @@ const displayCardCtn=()=>{
             :cardMinMaxIcon="cardMinMaxIcon"
         />
         <div class="project-card-hidden-ctn">
-            <ProjectCardDescAndStack/>
+            <ProjectCard
             <!-- background: url(/room-page.jpeg) top/100vh no-repeat; -->
             <div class="project-card-footer">
 
