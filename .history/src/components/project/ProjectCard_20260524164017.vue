@@ -29,7 +29,6 @@ const displayCardCtn=()=>{
         <!-- correction:..give header ctn and items a color -->
         <ProjectCardHeader
             :cardMenuIcon="cardMenuIcon"
-            
         />
         <div class="project-card-header display-flex-direction-row-justify-space-between">
             <div class="project-card-header-icon" v-html="cardMenuIcon">

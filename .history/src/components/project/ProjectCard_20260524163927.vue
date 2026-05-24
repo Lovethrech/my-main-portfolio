@@ -1,6 +1,5 @@
 <script setup>
 import { defineProps, ref } from 'vue';
-import ProjectCardHeader from './ProjectCardHeader.vue';
 
 const {projectItems} = defineProps(["projectItems"]);
 const cardHeight=ref("100%");
@@ -27,10 +26,7 @@ const displayCardCtn=()=>{
 <template>
     <div @click="displayCardCtn" class="project-card" :style="{height: cardHeight}">
         <!-- correction:..give header ctn and items a color -->
-        <ProjectCardHeader
-            :cardMenuIcon="cardMenuIcon"
-            
-        />
+         
         <div class="project-card-header display-flex-direction-row-justify-space-between">
             <div class="project-card-header-icon" v-html="cardMenuIcon">
             </div>

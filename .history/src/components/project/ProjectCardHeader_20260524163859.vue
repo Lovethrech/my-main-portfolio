@@ -1,6 +1,4 @@
-<script setup>
 
-</script>
 
 <template>
     <div class="project-card-header display-flex-direction-row-justify-space-between">

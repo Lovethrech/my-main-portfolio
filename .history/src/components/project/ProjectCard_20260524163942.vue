@@ -27,10 +27,7 @@ const displayCardCtn=()=>{
 <template>
     <div @click="displayCardCtn" class="project-card" :style="{height: cardHeight}">
         <!-- correction:..give header ctn and items a color -->
-        <ProjectCardHeader
-            :cardMenuIcon="cardMenuIcon"
-            
-        />
+        <ProjectCardHeader/>
         <div class="project-card-header display-flex-direction-row-justify-space-between">
             <div class="project-card-header-icon" v-html="cardMenuIcon">
             </div>
