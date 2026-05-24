@@ -67,6 +67,6 @@ const displayCardCtn=()=>{
     padding: 2vh 
 }
 .project-card-desc{
-    font-size: 1.8vh;
+    font-size: 1.4vh;
 }
 </style>
