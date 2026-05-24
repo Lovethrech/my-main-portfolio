@@ -2,7 +2,7 @@
 import { defineProps, ref } from 'vue';
 
 const {projectItems} = defineProps(["projectItems"]);
-const cardHeight=ref("100%");
+const cardHeight=ref("10vh");
 </script>
 
 <template>
@@ -26,6 +26,7 @@ const cardHeight=ref("100%");
 .project-card{
     background-color: orange;
     width:100%;
+    height: 100%;
     padding: 0 2vh;
 }
 .project-card-header{
@@ -36,5 +37,6 @@ const cardHeight=ref("100%");
 }
 .project-card-header-name{
     width: 100%;
+    background-color: red;
 }
 </style>

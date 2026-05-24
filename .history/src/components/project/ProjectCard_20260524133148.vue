@@ -2,7 +2,7 @@
 import { defineProps, ref } from 'vue';
 
 const {projectItems} = defineProps(["projectItems"]);
-const cardHeight=ref("100%");
+const cardHeight=ref("10vh");
 </script>
 
 <template>
