@@ -9,21 +9,6 @@
                 "id":1,
                 "name":"HTML",
                 "icon":""
-            },
-            {
-                "id":2,
-                "name":"CSS",
-                "icon":""
-            },
-            {
-                "id":3,
-                "name":"JavaScript",
-                "icon":""
-            },
-            {
-                "id":4,
-                "name":"Vue",
-                "icon":""
             }
         ],
         "status":"Ended",

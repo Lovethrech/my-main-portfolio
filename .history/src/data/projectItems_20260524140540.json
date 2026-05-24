@@ -12,17 +12,12 @@
             },
             {
                 "id":2,
-                "name":"CSS",
+                "name":"HTML",
                 "icon":""
             },
             {
-                "id":3,
-                "name":"JavaScript",
-                "icon":""
-            },
-            {
-                "id":4,
-                "name":"Vue",
+                "id":1,
+                "name":"HTML",
                 "icon":""
             }
         ],
