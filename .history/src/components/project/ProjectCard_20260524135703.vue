@@ -61,9 +61,4 @@ const displayCardCtn=()=>{
 .project-card-header-name{
     width: 100%;
 }
-.project-card-hidden-ctn{
-    background-color: #ffffff86;
-    color: #000000;
-    padding: 2vh 
-}
 </style>
