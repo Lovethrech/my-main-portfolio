@@ -2,11 +2,8 @@
     <div class="project-card">
         <div class="project-card-header">
             <div id="project-card-header-icon">
-
-            </div>
-            <h3 id="project-card-header-name">
                 
-            </h3>
+            </div>
         </div>
         <!-- alt-height: 70vh -->
     </div>

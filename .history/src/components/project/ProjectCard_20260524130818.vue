@@ -4,9 +4,7 @@
             <div id="project-card-header-icon">
 
             </div>
-            <h3 id="project-card-header-name">
-                
-            </h3>
+            h3#project-card-header-name
         </div>
         <!-- alt-height: 70vh -->
     </div>
