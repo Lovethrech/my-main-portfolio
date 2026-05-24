@@ -20,8 +20,6 @@ import ProjectCard from './ProjectCard.vue';
 <style scoped>
 .project-main{
     padding: 0 6vw;
-    display: flex;
-    flex-direction: column;
-    gap: 2vh;
+    
 }
 </style>
