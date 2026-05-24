@@ -35,5 +35,4 @@ const {cardMenuIcon, headerNamePosition, projectItemName, cardMinMaxIcon}=define
     .project-card-header-icon, .project-card-header-name,  .project-card-header-min-max{
         font-size: 2vh;
     }
-}
 </style>
