@@ -5,20 +5,18 @@ const {projectItems} = defineProps(["projectItems"]);
 const cardHeight=ref("100%");
 const cardMinMaxIcon=ref("+");
 const headerNamePosition=ref("left");
-const cardMenuIcon=ref("<i class='ri-menu-5-fill'></i>");
+const cardMenuIcon=ref("<i class="ri-menu-5-fill"''></i>")
 
 const displayCardCtn=()=>{
     if (cardMinMaxIcon.value==="+"){
         cardMinMaxIcon.value="-";
         cardHeight.value="70vh";
         headerNamePosition.value="center";
-        cardMenuIcon.value="<i class='ri-menu-4-fill'></i>";
     }
     else{
         cardMinMaxIcon.value="+";
         cardHeight.value="100%";
         headerNamePosition.value="left";
-        cardMenuIcon.value="<i class='ri-menu-5-fill'></i>";
     }
 }
 </script>
@@ -26,8 +24,10 @@ const displayCardCtn=()=>{
 <template>
     <div @click="displayCardCtn" class="project-card" :style="{height: cardHeight}">
         <!-- correction:..give header ctn and items a color -->
+         <!-- <i class="ri-menu-4-fill"></i> -->
         <div class="project-card-header display-flex-direction-row-justify-space-between">
-            <div class="project-card-header-icon" v-html="cardMenuIcon">
+            <div class="project-card-header-icon">
+                <i class="ri-menu-5-fill"></i>
             </div>
             <h3 class="project-card-header-name" :style="{textAlign: headerNamePosition}">
                 {{ projectItems[0].name }}

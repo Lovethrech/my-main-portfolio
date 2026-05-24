@@ -5,20 +5,17 @@ const {projectItems} = defineProps(["projectItems"]);
 const cardHeight=ref("100%");
 const cardMinMaxIcon=ref("+");
 const headerNamePosition=ref("left");
-const cardMenuIcon=ref("<i class='ri-menu-5-fill'></i>");
 
 const displayCardCtn=()=>{
     if (cardMinMaxIcon.value==="+"){
         cardMinMaxIcon.value="-";
         cardHeight.value="70vh";
         headerNamePosition.value="center";
-        cardMenuIcon.value="<i class='ri-menu-4-fill'></i>";
     }
     else{
         cardMinMaxIcon.value="+";
         cardHeight.value="100%";
         headerNamePosition.value="left";
-        cardMenuIcon.value="<i class='ri-menu-5-fill'></i>";
     }
 }
 </script>
@@ -27,7 +24,8 @@ const displayCardCtn=()=>{
     <div @click="displayCardCtn" class="project-card" :style="{height: cardHeight}">
         <!-- correction:..give header ctn and items a color -->
         <div class="project-card-header display-flex-direction-row-justify-space-between">
-            <div class="project-card-header-icon" v-html="cardMenuIcon">
+            <div class="project-card-header-icon">
+                =
             </div>
             <h3 class="project-card-header-name" :style="{textAlign: headerNamePosition}">
                 {{ projectItems[0].name }}
@@ -42,8 +40,8 @@ const displayCardCtn=()=>{
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione eos deleniti ipsum commodi laudantium blanditiis dolore, quos eligendi iure voluptates esse corporis explicabo corrupti quibusdam nulla amet accusamus sapiente. Corporis molestias rem quas vel veniam, alias ad quae quam commodi ullam harum architecto reprehenderit fugit praesentium adipisci debitis repellat facere! Aliquid recusandae modi facere, nostrum magni corrupti maiores impedit quibusdam, accusantium totam, id harum! Nisi voluptate dolor exercitationem totam et autem quod voluptas, tempora distinctio corrupti temporibus facilis at ipsum consectetur deserunt aspernatur repudiandae dolorum ducimus nobis, fugiat quos aliquam iusto atque. Doloribus ipsa, porro accusamus esse quam perferendis architecto!
                 </div>
                 <div class="project-card-stack">
-                    
-
+                    <i class="ri-html5-fill"></i>
+                    <i class="ri-css3-fill"></i>
                 </div>
             </div>
             <!-- background: url(/room-page.jpeg) top/100vh no-repeat; -->
