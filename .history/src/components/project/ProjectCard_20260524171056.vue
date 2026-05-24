@@ -94,9 +94,7 @@ const displayCardCtn=()=>{
     background-color: var(--bg-color);
 }
 .project-card-stack-list-level{
-    width: 100%;
-    height: 100%;
-    background-color: red;
+    bg-color
 }
 
 @media screen and (max-width:950px) {

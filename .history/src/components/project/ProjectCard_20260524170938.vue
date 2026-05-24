@@ -90,13 +90,8 @@ const displayCardCtn=()=>{
 }
 .project-card-stack-list-level-ctn{
     width: 20vw;
-    height: 1vh;
+    height: 10vh;
     background-color: var(--bg-color);
-}
-.project-card-stack-list-level{
-    width: 100%;
-    height: 100%;
-    background-color: red;
 }
 
 @media screen and (max-width:950px) {

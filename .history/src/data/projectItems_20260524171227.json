@@ -21,13 +21,13 @@
                 "id":3,
                 "name":"JavaScript",
                 "colorCode":"red",
-                "width": "20%"
+                "width": ""
             },
             {
                 "id":4,
                 "name":"Vue",
                 "colorCode":"green",
-                "width": "65%"
+                "width": ""
             }
         ],
         "status":"Ended",
