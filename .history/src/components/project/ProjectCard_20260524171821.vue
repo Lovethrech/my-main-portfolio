@@ -89,7 +89,6 @@ const displayCardCtn=()=>{
     margin: 2vh 0;
 }
 .project-card-stack-list-level-ctn{
-    margin: auto 0;
     width: 20vw;
     height: 1vh;
     background-color: #c0bcbc;

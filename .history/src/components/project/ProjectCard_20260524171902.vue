@@ -98,6 +98,7 @@ const displayCardCtn=()=>{
 .project-card-stack-list-level{
     height: 100%;
     border-radius: inherit;
+    
 }
 
 @media screen and (max-width:950px) {

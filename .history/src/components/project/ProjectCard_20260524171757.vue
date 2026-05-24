@@ -46,7 +46,7 @@ const displayCardCtn=()=>{
                     <div class="project-card-stack-list-ctn">
                         <div class="project-card-stack-list" v-for="projectItemStack in projectItemStacks" :key="projectItemStack.id">
                             <p class="project-card-stack-list-name">
-                                {{ projectItemStack.name }}:
+                                {{ projectItemStack.name }}
                             </p>
                             <div class="project-card-stack-list-level-ctn">
                                 <div class="project-card-stack-list-level" :style="{backgroundColor: projectItemStack.colorCode, width: projectItemStack.width}"></div>
@@ -89,10 +89,9 @@ const displayCardCtn=()=>{
     margin: 2vh 0;
 }
 .project-card-stack-list-level-ctn{
-    margin: auto 0;
     width: 20vw;
     height: 1vh;
-    background-color: #c0bcbc;
+    background-color: #ffffff;
     border-radius: 10vh;
 }
 .project-card-stack-list-level{
