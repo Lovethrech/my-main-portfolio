@@ -88,7 +88,8 @@ const displayCardCtn=()=>{
         font-size: 2vh;
     }
     .project-card-desc{
-        font-size: 1.2vh;
-    }
+    font-size: 1.8vh;
+    text-align: justify;
+}
 }
 </style>

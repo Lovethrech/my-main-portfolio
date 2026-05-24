@@ -87,8 +87,5 @@ const displayCardCtn=()=>{
     .project-card-header-icon, .project-card-header-name,  .project-card-header-min-max{
         font-size: 2vh;
     }
-    .project-card-desc{
-        font-size: 1.2vh;
-    }
 }
 </style>

@@ -83,12 +83,7 @@ const displayCardCtn=()=>{
     text-align: justify;
 }
 
-@media screen and (max-width:950px) {
-    .project-card-header-icon, .project-card-header-name,  .project-card-header-min-max{
-        font-size: 2vh;
-    }
-    .project-card-desc{
-        font-size: 1.2vh;
-    }
+@media screen and (max-width:950pcx) {
+    
 }
 </style>
