@@ -1,7 +1,7 @@
 <script setup>
 import { defineProps } from 'vue';
 
-const {projectItemStacks} = defineProps(["projectItemStacks"]);
+const {projectItemStacksa} = defineProps(["projectItemStack"]);
 </script>
 
 <template>
