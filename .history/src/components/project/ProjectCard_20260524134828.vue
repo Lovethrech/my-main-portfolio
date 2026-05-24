@@ -45,7 +45,7 @@ const displayCardCtn=()=>{
 .project-card-header{
     padding: 0 2vh;
     gap: 2vh;
-    background-color: #0000008a;
+    background-color: #0000003b;
 }
 .project-card-header-icon, .project-card-header-name,  .project-card-header-min-max{
     font-size: 4vh;
