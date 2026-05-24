@@ -38,7 +38,7 @@ const displayCardCtn=()=>{
 
 <style scoped>
 .project-card{
-    background: url(/room-page.jpeg) top/auto no-repeat;
+    background: url(/room-page.jpeg) no-repeat;
     width:100%;
 }
 .project-card-header{
