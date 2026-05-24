@@ -1,6 +1,6 @@
 <template>
     <div class="project-card">
-        <!-- alt-height: 70vh -->
+
     </div>
 </template>
 
@@ -8,6 +8,6 @@
 .project-card{
     background-color: orange;
     width:100%;
-    height: 10vh;
+    min
 }
 </style>

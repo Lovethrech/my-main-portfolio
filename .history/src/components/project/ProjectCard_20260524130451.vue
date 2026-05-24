@@ -8,6 +8,6 @@
 .project-card{
     background-color: orange;
     width:100%;
-    height: 10vh;
+    height: 0vh;
 }
 </style>

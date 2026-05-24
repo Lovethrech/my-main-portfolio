@@ -9,7 +9,5 @@ import ProjectCard from './ProjectCard.vue';
 </template>
 
 <style scoped>
-.project-main{
-    padding: 0 6vw;
-}
+
 </style>
