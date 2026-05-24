@@ -2,12 +2,12 @@
     {
         "id":1,
         "name":"Room Page",
-        "imgSrc":"/room-page.jpeg",
         "desc":"loremwkjdkjkjksdfkjskfjkjkfjkjkjksf",
         "stack":[
             {
                 "id":1,
                 "name":"",
+                
                 "icon":""
             }
         ],
@@ -19,12 +19,13 @@
     {
         "id":2,
         "name":"",
-        "imgSrc":"",
+        
         "desc":"",
         "stack":[
             {
                 "id":1,
                 "name":"",
+                
                 "icon":""
             }
         ],
@@ -36,12 +37,13 @@
     {
         "id":3,
         "name":"",
-        "imgSrc":"",
+        
         "desc":"",
         "stack":[
             {
                 "id":1,
                 "name":"",
+                
                 "icon":""
             }
         ],
@@ -53,12 +55,13 @@
     {
         "id":4,
         "name":"",
-        "imgSrc":"",
+        
         "desc":"",
         "stack":[
             {
                 "id":1,
                 "name":"",
+                
                 "icon":""
             }
         ],
@@ -70,12 +73,13 @@
     {
         "id":5,
         "name":"",
-        "imgSrc":"",
+        
         "desc":"",
         "stack":[
             {
                 "id":1,
                 "name":"",
+                
                 "icon":""
             }
         ],
@@ -87,12 +91,13 @@
     {
         "id":6,
         "name":"",
-        "imgSrc":"",
+        
         "desc":"",
         "stack":[
             {
                 "id":1,
                 "name":"",
+                
                 "icon":""
             }
         ],
@@ -104,12 +109,13 @@
     {
         "id":7,
         "name":"",
-        "imgSrc":"",
+        
         "desc":"",
         "stack":[
             {
                 "id":1,
                 "name":"",
+                
                 "icon":""
             }
         ],
@@ -121,12 +127,13 @@
     {
         "id":8,
         "name":"",
-        "imgSrc":"",
+        
         "desc":"",
         "stack":[
             {
                 "id":1,
                 "name":"",
+                
                 "icon":""
             }
         ],

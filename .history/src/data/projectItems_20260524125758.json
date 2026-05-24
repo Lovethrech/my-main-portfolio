@@ -2,8 +2,7 @@
     {
         "id":1,
         "name":"Room Page",
-        "imgSrc":"/room-page.jpeg",
-        "desc":"loremwkjdkjkjksdfkjskfjkjkfjkjkjksf",
+        "desc":"",
         "stack":[
             {
                 "id":1,
@@ -19,7 +18,6 @@
     {
         "id":2,
         "name":"",
-        "imgSrc":"",
         "desc":"",
         "stack":[
             {
@@ -36,7 +34,6 @@
     {
         "id":3,
         "name":"",
-        "imgSrc":"",
         "desc":"",
         "stack":[
             {
@@ -53,7 +50,6 @@
     {
         "id":4,
         "name":"",
-        "imgSrc":"",
         "desc":"",
         "stack":[
             {
@@ -70,7 +66,6 @@
     {
         "id":5,
         "name":"",
-        "imgSrc":"",
         "desc":"",
         "stack":[
             {
@@ -87,7 +82,6 @@
     {
         "id":6,
         "name":"",
-        "imgSrc":"",
         "desc":"",
         "stack":[
             {
@@ -104,7 +98,6 @@
     {
         "id":7,
         "name":"",
-        "imgSrc":"",
         "desc":"",
         "stack":[
             {
@@ -121,7 +114,6 @@
     {
         "id":8,
         "name":"",
-        "imgSrc":"",
         "desc":"",
         "stack":[
             {

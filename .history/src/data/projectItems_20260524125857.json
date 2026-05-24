@@ -2,12 +2,12 @@
     {
         "id":1,
         "name":"Room Page",
-        "imgSrc":"/room-page.jpeg",
         "desc":"loremwkjdkjkjksdfkjskfjkjkfjkjkjksf",
         "stack":[
             {
                 "id":1,
                 "name":"",
+                "imgSrc":"",
                 "icon":""
             }
         ],
@@ -25,6 +25,7 @@
             {
                 "id":1,
                 "name":"",
+                "imgSrc":"",
                 "icon":""
             }
         ],
@@ -42,6 +43,7 @@
             {
                 "id":1,
                 "name":"",
+                "imgSrc":"",
                 "icon":""
             }
         ],
@@ -59,6 +61,7 @@
             {
                 "id":1,
                 "name":"",
+                "imgSrc":"",
                 "icon":""
             }
         ],
@@ -76,6 +79,7 @@
             {
                 "id":1,
                 "name":"",
+                "imgSrc":"",
                 "icon":""
             }
         ],
@@ -93,6 +97,7 @@
             {
                 "id":1,
                 "name":"",
+                "imgSrc":"",
                 "icon":""
             }
         ],
@@ -110,6 +115,7 @@
             {
                 "id":1,
                 "name":"",
+                "imgSrc":"",
                 "icon":""
             }
         ],
@@ -127,6 +133,7 @@
             {
                 "id":1,
                 "name":"",
+                "imgSrc":"",
                 "icon":""
             }
         ],
