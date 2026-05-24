@@ -44,9 +44,9 @@ const displayCardCtn=()=>{
                         Stacks:
                     </h3>
                     <div class="project-card-stack-list-ctn">
-                        <div class="project-card-stack-list" v-for="projectItemStack in projectItemStacks" :key="projectItemStack.id">
+                        <div class="project-card-stack-list" v-for="projectItemStack in projectItemStacks" :key="pro">
                             <p class="project-card-stack-list-name">
-                                {{ projectItemStack.name }}
+                                {{ projectItems[0].stack.name }}
                             </p>
                             <div class="project-card-stack-list-level-ctn">
                                 <div class="project-card-stack-list-level"></div>

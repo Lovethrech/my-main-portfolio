@@ -3,7 +3,6 @@ import { defineProps, ref } from 'vue';
 import ProjectCardHeader from './ProjectCardHeader.vue';
 
 const {projectItems} = defineProps(["projectItems"]);
-const projectItemStacks = projectItems[0].stack;
 const cardHeight=ref("100%");
 const cardMinMaxIcon=ref("+");
 const headerNamePosition=ref("left");
@@ -43,16 +42,7 @@ const displayCardCtn=()=>{
                     <h3 class="project-card-stack-title">
                         Stacks:
                     </h3>
-                    <div class="project-card-stack-list-ctn">
-                        <div class="project-card-stack-list" v-for="projectItemStack in projectItemStacks" :key="projectItemStack.id">
-                            <p class="project-card-stack-list-name">
-                                {{ projectItemStack.name }}
-                            </p>
-                            <div class="project-card-stack-list-level-ctn">
-                                <div class="project-card-stack-list-level"></div>
-                            </div>
-                        </div>
-                    </div>
+                    .project-card-stack-list-ctn
                 </div>
             </div>
             <!-- background: url(/room-page.jpeg) top/100vh no-repeat; -->
