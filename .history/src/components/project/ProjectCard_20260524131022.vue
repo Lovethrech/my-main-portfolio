@@ -1,6 +1,4 @@
-<script setup>
-
-</script>
+<script
 
 <template>
     <div class="project-card">

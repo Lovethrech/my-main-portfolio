@@ -1,13 +1,11 @@
 <script setup>
-import projectItems from "@/data/projectItems.json";
+import projectIt
 import ProjectCard from './ProjectCard.vue';
 </script>
 
 <template>
     <div class="project-main">
-        <ProjectCard
-            :projectItems="projectItems"
-        />
+        <ProjectCard/>
     </div>
 </template>
 
