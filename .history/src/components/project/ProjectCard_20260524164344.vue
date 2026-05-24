@@ -33,6 +33,7 @@ const displayCardCtn=()=>{
             :projectItemName="projectItems[0].name"
             :cardMinMaxIcon="cardMinMaxIcon"
         />
+        
         <div class="project-card-hidden-ctn">
             <div class="project-card-desc-and-stack">
                 <div class="project-card-desc">

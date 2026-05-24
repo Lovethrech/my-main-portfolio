@@ -9,7 +9,7 @@ const {cardMenuIcon, headerNamePosition, projectItemName, cardMinMaxIcon}=define
         <div class="project-card-header-icon" v-html="cardMenuIcon">
         </div>
         <h3 class="project-card-header-name" :style="{textAlign: headerNamePosition}">
-            {{ projectItemName }}
+            {{ projectItemsName }}
         </h3>
         <div class="project-card-header-min-max">
             {{cardMinMaxIcon}}

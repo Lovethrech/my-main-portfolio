@@ -2,6 +2,7 @@
 import {defineProps} from "vue";
 
 const {cardMenuIcon, headerNamePosition, projectItemName, cardMinMaxIcon}=defineProps(["cardMenuIcon", "headerNamePosition", "projectItemName", "cardMinMaxicon"]);
+
 </script>
 
 <template>
@@ -9,7 +10,7 @@ const {cardMenuIcon, headerNamePosition, projectItemName, cardMinMaxIcon}=define
         <div class="project-card-header-icon" v-html="cardMenuIcon">
         </div>
         <h3 class="project-card-header-name" :style="{textAlign: headerNamePosition}">
-            {{ projectItemName }}
+            {{ projectItems[0].name }}
         </h3>
         <div class="project-card-header-min-max">
             {{cardMinMaxIcon}}
