@@ -1,13 +1,13 @@
 <script setup>
 import { defineProps } from 'vue';
 
-const {projectItemStacks, projectItemDesc} = defineProps(["projectItemStacks", "projectItemDesc"]);
+const {projectItemStacks, "projectItemDesc"} = defineProps(["projectItemStacks"]);
 </script>
 
 <template>
     <div class="project-card-desc-and-stack">
         <div class="project-card-desc">
-            {{ projectItemDesc }}
+
         </div>
         <br/>
         <div class="project-card-stack">

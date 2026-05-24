@@ -7,7 +7,7 @@ const {projectItemStacks, projectItemDesc} = defineProps(["projectItemStacks", "
 <template>
     <div class="project-card-desc-and-stack">
         <div class="project-card-desc">
-            {{ projectItemDesc }}
+
         </div>
         <br/>
         <div class="project-card-stack">

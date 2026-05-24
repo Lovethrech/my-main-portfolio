@@ -1,13 +1,13 @@
 <script setup>
 import { defineProps } from 'vue';
 
-const {projectItemStacks, projectItemDesc} = defineProps(["projectItemStacks", "projectItemDesc"]);
+const {projectItemStacks} = defineProps(["projectItemStacks"]);
 </script>
 
 <template>
     <div class="project-card-desc-and-stack">
         <div class="project-card-desc">
-            {{ projectItemDesc }}
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione eos deleniti ipsum commodi laudantium blanditiis dolore, quos eligendi iure voluptates esse corporis explicabo corrupti quibusdam nulla amet accusamus sapiente. Corporis molestias rem quas vel veniam, alias ad quae quam commodi ullam harum architecto reprehenderit fugit praesentium adipisci debitis repellat facere! Aliquid recusandae modi facere, nostrum magni corrupti maiores impedit quibusdam, accusantium totam, id harum! Nisi voluptate dolor exercitationem totam et autem quod voluptas, tempora distinctio corrupti temporibus facilis at ipsum consectetur deserunt aspernatur repudiandae dolorum ducimus nobis, fugiat quos aliquam iusto atque. Doloribus ipsa, porro accusamus esse quam perferendis architecto!
         </div>
         <br/>
         <div class="project-card-stack">
@@ -29,30 +29,6 @@ const {projectItemStacks, projectItemDesc} = defineProps(["projectItemStacks", "
 </template>
 
 <style scoped>
-.project-card-desc{
-    font-size: 1.8vh;
-    text-align: justify;
-}
-.project-card-stack-title{
-    text-transform: uppercase;
-}
-.project-card-stack-list{
-    display: flex;
-    flex-direction: row;
-    gap:2vh;
-    margin: 2vh 0;
-}
-.project-card-stack-list-level-ctn{
-    margin: auto 0;
-    width: 20vw;
-    height: 1vh;
-    background-color: #c0bcbc;
-    border-radius: 10vh;
-}
-.project-card-stack-list-level{
-    height: 100%;
-    border-radius: inherit;
-}
 
 @media screen and (max-width:950px) {
     .project-card-desc{

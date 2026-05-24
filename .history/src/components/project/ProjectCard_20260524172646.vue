@@ -35,10 +35,7 @@ const displayCardCtn=()=>{
             :cardMinMaxIcon="cardMinMaxIcon"
         />
         <div class="project-card-hidden-ctn">
-            <ProjectCardDescAndStack 
-                :projectItemDesc="projectItems[0].desc"
-                :projectItemStacks="projectItemStacks"
-            />
+            <ProjectCardDescAndStack :projectItems/>
             <!-- background: url(/room-page.jpeg) top/100vh no-repeat; -->
             <div class="project-card-footer">
 
@@ -58,6 +55,30 @@ const displayCardCtn=()=>{
     background-color: #ffffff9c;
     color: #000000;
     padding: 2vh 
+}
+.project-card-desc{
+    font-size: 1.8vh;
+    text-align: justify;
+}
+.project-card-stack-title{
+    text-transform: uppercase;
+}
+.project-card-stack-list{
+    display: flex;
+    flex-direction: row;
+    gap:2vh;
+    margin: 2vh 0;
+}
+.project-card-stack-list-level-ctn{
+    margin: auto 0;
+    width: 20vw;
+    height: 1vh;
+    background-color: #c0bcbc;
+    border-radius: 10vh;
+}
+.project-card-stack-list-level{
+    height: 100%;
+    border-radius: inherit;
 }
 
 @media screen and (max-width:950px) {

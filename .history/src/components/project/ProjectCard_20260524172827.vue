@@ -35,10 +35,7 @@ const displayCardCtn=()=>{
             :cardMinMaxIcon="cardMinMaxIcon"
         />
         <div class="project-card-hidden-ctn">
-            <ProjectCardDescAndStack 
-                :projectItemDesc="projectItems[0].desc"
-                :projectItemStacks="projectItemStacks"
-            />
+            <ProjectCardDescAndStack :projectItemStacks="projectItemStacks"/>
             <!-- background: url(/room-page.jpeg) top/100vh no-repeat; -->
             <div class="project-card-footer">
 
