@@ -31,8 +31,8 @@ const {projectItems} = defineProps(["projectItems"]);
 .project-card-header{
     gap: 2vh;
 }
-.project-card-header-icon, .project-card-header-name,  .project-card-header-min-max{
-    margin: auto 0;
+.project-card-header-icon, .project-card-header-name .project-card-header-min-max{
+    font-size: 6vh;
 }
 .project-card-header-icon, .project-card-header-min-max{
     font-size: 6vh;
