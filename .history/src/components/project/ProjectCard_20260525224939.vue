@@ -4,8 +4,7 @@ import ProjectCardHeader from './ProjectCardHeader.vue';
 import ProjectCardDescAndStack from './ProjectCardDescAndStack.vue';
 
 const {projectItem} = defineProps(["projectItem"]);
-const projectItemStacks = projectItem.stack;
-const projectCardBg=projectItem.imgSrc;
+const projectItemStacks = projectItems[0].stack;
 const cardHeight=ref("100%");
 const cardMinMaxIcon=ref("+");
 const headerNamePosition=ref("left");
@@ -28,16 +27,16 @@ const displayCardCtn=()=>{
 </script>
 
 <template>
-    <div @click="displayCardCtn" class="project-card" :style="{height: cardHeight, background: projectCardBg}">
+    <div @click="displayCardCtn" class="project-card" :style="{height: cardHeight}">
         <ProjectCardHeader
             :cardMenuIcon="cardMenuIcon"
             :headerNamePosition="headerNamePosition"
-            :projectItemName="projectItem.name"
+            :projectItemName="projectItems[0].name"
             :cardMinMaxIcon="cardMinMaxIcon"
         />
         <div class="project-card-hidden-ctn">
             <ProjectCardDescAndStack 
-                :projectItemDesc="projectItem.desc"
+                :projectItemDesc="projectItems[0].desc"
                 :projectItemStacks="projectItemStacks"
             />
             <!-- background: url(/room-page.jpeg) top/100vh no-repeat; -->
