@@ -56,7 +56,7 @@
     {
         "id":3,
         "name":"Chel Cafe",
-        "imgSrc":"url(/chelCafe.jpeg) top/100vh no-repeat",
+        "imgSrc":"url(/expirio.jpeg) top/100vh no-repeat",
         "desc":"",
         "stack":[
             {
@@ -74,7 +74,7 @@
     {
         "id":4,
         "name":"Adeniyi Portfolio",
-        "imgSrc":"url(/Adeniyi-Portfolio-Desktop.jpeg) top/100vh no-repeat",
+        "imgSrc":"/Adeniyi-Portfolio-Desktop.jpeg",
         "desc":"",
         "stack":[
             {
