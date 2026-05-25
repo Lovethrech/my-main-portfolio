@@ -32,13 +32,13 @@
         ],
         "status":"Ended",
         "type":"Personal",
-        "owner":"Olaoipekun Dolapo",
+        "owner":"John White",
         "url":""
     },
     {
         "id":2,
-        "name":"Expirio",
-        "imgSrc":"/expirio.jpeg",
+        "name":"",
+        "imgSrc":"",
         "desc":"",
         "stack":[
             {

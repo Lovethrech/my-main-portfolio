@@ -37,8 +37,8 @@
     },
     {
         "id":2,
-        "name":"Expirio",
-        "imgSrc":"/expirio.jpeg",
+        "name":"",
+        "imgSrc":"",
         "desc":"",
         "stack":[
             {

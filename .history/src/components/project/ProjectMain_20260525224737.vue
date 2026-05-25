@@ -6,9 +6,8 @@ import ProjectCard from './ProjectCard.vue';
 <template>
     <div class="project-main">
         <ProjectCard
-            v-for="projectItem in projectItems"
-            :key="projectItem.id"
-            :projectItem="projectItem"
+            v-for=
+            :projectItems="projectItems"
         />
         
     </div>

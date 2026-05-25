@@ -8,7 +8,7 @@ import ProjectCard from './ProjectCard.vue';
         <ProjectCard
             v-for="projectItem in projectItems"
             :key="projectItem.id"
-            :projectItem="projectItem"
+            :projectItems="projectItems"
         />
         
     </div>
