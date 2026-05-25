@@ -55,8 +55,8 @@
     },
     {
         "id":3,
-        "name":"Chel Cafe",
-        "imgSrc":"/chel-cafe.jpeg",
+        "name":"Chel",
+        "imgSrc":"",
         "desc":"",
         "stack":[
             {
