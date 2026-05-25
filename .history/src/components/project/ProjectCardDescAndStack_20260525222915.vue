@@ -19,6 +19,9 @@ const {projectItemStacks, projectItemDesc} = defineProps(["projectItemStacks", "
                     <p class="project-card-stack-list-name">
                         {{ projectItemStack.name }}:
                     </p>
+                    <div class="project-card-stack-list-level-ctn">
+                        <div class="project-card-stack-list-level" :style="{backgroundColor: projectItemStack.colorCode, width: projectItemStack.width}"></div>
+                    </div>
                 </div>
             </div>
         </div>

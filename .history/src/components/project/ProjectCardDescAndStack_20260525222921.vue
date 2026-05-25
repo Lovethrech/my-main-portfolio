@@ -19,6 +19,7 @@ const {projectItemStacks, projectItemDesc} = defineProps(["projectItemStacks", "
                     <p class="project-card-stack-list-name">
                         {{ projectItemStack.name }}:
                     </p>
+
                 </div>
             </div>
         </div>
