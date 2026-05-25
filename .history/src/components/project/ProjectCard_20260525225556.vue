@@ -28,7 +28,7 @@ const displayCardCtn=()=>{
 </script>
 
 <template>
-    <div @click="displayCardCtn" class="project-card" :style="{height: cardHeight, background: projectCardBg, backgroundSize:cover}">
+    <div @click="displayCardCtn" class="project-card" :style="{height: cardHeight, background: projectCardBg, }">
         <ProjectCardHeader
             :cardMenuIcon="cardMenuIcon"
             :headerNamePosition="headerNamePosition"
@@ -50,6 +50,7 @@ const displayCardCtn=()=>{
 
 <style scoped>
 .project-card{
+    background-size: contain;
     width:100%;
 }
 .project-card-hidden-ctn{
