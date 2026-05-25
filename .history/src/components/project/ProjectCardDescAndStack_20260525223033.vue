@@ -34,8 +34,7 @@ const {projectItemStacks, projectItemDesc} = defineProps(["projectItemStacks", "
     text-transform: uppercase;
 }
 .project-card-stack-list-ctn{
-    display: flex;
-    flex-direction: column;
+    
 }
 .project-card-stack-list{
     display: flex;

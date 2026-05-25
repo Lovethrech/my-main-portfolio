@@ -35,7 +35,7 @@ const {projectItemStacks, projectItemDesc} = defineProps(["projectItemStacks", "
 }
 .project-card-stack-list-ctn{
     display: flex;
-    flex-direction: column;
+    flex-dircetion: column
 }
 .project-card-stack-list{
     display: flex;
