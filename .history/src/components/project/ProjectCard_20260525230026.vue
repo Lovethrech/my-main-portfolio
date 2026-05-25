@@ -25,7 +25,6 @@ const displayCardCtn=()=>{
         cardHeight.value="100%";
         headerNamePosition.value="left";
         cardMenuIcon.value="<i class='ri-menu-5-fill'></i>";
-        showHiddenCtn.value="none"
     }
 }
 </script>

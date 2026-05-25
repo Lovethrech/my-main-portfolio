@@ -18,14 +18,13 @@ const displayCardCtn=()=>{
         cardHeight.value="70vh";
         headerNamePosition.value="center";
         cardMenuIcon.value="<i class='ri-menu-4-fill'></i>";
-        showHiddenCtn.value="flex";
+        .showHiddenCtn
     }
     else{
         cardMinMaxIcon.value="+";
         cardHeight.value="100%";
         headerNamePosition.value="left";
         cardMenuIcon.value="<i class='ri-menu-5-fill'></i>";
-        showHiddenCtn.value="none"
     }
 }
 </script>

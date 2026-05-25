@@ -10,7 +10,6 @@ const cardHeight=ref("100%");
 const cardMinMaxIcon=ref("+");
 const headerNamePosition=ref("left");
 const cardMenuIcon=ref("<i class='ri-menu-5-fill'></i>");
-const showHiddenCtn=ref("none");
 
 const displayCardCtn=()=>{
     if (cardMinMaxIcon.value==="+"){
@@ -18,14 +17,12 @@ const displayCardCtn=()=>{
         cardHeight.value="70vh";
         headerNamePosition.value="center";
         cardMenuIcon.value="<i class='ri-menu-4-fill'></i>";
-        showHiddenCtn.value="flex";
     }
     else{
         cardMinMaxIcon.value="+";
         cardHeight.value="100%";
         headerNamePosition.value="left";
         cardMenuIcon.value="<i class='ri-menu-5-fill'></i>";
-        showHiddenCtn.value="none"
     }
 }
 </script>
@@ -38,7 +35,7 @@ const displayCardCtn=()=>{
             :projectItemName="projectItem.name"
             :cardMinMaxIcon="cardMinMaxIcon"
         />
-        <div class="project-card-hidden-ctn" :style="{display:showHiddenCtn}">
+        <div class="project-card-hidden-ctn" :style="{}">
             <ProjectCardDescAndStack 
                 :projectItemDesc="projectItem.desc"
                 :projectItemStacks="projectItemStacks"
