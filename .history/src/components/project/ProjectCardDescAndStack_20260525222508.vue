@@ -11,6 +11,7 @@ const {projectItemStacks, projectItemDesc} = defineProps(["projectItemStacks", "
         </div>
         <br/>
         <div class="project-card-stack">
+
             <div class="project-card-stack-list-ctn">
                 <div class="project-card-stack-list" v-for="projectItemStack in projectItemStacks" :key="projectItemStack.id">
                     <p class="project-card-stack-list-name">
