@@ -38,7 +38,7 @@
     {
         "id":2,
         "name":"Expirio",
-        "imgSrc":"url(/expirio.jpeg) top/100vh no-repeat",
+        "imgSrc":"url() top/100vh no-repeat  /expirio.jpeg",
         "desc":"",
         "stack":[
             {

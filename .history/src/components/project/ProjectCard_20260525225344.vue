@@ -50,7 +50,7 @@ const displayCardCtn=()=>{
 
 <style scoped>
 .project-card{
-    background-size: contain;
+    background-size: cntain;
     width:100%;
 }
 .project-card-hidden-ctn{
